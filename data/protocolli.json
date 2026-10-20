@@ -1,0 +1,2465 @@
+{
+  "meta": {
+    "titolo": "Scoliosi in Età Evolutiva",
+    "sottotitolo": "70 Protocolli Riabilitativi per la Pratica Clinica",
+    "totaleProtocolli": 70,
+    "protocolliDisponibili": 70,
+    "versione": "1.0.0"
+  },
+  "categorie": [
+    {
+      "slug": "valutazione-clinica",
+      "nome": "Valutazione Clinica",
+      "descrizione": "Anamnesi, test posturali, screening e interpretazione degli esami strumentali",
+      "icona": "spine-check",
+      "colore": "teal"
+    },
+    {
+      "slug": "correzione-3d",
+      "nome": "Correzione Posturale Tridimensionale",
+      "descrizione": "Autocorrezione, mobilizzazione e allungamento specifici per pattern di curva",
+      "icona": "rotate-3d",
+      "colore": "navy"
+    },
+    {
+      "slug": "stabilizzazione",
+      "nome": "Stabilizzazione",
+      "descrizione": "Attivazione, rinforzo e stabilità del core in progressione",
+      "icona": "core",
+      "colore": "gold"
+    },
+    {
+      "slug": "controllo-motorio",
+      "nome": "Controllo Motorio",
+      "descrizione": "Propriocezione, equilibrio dinamico e integrazione funzionale",
+      "icona": "balance",
+      "colore": "teal"
+    },
+    {
+      "slug": "rieducazione-respiratoria",
+      "nome": "Rieducazione Respiratoria",
+      "descrizione": "Valutazione e rieducazione del pattern respiratorio specifico per la curva",
+      "icona": "lungs",
+      "colore": "navy"
+    }
+  ],
+  "protocolli": [
+    {
+      "id": 1,
+      "numero": 1,
+      "categoria": "valutazione-clinica",
+      "titolo": "Anamnesi ed Esame Obiettivo Posturale Iniziale",
+      "sottotitolo": "Primo accesso del paziente in età evolutiva",
+      "eta": "6-18 anni",
+      "livello": "base",
+      "obiettivo": "Raccogliere i dati anamnestici essenziali e condurre il primo esame visivo della postura, per identificare segni clinici di scoliosi prima di procedere con i test strumentali.",
+      "indicazioni": "Primo accesso del paziente con sospetta alterazione posturale, oppure invio da pediatra o ortopedico.",
+      "materiali": [
+        "Filo a piombo",
+        "Metro",
+        "Scheda anamnestica",
+        "Tablet o fotocamera per documentazione standardizzata"
+      ],
+      "esecuzione": [
+        "Raccolta dell'anamnesi: età, stadio puberale, data del menarca (se applicabile), familiarità per scoliosi, attività sportiva praticata.",
+        "Paziente in piedi, scalzo, in intimo, braccia rilassate lungo i fianchi.",
+        "Osservazione posteriore: simmetria di spalle, scapole, triangoli della taglia e creste iliache.",
+        "Osservazione con filo a piombo da C7 per valutare l'eventuale traslazione del tronco.",
+        "Osservazione laterale: curve sagittali (cifosi, lordosi) e atteggiamento posturale globale.",
+        "Documentazione fotografica standardizzata (stessa distanza, stessa luce) per confronto nei controlli futuri."
+      ],
+      "focusClinico": [
+        "Asimmetria dei triangoli della taglia",
+        "Gibbo costale visibile",
+        "Obliquità pelvica"
+      ],
+      "parametri": {
+        "durata": "10-15 min",
+        "frequenza": "Valutazione singola"
+      },
+      "precauzioni": "Evitare di formulare una diagnosi basata solo sull'osservazione: è sempre necessaria la conferma con test strumentali.",
+      "progressione": "Se emergono segni positivi, procedere al Protocollo 2 (test di Adams e scoliometro)."
+    },
+    {
+      "id": 2,
+      "numero": 2,
+      "categoria": "valutazione-clinica",
+      "titolo": "Test di Adams e Misurazione con Scoliometro",
+      "sottotitolo": "Screening e misurazione dell'Angle of Trunk Rotation (ATR)",
+      "eta": "6-18 anni",
+      "livello": "base",
+      "obiettivo": "Quantificare la rotazione del tronco (ATR) per lo screening clinico della scoliosi, secondo un protocollo standardizzato e ripetibile.",
+      "indicazioni": "Asimmetria posturale rilevata al Protocollo 1, screening scolastico o controllo periodico in fase di crescita.",
+      "materiali": [
+        "Scoliometro (es. Bunnell)",
+        "Pedana o area libera",
+        "Scheda di registrazione"
+      ],
+      "esecuzione": [
+        "Paziente scalzo, piedi uniti, ginocchia estese.",
+        "Flessione anteriore del tronco a circa 90°, braccia pendenti e mani unite.",
+        "Posizionare lo scoliometro perpendicolare alla linea delle spinose, a livello toracico.",
+        "Scorrere lungo il rachide (tratto toracico, toraco-lombare, lombare) registrando il valore massimo in gradi per ciascun tratto.",
+        "Ripetere la misurazione due volte per garantire l'attendibilità del dato.",
+        "Registrare la lateralità (destra/sinistra) del gibbo rilevato."
+      ],
+      "focusClinico": [
+        "ATR ≥ 5-7° come soglia di approfondimento",
+        "Lateralità del gibbo costale",
+        "Ripetibilità della misurazione"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "5-10 min",
+        "frequenza": "Ogni 4-6 mesi in fase di crescita"
+      },
+      "precauzioni": "Il test di Adams ha sensibilità limitata per le curve lombari basse: va sempre associato a un'osservazione posturale completa.",
+      "progressione": "ATR positivo: richiedere valutazione radiografica in ortostatismo per la misurazione dell'angolo di Cobb (Protocollo 3)."
+    },
+    {
+      "id": 3,
+      "numero": 3,
+      "categoria": "valutazione-clinica",
+      "titolo": "Interpretazione dell'Angolo di Cobb e del Segno di Risser",
+      "sottotitolo": "Analisi clinica della documentazione radiografica",
+      "eta": "8-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Interpretare clinicamente la radiografia già eseguita (angolo di Cobb) e il grado di maturità scheletrica (segno di Risser), per orientare la pianificazione terapeutica.",
+      "indicazioni": "Paziente con referto radiografico disponibile, necessità di definire il rischio di progressione della curva.",
+      "materiali": [
+        "Radiografia in ortostatismo (fornita dal medico)",
+        "Goniometro digitale o software di misurazione",
+        "Scheda di classificazione di Lenke o King"
+      ],
+      "esecuzione": [
+        "Identificare le vertebre limite superiore e inferiore della curva primaria.",
+        "Tracciare le linee perpendicolari alle piastre vertebrali e misurare l'angolo di Cobb.",
+        "Classificare il pattern di curva (toracica, toraco-lombare, lombare, doppia curva) secondo Lenke o King.",
+        "Valutare il segno di Risser (0-5) sull'ala iliaca per stimare la maturità scheletrica residua.",
+        "Incrociare Cobb, Risser ed età per stimare il rischio di progressione.",
+        "Registrare i dati nella cartella clinica come baseline di riferimento."
+      ],
+      "focusClinico": [
+        "Risser basso con Cobb elevato = rischio di progressione maggiore",
+        "Classificazione del pattern di curva",
+        "Documentazione come baseline"
+      ],
+      "parametri": {
+        "durata": "15-20 min",
+        "frequenza": "Ad ogni nuovo controllo radiografico (6-12 mesi)"
+      },
+      "precauzioni": "La prescrizione dell'esame radiografico e la diagnosi restano di competenza medica; il fisioterapista utilizza questi dati per la pianificazione del trattamento, non per la diagnosi.",
+      "progressione": "Definizione degli obiettivi terapeutici specifici nel piano di trattamento individualizzato (Protocollo 4)."
+    },
+    {
+      "id": 4,
+      "numero": 4,
+      "categoria": "valutazione-clinica",
+      "titolo": "Valutazione Funzionale: Flessibilità, Forza e Qualità di Vita",
+      "sottotitolo": "Profilo funzionale baseline con questionario SRS-22",
+      "eta": "8-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Completare il quadro clinico con test di mobilità del rachide, forza della muscolatura del tronco e un questionario di qualità di vita specifico.",
+      "indicazioni": "Dopo la conferma diagnostica, prima di avviare il piano riabilitativo individualizzato.",
+      "materiali": [
+        "Goniometro",
+        "Metro per test di Schober",
+        "Questionario SRS-22",
+        "Scheda per test di tenuta del core"
+      ],
+      "esecuzione": [
+        "Test di Schober modificato per la mobilità lombare in flessione ed estensione.",
+        "Test di flessibilità laterale del tronco (distanza dito-pavimento in inclinazione).",
+        "Test di tenuta del core: plank prono e laterale, tempo massimo in secondi.",
+        "Test di Sorensen modificato per la resistenza degli estensori del tronco.",
+        "Somministrazione del questionario SRS-22 (dolore, immagine di sé, funzione, salute mentale, soddisfazione).",
+        "Sintesi dei risultati in un profilo funzionale baseline del paziente."
+      ],
+      "focusClinico": [
+        "Asimmetria di forza tra lato concavo e convesso",
+        "Correlazione tra immagine corporea e aderenza al trattamento"
+      ],
+      "muscoli": [
+        "Core globale",
+        "Estensori del tronco"
+      ],
+      "parametri": {
+        "durata": "20-30 min",
+        "frequenza": "Ogni 3 mesi"
+      },
+      "precauzioni": "Interrompere i test di forza in presenza di dolore acuto; adattare il linguaggio alla fase puberale del paziente.",
+      "progressione": "I dati raccolti definiscono gli obiettivi misurabili del piano terapeutico individualizzato."
+    },
+    {
+      "id": 5,
+      "numero": 5,
+      "categoria": "correzione-3d",
+      "titolo": "Autocorrezione Posturale Tridimensionale allo Specchio",
+      "sottotitolo": "Apprendimento del pattern correttivo specifico",
+      "eta": "8-16 anni",
+      "livello": "base",
+      "obiettivo": "Insegnare al paziente il movimento di autocorrezione attiva specifico per il proprio pattern di curva, con feedback visivo immediato.",
+      "indicazioni": "Curve lievi-moderate (Cobb 10-25°), paziente collaborante, già inquadrato nei Protocolli 1-4.",
+      "materiali": [
+        "Specchio quadrettato",
+        "Griglia di riferimento verticale/orizzontale",
+        "Repere adesivi su spalle e bacino"
+      ],
+      "esecuzione": [
+        "Paziente in piedi davanti allo specchio quadrettato, repere posizionati su acromion e creste iliache.",
+        "Spiegazione del pattern di curva individuale (es. curva toracica destra con traslazione del tronco a sinistra).",
+        "Movimento di elongazione assiale attiva, allungandosi verso l'alto senza sollevare le spalle.",
+        "Movimento di de-rotazione del tronco verso il lato convesso.",
+        "Traslazione correttiva del tronco verso la linea mediana, usando la griglia come riferimento visivo.",
+        "Mantenimento della posizione corretta per 10-15 secondi, ripetuto 8-10 volte."
+      ],
+      "focusClinico": [
+        "Qualità del movimento più che quantità",
+        "Evitare compensi come elevazione scapolare o iperlordosi"
+      ],
+      "muscoli": [
+        "Paravertebrali",
+        "Quadrato dei lombi",
+        "Obliqui addominali",
+        "Trapezio medio-inferiore"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "8-10",
+        "durata": "10-15 sec hold",
+        "frequenza": "3-4 volte/settimana"
+      },
+      "precauzioni": "Non forzare la correzione oltre il range confortevole; sospendere se compare dolore irradiato.",
+      "progressione": "Integrare l'autocorrezione in posizioni dinamiche e nelle attività quotidiane (Protocollo 6)."
+    },
+    {
+      "id": 6,
+      "numero": 6,
+      "categoria": "correzione-3d",
+      "titolo": "Integrazione dell'Autocorrezione nelle Attività Quotidiane (ADL)",
+      "sottotitolo": "Trasferimento funzionale del pattern correttivo",
+      "eta": "8-16 anni",
+      "livello": "intermedio",
+      "obiettivo": "Trasferire il pattern di autocorrezione appreso allo specchio in compiti funzionali quotidiani, favorendo l'automatizzazione posturale.",
+      "indicazioni": "Paziente che ha già acquisito il movimento base nel Protocollo 5.",
+      "materiali": [
+        "Zaino scolastico",
+        "Sedia",
+        "Oggetti di uso quotidiano per simulare compiti funzionali"
+      ],
+      "esecuzione": [
+        "Richiamo verbale del pattern di autocorrezione (elongazione, de-rotazione, traslazione).",
+        "Esecuzione del compito da seduti (es. scrivere alla scrivania) mantenendo la correzione.",
+        "Esecuzione in stazione eretta durante attività statiche quotidiane.",
+        "Esecuzione durante il cammino, con attenzione al controllo di bacino e spalle.",
+        "Prova con zaino scolastico indossato simmetricamente, verificando il mantenimento della correzione.",
+        "Feedback verbale e tattile del terapeuta durante ogni compito proposto."
+      ],
+      "focusClinico": [
+        "Durata del mantenimento della correzione sotto carico cognitivo (dual task)"
+      ],
+      "muscoli": [
+        "Stabilizzatori profondi del tronco",
+        "Muscolatura posturale globale"
+      ],
+      "parametri": {
+        "durata": "5-10 min per compito",
+        "frequenza": "2 volte/settimana in seduta + richiamo quotidiano a casa"
+      },
+      "precauzioni": "Non affaticare eccessivamente il paziente: privilegiare sempre la qualità del controllo motorio.",
+      "progressione": "Ridurre progressivamente il feedback verbale e tattile per favorire l'autonomia del paziente."
+    },
+    {
+      "id": 7,
+      "numero": 7,
+      "categoria": "correzione-3d",
+      "titolo": "Mobilizzazione Articolare e Allungamento Miofasciale della Colonna",
+      "sottotitolo": "Preparazione tissutale al lavoro correttivo attivo",
+      "eta": "6-18 anni",
+      "livello": "base",
+      "obiettivo": "Recuperare la mobilità segmentale del rachide e allungare le catene miofasciali retratte sul lato concavo della curva, in preparazione agli esercizi correttivi attivi.",
+      "indicazioni": "Rigidità articolare rilevata in fase di valutazione, retrazioni muscolari asimmetriche.",
+      "materiali": [
+        "Lettino",
+        "Cuscini di posizionamento",
+        "Rullo propriocettivo (facoltativo)"
+      ],
+      "esecuzione": [
+        "Mobilizzazione passiva segmentale del tratto toracico e lombare in decubito laterale.",
+        "Allungamento miofasciale del quadrato dei lombi sul lato concavo.",
+        "Allungamento della catena posteriore (ischiocrurali, fascia toraco-lombare).",
+        "Mobilizzazione delle coste sul lato concavo per favorire l'espansione toracica.",
+        "Stretching degli adduttori dell'anca, se presente obliquità pelvica associata.",
+        "Rivalutazione della mobilità a fine seduta, con confronto rispetto alla baseline."
+      ],
+      "focusClinico": [
+        "Direzione dell'allungamento sempre coerente con il pattern tridimensionale della curva"
+      ],
+      "muscoli": [
+        "Quadrato dei lombi",
+        "Ileo-psoas",
+        "Ischiocrurali",
+        "Intercostali"
+      ],
+      "parametri": {
+        "durata": "10-15 min",
+        "frequenza": "Prima di ogni seduta di esercizio attivo"
+      },
+      "precauzioni": "Evitare manovre dolorose; non eseguire manipolazioni ad alta velocità su rachide in accrescimento.",
+      "progressione": "Propedeutico ai Protocolli 5 e 8."
+    },
+    {
+      "id": 8,
+      "numero": 8,
+      "categoria": "correzione-3d",
+      "titolo": "Esercizi di Correzione in Carico con Elongazione Attiva",
+      "sottotitolo": "Consolidamento della correzione in stazione eretta",
+      "eta": "10-16 anni",
+      "livello": "avanzato",
+      "obiettivo": "Consolidare la correzione posturale tridimensionale in stazione eretta, con carico assiale progressivo, propedeutico al cammino corretto.",
+      "indicazioni": "Paziente che padroneggia l'autocorrezione da seduto/statica (Protocolli 5-6).",
+      "materiali": [
+        "Specchio",
+        "Step basso o tavoletta propriocettiva",
+        "Bastone leggero per feedback"
+      ],
+      "esecuzione": [
+        "Partenza in stazione eretta con correzione tridimensionale attivata.",
+        "Aggiunta di un carico assiale leggero (bastone sopra il capo) mantenendo l'allineamento.",
+        "Transizione a mono-podalico sul lato stabilizzante, mantenendo la correzione.",
+        "Piccoli spostamenti del baricentro (avanti/indietro, laterali) mantenendo il pattern corretto.",
+        "Salita e discesa da uno step basso mantenendo l'allineamento del tronco.",
+        "Raffreddamento con respirazione diaframmatica in posizione corretta."
+      ],
+      "focusClinico": [
+        "Tenuta della correzione sotto carico dinamico",
+        "Qualità del controllo rispetto alla velocità di esecuzione"
+      ],
+      "muscoli": [
+        "Core profondo",
+        "Glutei",
+        "Paravertebrali",
+        "Stabilizzatori di caviglia"
+      ],
+      "parametri": {
+        "serie": "3",
+        "durata": "30-45 sec per esercizio",
+        "frequenza": "2-3 volte/settimana"
+      },
+      "precauzioni": "Progressione graduale del carico; interrompere se compare perdita del controllo posturale o dolore.",
+      "progressione": "Collegamento diretto ai protocolli di stabilizzazione del core e di controllo motorio dinamico."
+    },
+    {
+      "id": 9,
+      "numero": 9,
+      "categoria": "stabilizzazione",
+      "titolo": "Attivazione e Reclutamento del Core Profondo in Scarico",
+      "sottotitolo": "Base per ogni esercizio di stabilizzazione successivo",
+      "eta": "8-18 anni",
+      "livello": "base",
+      "obiettivo": "Insegnare l'attivazione selettiva del trasverso dell'addome e dei muscoli multifido in posizione di scarico.",
+      "indicazioni": "Prima fase del percorso di stabilizzazione, paziente senza precedente esperienza di core training specifico.",
+      "materiali": [
+        "Lettino",
+        "Cuscino",
+        "Biofeedback a pressione (cuscino pneumatico, facoltativo)"
+      ],
+      "esecuzione": [
+        "Paziente supino, ginocchia flesse, colonna in posizione neutra.",
+        "Istruzione verbale per l'attivazione del trasverso, senza trattenere il respiro.",
+        "Palpazione di controllo bilaterale per verificare l'attivazione simmetrica.",
+        "Mantenimento dell'attivazione per 10 secondi, respirando normalmente, per 10 ripetizioni.",
+        "Ripetizione in decubito laterale (lato concavo e convesso) per lavorare sull'asimmetria.",
+        "Progressione in quadrupedia mantenendo l'attivazione acquisita."
+      ],
+      "focusClinico": [
+        "Dissociazione tra attivazione del core e apnea respiratoria",
+        "Simmetria di reclutamento tra i due lati"
+      ],
+      "muscoli": [
+        "Trasverso dell'addome",
+        "Multifido",
+        "Pavimento pelvico",
+        "Diaframma"
+      ],
+      "parametri": {
+        "serie": "2-3",
+        "ripetizioni": "10",
+        "durata": "hold 10 sec",
+        "frequenza": "Quotidiano nelle prime settimane"
+      },
+      "precauzioni": "Evitare la manovra di Valsalva; interrompere se compare dolore lombare.",
+      "progressione": "Protocollo 10 (stabilizzazione in catena cinetica chiusa)."
+    },
+    {
+      "id": 10,
+      "numero": 10,
+      "categoria": "stabilizzazione",
+      "titolo": "Stabilizzazione del Core in Catena Cinetica Chiusa",
+      "sottotitolo": "Dalla attivazione statica al controllo in carico",
+      "eta": "8-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Trasferire l'attivazione del core appresa in scarico a compiti in catena cinetica chiusa, aumentando progressivamente la richiesta di controllo del tronco.",
+      "indicazioni": "Paziente che ha acquisito l'attivazione base nel Protocollo 9.",
+      "materiali": [
+        "Tappetino",
+        "Fitball",
+        "Elastico di resistenza leggera (facoltativo)"
+      ],
+      "esecuzione": [
+        "Plank prono sugli avambracci con core attivato, mantenendo l'allineamento tridimensionale.",
+        "Plank laterale bilaterale, con attenzione al lato più debole (solitamente il lato convesso).",
+        "Bird-dog: quadrupedia con estensione controlaterale di arto superiore e inferiore.",
+        "Ponte gluteo con attivazione del core, progressione verso il monopodalico.",
+        "Esercizio su fitball da seduto, con piccole perturbazioni mantenendo l'asse corretto.",
+        "Raffreddamento con stretching leggero della muscolatura lombare."
+      ],
+      "focusClinico": [
+        "Simmetria di tenuta tra plank destro e sinistro",
+        "Qualità dell'allineamento, non solo durata"
+      ],
+      "muscoli": [
+        "Retto dell'addome",
+        "Obliqui",
+        "Erettori spinali",
+        "Grande gluteo",
+        "Multifido"
+      ],
+      "parametri": {
+        "serie": "3",
+        "durata": "15-45 sec progressivi",
+        "frequenza": "3 volte/settimana"
+      },
+      "precauzioni": "Interrompere l'esercizio se il paziente perde l'allineamento o compensa con iperlordosi.",
+      "progressione": "Protocollo 11 (stabilizzazione dinamica su superfici instabili)."
+    },
+    {
+      "id": 11,
+      "numero": 11,
+      "categoria": "stabilizzazione",
+      "titolo": "Stabilizzazione Dinamica su Superfici Instabili",
+      "sottotitolo": "Controllo motorio del tronco in condizioni di instabilità",
+      "eta": "10-18 anni",
+      "livello": "avanzato",
+      "obiettivo": "Potenziare il controllo posturale del tronco introducendo superfici instabili, per migliorare la risposta automatica della muscolatura stabilizzatrice.",
+      "indicazioni": "Paziente con buon controllo statico del core (Protocolli 9-10 completati).",
+      "materiali": [
+        "Tavoletta propriocettiva",
+        "Disco di equilibrio",
+        "Fitball",
+        "Bosu (se disponibile)"
+      ],
+      "esecuzione": [
+        "Stazione eretta su tavoletta propriocettiva, mantenendo la correzione posturale tridimensionale.",
+        "Squat parziale su superficie instabile con core attivato.",
+        "Plank con avambracci su fitball, piedi a terra.",
+        "Esercizio di equilibrio monopodalico su disco instabile, 20-30 secondi.",
+        "Lanci e ricezione di una palla leggera mantenendo l'equilibrio su superficie instabile (doppio compito).",
+        "Defaticamento con esercizio di respirazione in posizione stabile."
+      ],
+      "focusClinico": [
+        "Tempo di reazione posturale",
+        "Capacità di correggere la perdita di equilibrio senza compensi scoliotici"
+      ],
+      "muscoli": [
+        "Core globale",
+        "Stabilizzatori di caviglia e ginocchio",
+        "Paravertebrali"
+      ],
+      "parametri": {
+        "serie": "2-3",
+        "durata": "20-30 sec per esercizio",
+        "frequenza": "2 volte/settimana"
+      },
+      "precauzioni": "Supervisione costante per rischio di caduta; non indicato nelle prime fasi riabilitative.",
+      "progressione": "Integrazione con i protocolli di controllo motorio (13-16)."
+    },
+    {
+      "id": 12,
+      "numero": 12,
+      "categoria": "stabilizzazione",
+      "titolo": "Rinforzo Specifico della Muscolatura Paravertebrale Asimmetrica",
+      "sottotitolo": "Correzione del deficit di forza concavo-convesso",
+      "eta": "10-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Correggere il deficit di forza asimmetrico tra lato concavo e convesso della curva, tipico nella scoliosi idiopatica.",
+      "indicazioni": "Asimmetria di forza rilevata nella valutazione funzionale (Protocollo 4).",
+      "materiali": [
+        "Lettino",
+        "Pesetti leggeri o elastici",
+        "Elettromiografia di superficie (facoltativa)"
+      ],
+      "esecuzione": [
+        "Rinforzo isometrico degli estensori del tronco in decubito prono (estensione parziale del busto).",
+        "Esercizio asimmetrico mirato: maggior volume di lavoro sul lato convesso ipotonico.",
+        "Esercizio con elastico in trazione unilaterale per rinforzare la muscolatura del lato debole.",
+        "Esercizio di estensione del tronco in catena cinetica aperta con controllo della rotazione.",
+        "Integrazione del rinforzo con il pattern di autocorrezione (Protocollo 5).",
+        "Rivalutazione periodica della simmetria di forza ogni 4-6 settimane."
+      ],
+      "focusClinico": [
+        "Evitare il rinforzo simmetrico: il deficit è specificamente asimmetrico"
+      ],
+      "muscoli": [
+        "Erettori spinali",
+        "Multifido",
+        "Quadrato dei lombi lato convesso"
+      ],
+      "parametri": {
+        "serie": "2-3",
+        "ripetizioni": "10-12",
+        "frequenza": "2-3 volte/settimana"
+      },
+      "precauzioni": "Monitorare l'affaticamento muscolare per evitare compensi posturali durante l'esercizio.",
+      "progressione": "Consolidamento nei protocolli di stabilizzazione dinamica e nelle sedute cliniche combinate."
+    },
+    {
+      "id": 13,
+      "numero": 13,
+      "categoria": "controllo-motorio",
+      "titolo": "Allenamento Propriocettivo e Consapevolezza del Pattern di Curva",
+      "sottotitolo": "Base del controllo motorio attivo",
+      "eta": "8-18 anni",
+      "livello": "base",
+      "obiettivo": "Migliorare la consapevolezza propriocettiva del paziente rispetto alla propria asimmetria posturale.",
+      "indicazioni": "Fase iniziale del percorso di controllo motorio, dopo l'acquisizione dell'autocorrezione di base.",
+      "materiali": [
+        "Specchio",
+        "Repere cutanei o bende propriocettive",
+        "Superficie propriocettiva"
+      ],
+      "esecuzione": [
+        "Palpazione guidata delle prominenze ossee asimmetriche (scapola, cresta iliaca) per aumentare la consapevolezza.",
+        "Esercizio ad occhi chiusi: il paziente tenta di riprodurre la postura corretta senza feedback visivo.",
+        "Confronto con lo specchio per verificare l'accuratezza della percezione.",
+        "Esercizi di discriminazione tattile su superfici diverse (piedi nudi su texture differenti).",
+        "Transfer della consapevolezza posturale in compiti semplici (seduto, in piedi).",
+        "Feedback verbale progressivamente ridotto per stimolare l'autocorrezione autonoma."
+      ],
+      "focusClinico": [
+        "Accuratezza della percezione posturale: discrepanza tra postura percepita e reale"
+      ],
+      "muscoli": [
+        "Sistema propriocettivo globale",
+        "Muscolatura posturale del tronco"
+      ],
+      "parametri": {
+        "durata": "10-15 min",
+        "frequenza": "2 volte/settimana"
+      },
+      "precauzioni": "Adattare il linguaggio e la complessità del compito all'età del bambino o dell'adolescente.",
+      "progressione": "Protocollo 14 (controllo motorio dinamico durante il cammino)."
+    },
+    {
+      "id": 14,
+      "numero": 14,
+      "categoria": "controllo-motorio",
+      "titolo": "Controllo Motorio Dinamico durante il Cammino",
+      "sottotitolo": "Integrazione della correzione in un compito funzionale continuo",
+      "eta": "8-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Integrare il pattern di correzione posturale nel cammino, migliorando il controllo del tronco durante un compito funzionale continuo.",
+      "indicazioni": "Paziente con buon controllo statico della postura corretta.",
+      "materiali": [
+        "Corridoio libero",
+        "Coni per percorso (facoltativo)",
+        "Specchio laterale (facoltativo)"
+      ],
+      "esecuzione": [
+        "Analisi del cammino basale, osservando oscillazioni del tronco e delle spalle.",
+        "Cammino con attivazione dell'autocorrezione, focalizzando un singolo elemento alla volta.",
+        "Cammino lungo una linea retta con feedback verbale sulla simmetria del passo e del tronco.",
+        "Cammino con cambi di direzione mantenendo l'allineamento corretto.",
+        "Cammino a velocità variabile (lento, normale, rapido) mantenendo il controllo.",
+        "Cammino con doppio compito cognitivo per automatizzare il pattern.",
+        "Analisi comparativa video prima/dopo per valutare i cambiamenti.",
+        "Chiusura della seduta con feedback positivo e indicazioni per il controllo a casa."
+      ],
+      "focusClinico": [
+        "Mantenimento del pattern corretto sotto carico cognitivo (dual task)"
+      ],
+      "muscoli": [
+        "Muscolatura stabilizzatrice del tronco e del bacino",
+        "Catena cinetica degli arti inferiori"
+      ],
+      "parametri": {
+        "durata": "10-15 min",
+        "frequenza": "2 volte/settimana"
+      },
+      "precauzioni": "Evitare affaticamento eccessivo; interrompere se il pattern degenera sotto fatica.",
+      "progressione": "Protocollo 15 (equilibrio dinamico avanzato con perturbazioni)."
+    },
+    {
+      "id": 15,
+      "numero": 15,
+      "categoria": "controllo-motorio",
+      "titolo": "Equilibrio Dinamico ed Esercizi di Perturbazione Controllata",
+      "sottotitolo": "Rinforzo delle risposte automatiche di correzione",
+      "eta": "10-18 anni",
+      "livello": "avanzato",
+      "obiettivo": "Sfidare il sistema di controllo posturale con perturbazioni esterne controllate, per rinforzare le risposte automatiche di correzione.",
+      "indicazioni": "Paziente in fase avanzata del percorso riabilitativo, con buon controllo di base.",
+      "materiali": [
+        "Superficie instabile",
+        "Elastici di resistenza",
+        "Palla medica leggera"
+      ],
+      "esecuzione": [
+        "Stazione eretta su base stabile, con piccole perturbazioni manuali del terapeuta su spalle/bacino.",
+        "Stazione su base instabile con perturbazioni progressive.",
+        "Esercizio di lancio/ricezione con palla medica leggera mantenendo l'equilibrio.",
+        "Cammino con perturbazioni laterali leggere e controllate dal terapeuta.",
+        "Esercizio monopodalico con perturbazione tattile sul tronco.",
+        "Valutazione della velocità e qualità della risposta correttiva."
+      ],
+      "focusClinico": [
+        "Tempo di recupero dell'equilibrio",
+        "Qualità del pattern di correzione, evitando strategie compensatorie scoliotiche"
+      ],
+      "muscoli": [
+        "Sistema stabilizzatore globale",
+        "Muscolatura reattiva di tronco e arti"
+      ],
+      "parametri": {
+        "serie": "3-4",
+        "ripetizioni": "8-10 perturbazioni",
+        "frequenza": "1-2 volte/settimana"
+      },
+      "precauzioni": "Perturbazioni sempre controllate e progressive, mai improvvise oltre la capacità del paziente; supervisione continua.",
+      "progressione": "Integrazione in sedute cliniche complete e in attività sportive specifiche (Protocollo 16)."
+    },
+    {
+      "id": 16,
+      "numero": 16,
+      "categoria": "controllo-motorio",
+      "titolo": "Rieducazione del Controllo Motorio in Attività Sportive Adattate",
+      "sottotitolo": "Generalizzazione del pattern corretto in contesto sportivo",
+      "eta": "10-18 anni",
+      "livello": "avanzato",
+      "obiettivo": "Trasferire il controllo motorio acquisito in un contesto sportivo/ricreativo, favorendo l'aderenza al trattamento e la generalizzazione del pattern corretto.",
+      "indicazioni": "Paziente adolescente attivo in attività sportiva, in fase di mantenimento del trattamento.",
+      "materiali": [
+        "Attrezzatura sportiva adattata in base allo sport praticato dal paziente"
+      ],
+      "esecuzione": [
+        "Analisi dello sport praticato e identificazione dei gesti a rischio per l'asimmetria (sport unilaterali).",
+        "Riscaldamento con attivazione del core e autocorrezione posturale.",
+        "Esecuzione di gesti sportivi specifici con attenzione al mantenimento dell'allineamento del tronco.",
+        "Introduzione di varianti bilaterali o compensative per gli sport asimmetrici.",
+        "Feedback video del gesto sportivo per analisi posturale.",
+        "Pianificazione di un programma di mantenimento domiciliare integrato con l'attività sportiva."
+      ],
+      "focusClinico": [
+        "Equilibrio tra performance sportiva e gestione del rischio posturale specifico"
+      ],
+      "muscoli": [
+        "Variabile in base allo sport",
+        "Enfasi su core e muscolatura stabilizzatrice del tronco"
+      ],
+      "parametri": {
+        "frequenza": "Integrato nella routine sportiva, rivalutazione ogni 2-3 mesi"
+      },
+      "precauzioni": "Non sconsigliare lo sport, ma adattarlo; consultare il medico per sport ad alto impatto assiale se indicato.",
+      "progressione": "Parte del piano di mantenimento a lungo termine (Protocollo 20)."
+    },
+    {
+      "id": 17,
+      "numero": 17,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Valutazione della Funzione Respiratoria e della Simmetria Toracica",
+      "sottotitolo": "Baseline respiratoria prima del lavoro specifico",
+      "eta": "6-18 anni",
+      "livello": "base",
+      "obiettivo": "Valutare la capacità e la simmetria dell'espansione toracica, spesso compromessa dalla rotazione vertebrale e dalla deformità costale.",
+      "indicazioni": "Tutti i pazienti con scoliosi strutturata, prima di iniziare il lavoro respiratorio specifico.",
+      "materiali": [
+        "Metro da sarta",
+        "Spirometro (se disponibile)",
+        "Scheda di valutazione"
+      ],
+      "esecuzione": [
+        "Misurazione della circonferenza toracica a riposo, in massima inspirazione e massima espirazione, a tre livelli.",
+        "Osservazione della simmetria dell'espansione costale durante la respirazione (lato concavo vs convesso).",
+        "Palpazione dell'espansione costale bilaterale durante respirazione profonda.",
+        "Spirometria semplice se disponibile, per valutare la capacità vitale.",
+        "Osservazione del pattern respiratorio di base (toracico alto, diaframmatico, paradosso).",
+        "Documentazione della baseline per il confronto nei controlli successivi."
+      ],
+      "focusClinico": [
+        "Differenza di espansione tra emitorace concavo (solitamente ridotta) e convesso"
+      ],
+      "parametri": {
+        "durata": "10 min",
+        "frequenza": "Ogni 2-3 mesi"
+      },
+      "precauzioni": "Nessuna controindicazione specifica; adattare le istruzioni all'età del bambino.",
+      "progressione": "Protocollo 18 (rieducazione alla respirazione diaframmatica di base)."
+    },
+    {
+      "id": 18,
+      "numero": 18,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Rieducazione alla Respirazione Diaframmatica di Base",
+      "sottotitolo": "Fondamento per le tecniche respiratorie specifiche",
+      "eta": "6-18 anni",
+      "livello": "base",
+      "obiettivo": "Ristabilire un pattern respiratorio diaframmatico efficiente, base per le tecniche di respirazione rotazionale specifiche per la scoliosi.",
+      "indicazioni": "Pattern respiratorio toracico alto o disfunzionale rilevato nel Protocollo 17.",
+      "materiali": [
+        "Lettino",
+        "Cuscino",
+        "Biofeedback tattile (mano del terapeuta o del paziente)"
+      ],
+      "esecuzione": [
+        "Paziente supino, ginocchia flesse, una mano sul torace e una sull'addome.",
+        "Istruzione a inspirare gonfiando l'addome, mantenendo il torace superiore relativamente fermo.",
+        "Espirazione lenta e controllata, con leggera attivazione addominale finale.",
+        "Ripetizione del pattern in decubito laterale (lato concavo e convesso separatamente).",
+        "Transfer della respirazione diaframmatica in posizione seduta e poi in piedi.",
+        "Integrazione con un breve momento di rilassamento a fine esercizio."
+      ],
+      "focusClinico": [
+        "Eliminazione del pattern respiratorio paradosso",
+        "Simmetria dell'attivazione diaframmatica"
+      ],
+      "muscoli": [
+        "Diaframma",
+        "Trasverso dell'addome",
+        "Intercostali"
+      ],
+      "parametri": {
+        "durata": "5-10 min",
+        "frequenza": "Quotidiano nelle fasi iniziali, poi 3 volte/settimana"
+      },
+      "precauzioni": "Evitare l'iperventilazione; interrompere in caso di capogiro.",
+      "progressione": "Protocollo 19 (respirazione rotazionale specifica)."
+    },
+    {
+      "id": 19,
+      "numero": 19,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Respirazione Rotazionale Specifica per l'Espansione del Lato Concavo",
+      "sottotitolo": "Metodo rotazionale angolare integrato alla postura",
+      "eta": "8-18 anni",
+      "livello": "avanzato",
+      "obiettivo": "Favorire selettivamente l'espansione del lato concavo della curva e ridurre il rilievo costale sul lato convesso, integrando la respirazione con la correzione posturale tridimensionale.",
+      "indicazioni": "Paziente che padroneggia la respirazione diaframmatica di base (Protocollo 18) e l'autocorrezione posturale (Protocollo 5).",
+      "materiali": [
+        "Specchio",
+        "Cuscino di posizionamento",
+        "Fascia elastica per feedback tattile sulle coste"
+      ],
+      "esecuzione": [
+        "Posizionamento del paziente nel pattern di autocorrezione tridimensionale specifico per la propria curva.",
+        "Posizionamento delle mani del terapeuta (o fascia elastica) sul lato concavo del torace come riferimento tattile.",
+        "Istruzione a dirigere l'inspirazione verso la mano/fascia posizionata sul lato concavo, aprendo le coste infossate.",
+        "Espirazione con leggera pressione assistita sul lato convesso per ridurre la prominenza costale.",
+        "Ripetizione del ciclo respiratorio mantenendo l'allineamento posturale corretto.",
+        "Esecuzione del pattern respiratorio in posizione seduta e poi in piedi, mantenendo l'autocorrezione."
+      ],
+      "focusClinico": [
+        "Direzionalità dell'espansione respiratoria sempre specifica per il pattern individuale di curva"
+      ],
+      "muscoli": [
+        "Intercostali del lato concavo",
+        "Diaframma",
+        "Muscolatura posturale di supporto"
+      ],
+      "parametri": {
+        "serie": "3-4",
+        "ripetizioni": "3-5 cicli respiratori",
+        "frequenza": "3 volte/settimana, integrato con gli esercizi posturali"
+      },
+      "precauzioni": "Tecnica che richiede addestramento specifico del terapeuta; non forzare l'espansione in presenza di dolore costale.",
+      "progressione": "Integrazione stabile nella routine quotidiana del paziente e nelle sedute cliniche combinate (Protocollo 20)."
+    },
+    {
+      "id": 20,
+      "numero": 20,
+      "categoria": "stabilizzazione",
+      "titolo": "Sedute Cliniche Combinate di Postura, Stabilità e Respirazione",
+      "sottotitolo": "Integrazione finale dei protocolli in un'unica seduta",
+      "eta": "8-18 anni",
+      "livello": "avanzato",
+      "obiettivo": "Consolidare in un'unica sessione strutturata gli elementi appresi nei protocolli precedenti, per l'applicazione clinica quotidiana.",
+      "indicazioni": "Paziente che ha completato almeno un ciclo attraverso le quattro aree precedenti (valutazione, correzione, stabilizzazione, controllo motorio, respirazione).",
+      "materiali": [
+        "Materiale utilizzato nei protocolli precedenti, in base alla composizione della seduta"
+      ],
+      "esecuzione": [
+        "Richiamo rapido dell'autocorrezione posturale allo specchio (5 min).",
+        "Mobilizzazione e allungamento miofasciale mirato (10 min).",
+        "Blocco di stabilizzazione del core, selezionato in base al livello del paziente (10-15 min).",
+        "Blocco di controllo motorio/equilibrio dinamico (10 min).",
+        "Chiusura con respirazione rotazionale specifica in posizione corretta (5-10 min).",
+        "Breve feedback verbale al paziente/famiglia e aggiornamento del diario clinico."
+      ],
+      "focusClinico": [
+        "Personalizzazione della sequenza in base agli obiettivi specifici della fase di trattamento in corso"
+      ],
+      "parametri": {
+        "durata": "45-50 min",
+        "frequenza": "1-3 volte/settimana secondo prescrizione"
+      },
+      "precauzioni": "Rivalutare periodicamente (ogni 4-6 settimane) per adattare la composizione della seduta ai progressi del paziente.",
+      "progressione": "Rivalutazione clinica completa (ritorno ai Protocolli 1-4) ogni 6 mesi o in occasione di nuovo controllo radiografico."
+    },
+    {
+      "id": 21,
+      "numero": 21,
+      "categoria": "valutazione-clinica",
+      "titolo": "Valutazione della Lunghezza degli Arti Inferiori e dell'Obliquità Pelvica",
+      "sottotitolo": "Esclusione delle cause posturali secondarie",
+      "eta": "6-18 anni",
+      "livello": "base",
+      "obiettivo": "Verificare se l'asimmetria posturale è secondaria a una dismetria degli arti inferiori o a un'obliquità pelvica, prima di attribuirla a una curva strutturata.",
+      "indicazioni": "Ogni paziente con sospetta scoliosi, in particolare in presenza di asimmetria dei triangoli della taglia senza rotazione vertebrale marcata.",
+      "materiali": [
+        "Metro",
+        "Blocchi di spessore calibrato",
+        "Lettino"
+      ],
+      "esecuzione": [
+        "Misurazione della lunghezza reale (spina iliaca antero-superiore - malleolo mediale) e apparente (ombelico - malleolo) di entrambi gli arti.",
+        "Osservazione della simmetria delle creste iliache in stazione eretta.",
+        "Compensazione con blocchi di spessore crescente sotto l'arto più corto, osservando la correzione dell'obliquità.",
+        "Rivalutazione della postura del tronco dopo la compensazione dell'arto."
+      ],
+      "focusClinico": [
+        "Distinzione tra scoliosi funzionale secondaria a dismetria e scoliosi strutturata"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "10 min",
+        "frequenza": "Alla prima valutazione e in caso di dubbio clinico"
+      },
+      "precauzioni": "Una compensazione che annulla la curva suggerisce una componente funzionale: da gestire in collaborazione con il medico per eventuale compenso in scarpa.",
+      "progressione": "Se la curva persiste nonostante la compensazione, procedere con la valutazione posturale completa (Protocolli 1-4)."
+    },
+    {
+      "id": 22,
+      "numero": 22,
+      "categoria": "valutazione-clinica",
+      "titolo": "Documentazione Fotografica Standardizzata e Topografia di Superficie",
+      "sottotitolo": "Monitoraggio longitudinale non radiografico",
+      "eta": "6-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Documentare in modo riproducibile l'evoluzione della postura nel tempo, riducendo la necessità di esposizioni radiografiche ripetute.",
+      "indicazioni": "Monitoraggio periodico di pazienti in fase di crescita attiva o a basso rischio di progressione.",
+      "materiali": [
+        "Tablet o fotocamera su treppiede",
+        "Sfondo neutro quadrettato",
+        "Software di topografia di superficie (se disponibile)"
+      ],
+      "esecuzione": [
+        "Posizionamento standardizzato del paziente: stessa distanza, altezza della camera e illuminazione ad ogni controllo.",
+        "Acquisizione di foto posteriore, laterale e in flessione anteriore (test di Adams).",
+        "Se disponibile, acquisizione di scansione di topografia di superficie (es. sistema a luce strutturata).",
+        "Archiviazione e confronto diretto con le immagini dei controlli precedenti nella cartella clinica."
+      ],
+      "focusClinico": [
+        "Riproducibilità delle condizioni di ripresa",
+        "Confronto quantitativo tra sedute, non solo visivo"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "10 min",
+        "frequenza": "Ogni 2-3 mesi"
+      },
+      "precauzioni": "La topografia di superficie non sostituisce la radiografia quando questa è clinicamente indicata dal medico.",
+      "progressione": "Integrare i dati con il Protocollo 3 (Cobb/Risser) ad ogni controllo medico programmato."
+    },
+    {
+      "id": 23,
+      "numero": 23,
+      "categoria": "valutazione-clinica",
+      "titolo": "Valutazione del Dolore e della Sintomatologia Associata",
+      "sottotitolo": "Mappatura clinica del dolore nel paziente scoliotico",
+      "eta": "8-18 anni",
+      "livello": "base",
+      "obiettivo": "Quantificare presenza, intensità e localizzazione del dolore eventualmente associato alla scoliosi, per orientare la seduta e monitorarne l'andamento.",
+      "indicazioni": "Paziente che riferisce fastidio, dolore o affaticamento muscolare in regione del rachide.",
+      "materiali": [
+        "Scala numerica del dolore (NRS 0-10)",
+        "Mappa corporea per la localizzazione",
+        "Scheda di monitoraggio longitudinale"
+      ],
+      "esecuzione": [
+        "Intervista strutturata su insorgenza, durata e fattori che modificano il dolore (attività, posizione, ora del giorno).",
+        "Compilazione della mappa corporea del dolore da parte del paziente.",
+        "Palpazione mirata delle zone indicate per escludere cause muscolari localizzate e asimmetriche.",
+        "Registrazione del punteggio NRS basale per il confronto nei controlli successivi."
+      ],
+      "focusClinico": [
+        "Distinzione tra dolore meccanico posturale e segnali di allarme da riferire al medico"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "10-15 min",
+        "frequenza": "Ad ogni seduta se sintomatico, altrimenti ogni controllo"
+      },
+      "precauzioni": "Dolore notturno, ingravescente o associato a segni neurologici richiede sempre una rivalutazione medica immediata.",
+      "progressione": "Il punteggio guida la scelta di intensità e tipologia degli esercizi nella seduta (Protocollo 20/70)."
+    },
+    {
+      "id": 24,
+      "numero": 24,
+      "categoria": "valutazione-clinica",
+      "titolo": "Screening Posturale di Massa in Ambito Scolastico",
+      "sottotitolo": "Protocollo di screening su larga scala",
+      "eta": "8-14 anni",
+      "livello": "base",
+      "obiettivo": "Identificare precocemente, in un contesto scolastico, i soggetti con segni sospetti di scoliosi da inviare ad approfondimento specialistico.",
+      "indicazioni": "Programmi di screening scolastico periodico, tipicamente nella fascia di età pre-puberale e puberale.",
+      "materiali": [
+        "Scoliometro",
+        "Scheda di screening standardizzata",
+        "Paravento per la privacy"
+      ],
+      "esecuzione": [
+        "Breve raccolta di dati anagrafici e familiarità, nel rispetto della privacy.",
+        "Esecuzione del test di Adams con misurazione scoliometrica (Protocollo 2) in modo rapido e standardizzato.",
+        "Classificazione del risultato in base a soglie prestabilite (es. ATR ≥ 5-7°).",
+        "Compilazione della lista dei soggetti da inviare a valutazione clinica completa, con comunicazione alla famiglia."
+      ],
+      "focusClinico": [
+        "Rapidità ed efficienza del test in un contesto di screening su larga scala",
+        "Gestione della privacy e del consenso informato"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "3-5 min a studente",
+        "frequenza": "Programma annuale o secondo il calendario scolastico"
+      },
+      "precauzioni": "Lo screening di massa ha solo funzione di individuazione del rischio: non sostituisce la diagnosi clinica individuale.",
+      "progressione": "I casi positivi procedono con la valutazione clinica completa dei Protocolli 1-4."
+    },
+    {
+      "id": 25,
+      "numero": 25,
+      "categoria": "valutazione-clinica",
+      "titolo": "Analisi Clinica del Cammino nel Paziente Scoliotico",
+      "sottotitolo": "Osservazione qualitativa del passo e del controllo del tronco in deambulazione",
+      "eta": "8-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Valutare come il pattern scoliotico si manifesta e si modifica durante la deambulazione, prima di impostare gli esercizi di controllo motorio dinamico.",
+      "indicazioni": "Dopo il completamento della valutazione posturale statica (Protocolli 1-4), come approfondimento funzionale.",
+      "materiali": [
+        "Corridoio libero di almeno 8-10 metri",
+        "Videocamera o tablet per la registrazione",
+        "Scheda di osservazione del cammino"
+      ],
+      "esecuzione": [
+        "Osservazione del cammino spontaneo, senza correzioni verbali, da dietro e di lato.",
+        "Valutazione dell'oscillazione del tronco, della simmetria del passo e del movimento delle braccia.",
+        "Registrazione video per analisi al rallentatore, se necessario.",
+        "Confronto con i dati della valutazione statica per verificare la coerenza del pattern."
+      ],
+      "focusClinico": [
+        "Compensi dinamici non sempre evidenti nella valutazione statica"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "10-15 min",
+        "frequenza": "Alla valutazione iniziale e ogni 3-6 mesi"
+      },
+      "precauzioni": "Nessuna controindicazione specifica; adattare la lunghezza del percorso all'età del paziente.",
+      "progressione": "I dati raccolti guidano la progressione nei protocolli di controllo motorio dinamico (Protocolli 14, 50-52)."
+    },
+    {
+      "id": 26,
+      "numero": 26,
+      "categoria": "valutazione-clinica",
+      "titolo": "Valutazione dell'Aderenza e dell'Uso del Corsetto Ortopedico",
+      "sottotitolo": "Monitoraggio della compliance al trattamento ortesico",
+      "eta": "8-16 anni",
+      "livello": "intermedio",
+      "obiettivo": "Verificare l'effettivo utilizzo del corsetto secondo la prescrizione medica e identificare eventuali ostacoli all'aderenza, poiché l'efficacia del trattamento conservativo dipende fortemente dalla compliance.",
+      "indicazioni": "Paziente in trattamento con corsetto ortopedico (es. tipo Boston, Chêneau), prescritto dal medico ortopedico.",
+      "materiali": [
+        "Scheda di monitoraggio delle ore di utilizzo",
+        "Questionario di aderenza (es. tipo Bostonbrace Questionnaire semplificato)",
+        "Sensore di temperatura nel corsetto, se disponibile"
+      ],
+      "esecuzione": [
+        "Intervista su ore giornaliere di utilizzo effettivo rispetto alla prescrizione.",
+        "Ispezione del corsetto per segni di usura, punti di pressione o cattivo adattamento.",
+        "Discussione aperta su difficoltà pratiche, sociali o emotive legate all'uso del corsetto.",
+        "Pianificazione congiunta con famiglia e medico di eventuali strategie per migliorare l'aderenza."
+      ],
+      "focusClinico": [
+        "Compliance come fattore determinante di efficacia, non solo la qualità del corsetto"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "15-20 min",
+        "frequenza": "Ad ogni controllo periodico"
+      },
+      "precauzioni": "Eventuali lesioni cutanee da pressione vanno sempre segnalate tempestivamente all'ortopedico/tecnico ortopedico.",
+      "progressione": "Gli esercizi specifici in corsetto (Protocollo 40) vengono programmati in base al livello di aderenza rilevato."
+    },
+    {
+      "id": 27,
+      "numero": 27,
+      "categoria": "valutazione-clinica",
+      "titolo": "Valutazione Psicosociale e dell'Immagine Corporea nell'Adolescente",
+      "sottotitolo": "Dimensione emotiva del percorso riabilitativo",
+      "eta": "10-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Esplorare l'impatto psicologico e sociale della scoliosi e del suo trattamento sull'adolescente, elemento chiave per l'aderenza e il benessere complessivo.",
+      "indicazioni": "Tutti i pazienti adolescenti, in particolare in presenza di corsetto o di curve esteticamente visibili.",
+      "materiali": [
+        "Dominio specifico del questionario SRS-22 (immagine di sé, salute mentale)",
+        "Colloquio semi-strutturato"
+      ],
+      "esecuzione": [
+        "Analisi dei domini di immagine di sé e salute mentale del questionario SRS-22 già somministrato (Protocollo 4).",
+        "Colloquio informale su percezione del proprio corpo, relazioni sociali e attività quotidiane.",
+        "Osservazione di eventuali segnali di disagio significativo (isolamento, evitamento di attività sociali).",
+        "Coinvolgimento della famiglia nella discussione, nel rispetto della privacy dell'adolescente."
+      ],
+      "focusClinico": [
+        "Impatto dell'immagine corporea sull'aderenza al trattamento"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "15-20 min",
+        "frequenza": "Alla valutazione iniziale e a controlli significativi (es. inizio uso del corsetto)"
+      },
+      "precauzioni": "In presenza di segnali di disagio psicologico significativo, coinvolgere il pediatra/medico di riferimento per un supporto specialistico dedicato.",
+      "progressione": "Le informazioni raccolte orientano il tono e le modalità di comunicazione nelle sedute successive."
+    },
+    {
+      "id": 28,
+      "numero": 28,
+      "categoria": "valutazione-clinica",
+      "titolo": "Monitoraggio della Progressione durante il Picco di Crescita Puberale",
+      "sottotitolo": "Gestione del periodo di maggior rischio evolutivo",
+      "eta": "10-15 anni",
+      "livello": "avanzato",
+      "obiettivo": "Intensificare il monitoraggio clinico nel periodo di massima velocità di crescita (Peak Height Velocity), fase a più alto rischio di progressione della curva.",
+      "indicazioni": "Paziente in fase puberale attiva, Risser 0-2, con curva già diagnosticata.",
+      "materiali": [
+        "Statimetro per il controllo della velocità di crescita staturale",
+        "Scheda di monitoraggio seriale",
+        "Dati di Risser e Cobb aggiornati"
+      ],
+      "esecuzione": [
+        "Misurazione periodica della statura per stimare la velocità di crescita.",
+        "Incrocio dei dati di crescita con il segno di Risser e lo stadio puberale.",
+        "Aumento della frequenza dei controlli clinici (ATR, osservazione posturale) nei periodi di crescita più rapida.",
+        "Comunicazione tempestiva al medico di ogni variazione clinicamente significativa dell'ATR o della postura."
+      ],
+      "focusClinico": [
+        "Finestra temporale di massimo rischio di progressione della curva"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "frequenza": "Controlli clinici ogni 4-6 settimane durante il picco di crescita"
+      },
+      "precauzioni": "Qualunque variazione rapida richiede una rivalutazione radiografica medica tempestiva, non gestibile solo clinicamente.",
+      "progressione": "Al termine del picco di crescita, i controlli possono essere diradati secondo indicazione medica (Protocollo 3)."
+    },
+    {
+      "id": 29,
+      "numero": 29,
+      "categoria": "valutazione-clinica",
+      "titolo": "Valutazione della Scoliosi a Esordio Precoce (0-10 anni)",
+      "sottotitolo": "Criteri specifici per la popolazione pediatrica più giovane",
+      "eta": "0-10 anni",
+      "livello": "avanzato",
+      "obiettivo": "Adattare l'approccio valutativo alle specificità della scoliosi infantile e giovanile ad esordio precoce, dove il rischio per lo sviluppo cardiopolmonare è un elemento centrale.",
+      "indicazioni": "Bambini con scoliosi diagnosticata prima dei 10 anni, early-onset scoliosis.",
+      "materiali": [
+        "Scoliometro pediatrico",
+        "Scheda di crescita toracica",
+        "Materiale di valutazione adattato all'età (gioco, immagini)"
+      ],
+      "esecuzione": [
+        "Adattamento del linguaggio e delle modalità di valutazione all'età del bambino, con il coinvolgimento attivo dei genitori.",
+        "Valutazione posturale e scoliometrica come nei Protocolli 1-2, con tempi più brevi e pause frequenti.",
+        "Attenzione particolare alla simmetria della gabbia toracica, per il suo ruolo nello sviluppo polmonare.",
+        "Coordinamento stretto con il team medico pediatrico/ortopedico per la frequenza dei controlli, generalmente più ravvicinati."
+      ],
+      "focusClinico": [
+        "Rischio per lo sviluppo cardiopolmonare specifico dell'età precoce",
+        "Necessità di un approccio ludico e non ansiogeno"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "15-20 min, con pause",
+        "frequenza": "Secondo indicazione del team medico, generalmente ravvicinata"
+      },
+      "precauzioni": "La gestione della scoliosi early-onset è multidisciplinare: il fisioterapista opera sempre in stretto coordinamento con l'ortopedico pediatrico.",
+      "progressione": "Gli esercizi proposti (Protocollo 39) vengono adattati in forma di gioco strutturato."
+    },
+    {
+      "id": 30,
+      "numero": 30,
+      "categoria": "valutazione-clinica",
+      "titolo": "Diagnosi Differenziale: Scoliosi Posturale (Funzionale) vs Strutturata",
+      "sottotitolo": "Protocollo decisionale di base",
+      "eta": "6-18 anni",
+      "livello": "base",
+      "obiettivo": "Distinguere clinicamente un atteggiamento scoliotico funzionale, reversibile, da una scoliosi strutturata, per orientare correttamente il percorso del paziente.",
+      "indicazioni": "Ogni primo accesso con asimmetria posturale, prima di avviare un piano di trattamento specifico.",
+      "materiali": [
+        "Lettino",
+        "Scheda di confronto clinico",
+        "Scoliometro"
+      ],
+      "esecuzione": [
+        "Esecuzione del test di Adams: la persistenza della rotazione in flessione suggerisce una componente strutturata.",
+        "Valutazione in decubito supino e in sospensione (trazione assiale leggera): una curva funzionale tende a ridursi, una strutturata persiste.",
+        "Valutazione della simmetria in flessione laterale attiva verso entrambi i lati.",
+        "Sintesi del quadro e decisione se procedere con il percorso di scoliosi strutturata (Protocolli 1-4 completi) o con la gestione di un atteggiamento posturale."
+      ],
+      "focusClinico": [
+        "Riducibilità della curva come criterio chiave di distinzione"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "15 min",
+        "frequenza": "Valutazione singola, alla prima diagnosi differenziale"
+      },
+      "precauzioni": "In caso di dubbio, mantenere un atteggiamento prudente e procedere comunque con l'invio per valutazione radiografica medica.",
+      "progressione": "Una curva strutturata confermata avvia il percorso completo descritto nei Protocolli 1-4."
+    },
+    {
+      "id": 31,
+      "numero": 31,
+      "categoria": "correzione-3d",
+      "titolo": "Correzione Specifica per Curva Toracica Destra",
+      "sottotitolo": "Pattern di autocorrezione per curva toracica singola",
+      "eta": "8-16 anni",
+      "livello": "intermedio",
+      "obiettivo": "Applicare il pattern di autocorrezione tridimensionale specifico per una curva toracica destra, con de-rotazione e traslazione coerenti con questo pattern.",
+      "indicazioni": "Paziente con curva primaria toracica destra confermata (Protocolli 3, 5).",
+      "materiali": [
+        "Specchio quadrettato",
+        "Repere su acromion e scapole"
+      ],
+      "esecuzione": [
+        "Elongazione assiale attiva mantenendo il bacino stabile.",
+        "De-rotazione del torace verso sinistra (lato convesso), con leggera elevazione della spalla destra depressa.",
+        "Traslazione del tronco verso destra per riportare la gabbia toracica sulla linea mediana.",
+        "Mantenimento della correzione per 10-15 secondi con respirazione normale, 8-10 ripetizioni."
+      ],
+      "focusClinico": [
+        "Coerenza della direzione di de-rotazione con il pattern toracico destro specifico"
+      ],
+      "muscoli": [
+        "Obliqui esterni sinistri",
+        "Paravertebrali toracici destri"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "8-10",
+        "durata": "10-15 sec hold",
+        "frequenza": "3-4 volte/settimana"
+      },
+      "precauzioni": "Non applicare lo stesso pattern a pazienti con curva toracica sinistra: la direzione della correzione è speculare.",
+      "progressione": "Integrare con la respirazione rotazionale specifica (Protocollo 19) una volta acquisito il pattern."
+    },
+    {
+      "id": 32,
+      "numero": 32,
+      "categoria": "correzione-3d",
+      "titolo": "Correzione Specifica per Curva Lombare Sinistra",
+      "sottotitolo": "Pattern di autocorrezione per curva lombare singola",
+      "eta": "8-16 anni",
+      "livello": "intermedio",
+      "obiettivo": "Applicare il pattern di autocorrezione tridimensionale specifico per una curva lombare sinistra isolata.",
+      "indicazioni": "Paziente con curva primaria lombare sinistra confermata.",
+      "materiali": [
+        "Specchio quadrettato",
+        "Repere su creste iliache"
+      ],
+      "esecuzione": [
+        "Elongazione assiale attiva con attenzione al controllo del bacino.",
+        "De-rotazione del segmento lombare verso destra, correggendo l'obliquità pelvica associata.",
+        "Traslazione laterale del bacino verso sinistra per centrare il tronco sulla base d'appoggio.",
+        "Mantenimento della posizione corretta per 10-15 secondi, 8-10 ripetizioni."
+      ],
+      "focusClinico": [
+        "Gestione combinata della rotazione lombare e dell'obliquità pelvica"
+      ],
+      "muscoli": [
+        "Quadrato dei lombi destro",
+        "Multifido lombare"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "8-10",
+        "durata": "10-15 sec hold",
+        "frequenza": "3-4 volte/settimana"
+      },
+      "precauzioni": "Verificare sempre la presenza di dismetria degli arti inferiori (Protocollo 21) prima di attribuire l'obliquità alla sola componente scoliotica.",
+      "progressione": "Integrare con esercizi di stabilizzazione pelvica (Protocollo 44)."
+    },
+    {
+      "id": 33,
+      "numero": 33,
+      "categoria": "correzione-3d",
+      "titolo": "Correzione Specifica per Doppia Curva Maggiore (Toracica e Lombare)",
+      "sottotitolo": "Gestione simultanea di due curve strutturate",
+      "eta": "10-16 anni",
+      "livello": "avanzato",
+      "obiettivo": "Coordinare la correzione di due curve primarie (toracica e lombare) che richiedono direzioni di correzione opposte nei due segmenti del rachide.",
+      "indicazioni": "Paziente con doppia curva maggiore strutturata, confermata radiograficamente (pattern Lenke tipo doppio maggiore).",
+      "materiali": [
+        "Specchio quadrettato ampio",
+        "Repere multipli (spalle, scapole, creste iliache)"
+      ],
+      "esecuzione": [
+        "Stabilizzazione del bacino come punto di riferimento fisso.",
+        "Correzione del segmento lombare secondo il proprio pattern specifico (vedi Protocollo 32).",
+        "Correzione del segmento toracico secondo il proprio pattern specifico (vedi Protocollo 31), mantenendo la correzione lombare.",
+        "Verifica finale della coerenza globale della postura allo specchio, senza compensi tra i due segmenti."
+      ],
+      "focusClinico": [
+        "Coordinazione tra due correzioni segmentali opposte senza perdere l'allineamento globale"
+      ],
+      "muscoli": [
+        "Paravertebrali bilaterali",
+        "Quadrato dei lombi",
+        "Obliqui addominali"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "6-8",
+        "durata": "15 sec hold",
+        "frequenza": "3 volte/settimana"
+      },
+      "precauzioni": "Protocollo più complesso: richiede che il paziente abbia già padroneggiato singolarmente i pattern dei Protocolli 31 e 32.",
+      "progressione": "Progressione verso l'integrazione in carico (Protocollo 8) solo dopo buona padronanza statica."
+    },
+    {
+      "id": 34,
+      "numero": 34,
+      "categoria": "correzione-3d",
+      "titolo": "Correzione Specifica per Curva Toraco-Lombare",
+      "sottotitolo": "Pattern di autocorrezione per curva di giunzione",
+      "eta": "8-16 anni",
+      "livello": "intermedio",
+      "obiettivo": "Applicare il pattern correttivo specifico per una curva localizzata nella giunzione toraco-lombare, zona di transizione biomeccanica del rachide.",
+      "indicazioni": "Paziente con curva primaria toraco-lombare confermata.",
+      "materiali": [
+        "Specchio quadrettato",
+        "Repere su gabbia toracica inferiore e creste iliache"
+      ],
+      "esecuzione": [
+        "Elongazione assiale con particolare attenzione alla zona di giunzione D10-L2.",
+        "De-rotazione del segmento toraco-lombare nella direzione specifica del pattern del paziente.",
+        "Traslazione combinata di tronco e bacino per centrare l'intero asse corporeo.",
+        "Mantenimento della correzione con monitoraggio allo specchio, 8-10 ripetizioni."
+      ],
+      "focusClinico": [
+        "Specificità biomeccanica della zona di transizione toraco-lombare"
+      ],
+      "muscoli": [
+        "Quadrato dei lombi",
+        "Ileocostale"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "8-10",
+        "durata": "10-15 sec hold",
+        "frequenza": "3-4 volte/settimana"
+      },
+      "precauzioni": "Zona di giunzione soggetta a maggiori stress meccanici: progressione del carico più graduale.",
+      "progressione": "Integrare con mobilizzazione mirata della cerniera toraco-lombare (Protocollo 7)."
+    },
+    {
+      "id": 35,
+      "numero": 35,
+      "categoria": "correzione-3d",
+      "titolo": "Elongazione Assiale Attiva in Scarico (Decubito)",
+      "sottotitolo": "Propedeutico in posizione facilitata",
+      "eta": "6-18 anni",
+      "livello": "base",
+      "obiettivo": "Introdurre il concetto di elongazione assiale attiva in una posizione di scarico, più semplice da controllare rispetto alla stazione eretta.",
+      "indicazioni": "Pazienti alle prime fasi del percorso correttivo, o con difficoltà a mantenere la correzione in carico.",
+      "materiali": [
+        "Lettino",
+        "Cuscino sottile"
+      ],
+      "esecuzione": [
+        "Paziente supino, arti rilassati, colonna in posizione neutra.",
+        "Istruzione a 'allungarsi' dal bacino verso la testa, senza inarcare la zona lombare.",
+        "Mantenimento dell'elongazione per 10 secondi, respirando normalmente, 10 ripetizioni.",
+        "Ripetizione in decubito prono e laterale per generalizzare il concetto di elongazione."
+      ],
+      "focusClinico": [
+        "Apprendimento del concetto di elongazione senza l'interferenza del controllo dell'equilibrio"
+      ],
+      "muscoli": [
+        "Paravertebrali",
+        "Core profondo"
+      ],
+      "parametri": {
+        "serie": "2-3",
+        "ripetizioni": "10",
+        "durata": "10 sec hold",
+        "frequenza": "Quotidiano nelle prime settimane"
+      },
+      "precauzioni": "Evitare l'iperestensione lombare durante l'elongazione.",
+      "progressione": "Una volta acquisito il concetto, trasferirlo alla stazione eretta (Protocollo 5)."
+    },
+    {
+      "id": 36,
+      "numero": 36,
+      "categoria": "correzione-3d",
+      "titolo": "Mobilizzazione e Correzione Posturale in Quadrupedia",
+      "sottotitolo": "Posizione intermedia tra scarico e carico completo",
+      "eta": "6-16 anni",
+      "livello": "base",
+      "obiettivo": "Utilizzare la posizione a quattro appoggi come fase intermedia di lavoro posturale, con minore richiesta di controllo dell'equilibrio rispetto alla stazione eretta.",
+      "indicazioni": "Fase intermedia tra gli esercizi in scarico (Protocollo 35) e la correzione in carico completo.",
+      "materiali": [
+        "Tappetino",
+        "Specchio laterale (facoltativo)"
+      ],
+      "esecuzione": [
+        "Posizionamento in quadrupedia con colonna in posizione neutra, mani sotto le spalle e ginocchia sotto il bacino.",
+        "Attivazione del core profondo mantenendo l'allineamento del rachide.",
+        "Applicazione del pattern di de-rotazione specifico del paziente, se tollerato in questa posizione.",
+        "Piccoli movimenti di oscillazione controllata avanti/indietro mantenendo l'allineamento."
+      ],
+      "focusClinico": [
+        "Transfer del controllo posturale in una posizione a doppio appoggio"
+      ],
+      "muscoli": [
+        "Core profondo",
+        "Stabilizzatori della spalla"
+      ],
+      "parametri": {
+        "serie": "3",
+        "durata": "20-30 sec",
+        "frequenza": "2-3 volte/settimana"
+      },
+      "precauzioni": "Interrompere se compare dolore al polso o alla spalla durante l'appoggio.",
+      "progressione": "Propedeutico alla stabilizzazione dinamica (Protocollo 10)."
+    },
+    {
+      "id": 37,
+      "numero": 37,
+      "categoria": "correzione-3d",
+      "titolo": "Esercizi di Correzione con Bastone e Feedback Propriocettivo",
+      "sottotitolo": "Uso di un attrezzo semplice come riferimento esterno",
+      "eta": "8-16 anni",
+      "livello": "intermedio",
+      "obiettivo": "Utilizzare un bastone leggero come riferimento esterno per migliorare la percezione della simmetria delle spalle e del tronco durante la correzione.",
+      "indicazioni": "Paziente che necessita di un feedback aggiuntivo oltre allo specchio, o con difficoltà a percepire l'asimmetria.",
+      "materiali": [
+        "Bastone leggero (es. in PVC)",
+        "Specchio"
+      ],
+      "esecuzione": [
+        "Paziente in piedi, bastone impugnato orizzontalmente con le due mani all'altezza delle spalle.",
+        "Applicazione del pattern di autocorrezione mantenendo il bastone parallelo al pavimento, come riferimento di simmetria.",
+        "Piccoli movimenti di rotazione controllata del bastone per allenare il controllo della rotazione del cingolo scapolare.",
+        "Progressione con il bastone sollevato sopra il capo, mantenendo la correzione posturale globale."
+      ],
+      "focusClinico": [
+        "Il bastone evidenzia immediatamente le asimmetrie di altezza e rotazione delle spalle"
+      ],
+      "muscoli": [
+        "Trapezio medio",
+        "Romboidi",
+        "Core"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "10",
+        "frequenza": "2-3 volte/settimana"
+      },
+      "precauzioni": "Utilizzare un bastone leggero e movimenti controllati, evitando compensi lombari.",
+      "progressione": "Collegamento con gli esercizi di correzione in carico (Protocollo 8)."
+    },
+    {
+      "id": 38,
+      "numero": 38,
+      "categoria": "correzione-3d",
+      "titolo": "Posizionamento Correttivo per il Riposo Notturno",
+      "sottotitolo": "Gestione posturale durante il sonno",
+      "eta": "6-18 anni",
+      "livello": "base",
+      "obiettivo": "Fornire indicazioni pratiche di posizionamento a letto che non contrastino il lavoro correttivo svolto in seduta, senza sostituirsi a dispositivi medici specifici.",
+      "indicazioni": "Tutti i pazienti in trattamento attivo, come complemento informativo al programma riabilitativo.",
+      "materiali": [
+        "Cuscini di supporto di diversa altezza",
+        "Materasso di media rigidità (indicazione generale)"
+      ],
+      "esecuzione": [
+        "Valutazione della posizione abituale di riposo del paziente (supino, laterale, prono).",
+        "Suggerimento di un cuscino di supporto sotto la vita nel lato concavo, se la posizione laterale è quella preferita.",
+        "Indicazioni per evitare posizioni prolungate in flessione laterale marcata verso il lato della convessità.",
+        "Educazione della famiglia sul ruolo complementare, e non sostitutivo, di queste indicazioni rispetto al trattamento ortesico prescritto."
+      ],
+      "focusClinico": [
+        "Le indicazioni posturali notturne sono un complemento educativo, non un trattamento correttivo a sé stante"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "frequenza": "Indicazione educativa continuativa"
+      },
+      "precauzioni": "Non sostituisce in alcun modo l'uso del corsetto quando prescritto dal medico; va coordinato con le indicazioni ortopediche.",
+      "progressione": "Rivalutare il comfort e l'applicabilità delle indicazioni ad ogni controllo periodico."
+    },
+    {
+      "id": 39,
+      "numero": 39,
+      "categoria": "correzione-3d",
+      "titolo": "Correzione Posturale nella Scoliosi Infantile ad Esordio Precoce",
+      "sottotitolo": "Adattamento ludico per il bambino piccolo",
+      "eta": "3-10 anni",
+      "livello": "intermedio",
+      "obiettivo": "Adattare i principi di autocorrezione tridimensionale a un formato ludico, adeguato alla capacità di comprensione e collaborazione di un bambino piccolo.",
+      "indicazioni": "Bambini con scoliosi early-onset già inquadrati nel Protocollo 29, con indicazione del team medico a un programma di esercizio attivo.",
+      "materiali": [
+        "Specchio",
+        "Giochi e immagini per rendere l'esercizio accessibile",
+        "Bolle di sapone per esercizi respiratori associati"
+      ],
+      "esecuzione": [
+        "Trasformazione del concetto di 'allungarsi' in un gioco (es. 'diventa alto come un albero').",
+        "Imitazione guidata di posture corrette attraverso immagini o personaggi di riferimento.",
+        "Sessioni brevi e frequenti, con numerose pause, per mantenere l'attenzione del bambino.",
+        "Coinvolgimento attivo del genitore come facilitatore dell'esercizio a casa."
+      ],
+      "focusClinico": [
+        "Adattamento ludico mantenendo i principi biomeccanici della correzione tridimensionale"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "10 min, sessioni brevi e ripetute",
+        "frequenza": "Quotidiano in forma ludica"
+      },
+      "precauzioni": "Mai forzare la collaborazione del bambino: privilegiare sempre un approccio positivo e motivante.",
+      "progressione": "Il programma evolve verso gli esercizi standard (Protocollo 5) con la crescita e l'aumento della collaborazione."
+    },
+    {
+      "id": 40,
+      "numero": 40,
+      "categoria": "correzione-3d",
+      "titolo": "Integrazione della Correzione Posturale con il Corsetto Ortopedico",
+      "sottotitolo": "Esercizi specifici da eseguire indossando il brace",
+      "eta": "8-16 anni",
+      "livello": "avanzato",
+      "obiettivo": "Potenziare l'effetto correttivo del corsetto ortopedico attraverso esercizi attivi specifici eseguiti durante l'utilizzo del dispositivo, secondo indicazione del team medico-ortesico.",
+      "indicazioni": "Paziente in trattamento con corsetto ortopedico, con indicazione esplicita del medico/tecnico ortopedico a un programma di esercizi in brace.",
+      "materiali": [
+        "Corsetto ortopedico del paziente",
+        "Specchio"
+      ],
+      "esecuzione": [
+        "Verifica preliminare della corretta applicazione del corsetto secondo le indicazioni ortesiche.",
+        "Esercizi di espansione attiva contro le finestre di espansione del corsetto, nella direzione indicata dal pattern di curva.",
+        "Attivazione del core compatibile con lo spazio e i vincoli del corsetto.",
+        "Respirazione diretta verso le zone di espansione libere del corsetto (collegamento con Protocollo 62)."
+      ],
+      "focusClinico": [
+        "Gli esercizi sfruttano attivamente lo spazio di correzione creato dal corsetto"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "10-15 min",
+        "frequenza": "Durante le ore di utilizzo del corsetto, secondo prescrizione"
+      },
+      "precauzioni": "Da eseguire sempre in coordinamento con l'ortopedico e il tecnico ortopedico che hanno in carico il corsetto: non modificare autonomamente il dispositivo.",
+      "progressione": "Rivalutare periodicamente l'efficacia insieme al team multidisciplinare."
+    },
+    {
+      "id": 41,
+      "numero": 41,
+      "categoria": "stabilizzazione",
+      "titolo": "Progressione del Plank verso Varianti Dinamiche",
+      "sottotitolo": "Aumento della richiesta di controllo del core",
+      "eta": "10-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Progredire dal plank statico (Protocollo 10) a varianti dinamiche che aumentano la richiesta di controllo del tronco mantenendo l'allineamento tridimensionale.",
+      "indicazioni": "Paziente che ha consolidato un plank statico di almeno 30-45 secondi con buon allineamento.",
+      "materiali": [
+        "Tappetino",
+        "Step basso (facoltativo)"
+      ],
+      "esecuzione": [
+        "Plank con sollevamento alternato di un arto superiore, mantenendo il bacino stabile.",
+        "Plank con sollevamento alternato di un arto inferiore.",
+        "Plank con combinazione arto superiore-inferiore controlaterale.",
+        "Verifica costante dell'assenza di rotazione o caduta del bacino durante il movimento."
+      ],
+      "focusClinico": [
+        "Mantenimento dell'allineamento del bacino durante il movimento degli arti"
+      ],
+      "muscoli": [
+        "Core globale",
+        "Stabilizzatori della spalla e dell'anca"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "6-8 per lato",
+        "frequenza": "2-3 volte/settimana"
+      },
+      "precauzioni": "Ridurre l'ampiezza di movimento se compare perdita dell'allineamento o compenso lombare.",
+      "progressione": "Collegamento diretto con la stabilizzazione dinamica su superfici instabili (Protocollo 11)."
+    },
+    {
+      "id": 42,
+      "numero": 42,
+      "categoria": "stabilizzazione",
+      "titolo": "Stabilizzazione del Cingolo Scapolare e Correzione dell'Asimmetria delle Spalle",
+      "sottotitolo": "Lavoro mirato sul distretto superiore",
+      "eta": "8-18 anni",
+      "livello": "base",
+      "obiettivo": "Migliorare il controllo e la simmetria della muscolatura del cingolo scapolare, spesso coinvolta nei compensi posturali della scoliosi toracica.",
+      "indicazioni": "Asimmetria di altezza o posizione delle scapole rilevata in valutazione (Protocollo 1).",
+      "materiali": [
+        "Elastici di resistenza leggera",
+        "Specchio"
+      ],
+      "esecuzione": [
+        "Esercizio di retrazione scapolare bilaterale con elastico, enfatizzando il lato con scapola più elevata/alata.",
+        "Esercizio di abbassamento attivo della spalla elevata (depressione scapolare).",
+        "Esercizio asimmetrico mirato per il lato ipotonico, con maggior volume di lavoro.",
+        "Integrazione del controllo scapolare con il pattern di autocorrezione posturale (Protocollo 5)."
+      ],
+      "focusClinico": [
+        "Asimmetria del trapezio superiore/inferiore tipica della curva toracica"
+      ],
+      "muscoli": [
+        "Trapezio medio-inferiore",
+        "Romboidi",
+        "Gran dentato"
+      ],
+      "parametri": {
+        "serie": "2-3",
+        "ripetizioni": "10-12",
+        "frequenza": "2-3 volte/settimana"
+      },
+      "precauzioni": "Evitare l'uso eccessivo del trapezio superiore come compenso; verificare la qualità del movimento scapolare.",
+      "progressione": "Integrazione con gli esercizi di correzione specifici per il pattern di curva toracica (Protocollo 31)."
+    },
+    {
+      "id": 43,
+      "numero": 43,
+      "categoria": "stabilizzazione",
+      "titolo": "Rinforzo dei Glutei e della Catena Posteriore per il Supporto Pelvico",
+      "sottotitolo": "Base di sostegno per la correzione del tronco",
+      "eta": "8-18 anni",
+      "livello": "base",
+      "obiettivo": "Rinforzare la muscolatura glutea e della catena posteriore come base di sostegno stabile per il lavoro di correzione del tronco sovrastante.",
+      "indicazioni": "Debolezza della catena posteriore o instabilità pelvica rilevata in valutazione funzionale (Protocollo 4).",
+      "materiali": [
+        "Tappetino",
+        "Elastico di resistenza"
+      ],
+      "esecuzione": [
+        "Ponte gluteo bipodalico con attivazione del core, progressione a monopodalico.",
+        "Clamshell con elastico per il medio gluteo, bilaterale.",
+        "Estensione d'anca in quadrupedia (donkey kick) con controllo lombare.",
+        "Squat funzionale con attenzione alla simmetria del carico tra i due arti."
+      ],
+      "focusClinico": [
+        "Stabilità pelvica come base per il lavoro posturale del tronco"
+      ],
+      "muscoli": [
+        "Grande gluteo",
+        "Medio gluteo",
+        "Ischiocrurali"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "12-15",
+        "frequenza": "2-3 volte/settimana"
+      },
+      "precauzioni": "Attenzione a non compensare con iperlordosi lombare durante gli esercizi di estensione d'anca.",
+      "progressione": "Collegamento con la stabilizzazione in catena cinetica chiusa (Protocollo 10)."
+    },
+    {
+      "id": 44,
+      "numero": 44,
+      "categoria": "stabilizzazione",
+      "titolo": "Stabilizzazione Segmentale Lombare con Controllo della Posizione Neutra",
+      "sottotitolo": "Controllo fine del segmento lombare",
+      "eta": "8-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Allenare il controllo segmentale della regione lombare in posizione neutra, con particolare attenzione ai pazienti con componente lombare della curva.",
+      "indicazioni": "Paziente con curva lombare o toraco-lombare (Protocolli 32, 34) che necessita di un controllo segmentale fine.",
+      "materiali": [
+        "Lettino",
+        "Biofeedback a pressione (facoltativo)"
+      ],
+      "esecuzione": [
+        "Identificazione della posizione neutra lombare in decubito supino.",
+        "Mantenimento della posizione neutra durante piccoli movimenti degli arti inferiori (marcia sul posto in scarico).",
+        "Progressione in posizione seduta, mantenendo il controllo segmentale durante piccoli spostamenti del peso.",
+        "Transfer in stazione eretta con il pattern di correzione lombare specifico (Protocollo 32)."
+      ],
+      "focusClinico": [
+        "Controllo segmentale fine, distinto dal rinforzo globale del core"
+      ],
+      "muscoli": [
+        "Multifido lombare",
+        "Trasverso dell'addome"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "10",
+        "frequenza": "2-3 volte/settimana"
+      },
+      "precauzioni": "Movimenti lenti e controllati; la velocità eccessiva compromette la qualità del controllo segmentale.",
+      "progressione": "Propedeutico al rinforzo paravertebrale asimmetrico (Protocollo 12)."
+    },
+    {
+      "id": 45,
+      "numero": 45,
+      "categoria": "stabilizzazione",
+      "titolo": "Programma di Rinforzo Progressivo a Domicilio",
+      "sottotitolo": "Struttura per il programma di esercizi a casa",
+      "eta": "8-18 anni",
+      "livello": "base",
+      "obiettivo": "Fornire una struttura chiara e progressiva per il programma di rinforzo del core da svolgere a domicilio, tra una seduta e l'altra.",
+      "indicazioni": "Tutti i pazienti in trattamento attivo, come complemento al lavoro svolto in studio.",
+      "materiali": [
+        "Tappetino",
+        "Scheda illustrata degli esercizi",
+        "Eventuale video dimostrativo"
+      ],
+      "esecuzione": [
+        "Selezione di 4-6 esercizi già appresi e padroneggiati in studio (dai Protocolli 9, 10, 43).",
+        "Strutturazione di una sequenza breve e ripetibile, con ordine fisso per favorire l'abitudine.",
+        "Consegna di materiale illustrato semplice, con indicazione di serie, ripetizioni e frequenza.",
+        "Verifica dell'esecuzione corretta tramite video inviato dalla famiglia o controllo alla seduta successiva."
+      ],
+      "focusClinico": [
+        "Semplicità e ripetibilità come fattori chiave di aderenza al programma domiciliare"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "10-15 min",
+        "frequenza": "4-5 volte/settimana a domicilio"
+      },
+      "precauzioni": "Includere solo esercizi già verificati come sicuri e ben eseguiti dal paziente in seduta, mai esercizi nuovi non supervisionati.",
+      "progressione": "Aggiornare il programma domiciliare ad ogni progressione significativa rilevata in studio."
+    },
+    {
+      "id": 46,
+      "numero": 46,
+      "categoria": "stabilizzazione",
+      "titolo": "Stabilizzazione con Resistenza Elastica Progressiva",
+      "sottotitolo": "Sovraccarico progressivo controllato",
+      "eta": "10-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Introdurre un sovraccarico progressivo e controllato attraverso l'uso di bande elastiche di resistenza crescente, per il rinforzo funzionale del core e della muscolatura posturale.",
+      "indicazioni": "Paziente con buona padronanza degli esercizi di stabilizzazione di base (Protocolli 9-10).",
+      "materiali": [
+        "Bande elastiche di resistenza crescente (colori/livelli)",
+        "Ancoraggio fisso (es. maniglia di porta)"
+      ],
+      "esecuzione": [
+        "Esercizi di trazione orizzontale bilaterale con elastico, enfatizzando il controllo scapolare e del tronco.",
+        "Esercizi di rotazione controllata del tronco con elastico (chop/lift pattern), coerenti con il pattern di correzione del paziente.",
+        "Progressione della resistenza solo dopo che il movimento è eseguito con qualità ottimale a resistenza inferiore.",
+        "Monitoraggio della simmetria di forza tra i due lati durante la progressione."
+      ],
+      "focusClinico": [
+        "Progressione del carico sempre subordinata alla qualità del movimento"
+      ],
+      "muscoli": [
+        "Core globale",
+        "Muscolatura scapolare",
+        "Paravertebrali"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "10-12",
+        "frequenza": "2-3 volte/settimana"
+      },
+      "precauzioni": "Non aumentare la resistenza se compaiono compensi posturali o perdita dell'allineamento.",
+      "progressione": "Collegamento con il rinforzo paravertebrale asimmetrico mirato (Protocollo 12)."
+    },
+    {
+      "id": 47,
+      "numero": 47,
+      "categoria": "stabilizzazione",
+      "titolo": "Rinforzo della Muscolatura Respiratoria come Componente di Stabilità del Core",
+      "sottotitolo": "Integrazione tra diaframma e stabilità del tronco",
+      "eta": "8-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Allenare il diaframma e la muscolatura respiratoria nel loro ruolo di componente attiva della stabilità del core, integrando respirazione e controllo posturale.",
+      "indicazioni": "Paziente che ha acquisito sia l'attivazione del core (Protocollo 9) sia la respirazione diaframmatica di base (Protocollo 18).",
+      "materiali": [
+        "Tappetino",
+        "Biofeedback a pressione (facoltativo)"
+      ],
+      "esecuzione": [
+        "Attivazione combinata di diaframma e trasverso dell'addome in decubito supino, con respirazione lenta e controllata.",
+        "Mantenimento dell'attivazione del core durante cicli respiratori completi, senza apnea né Valsalva.",
+        "Progressione in quadrupedia e in stazione eretta, mantenendo la coordinazione respiro-core.",
+        "Applicazione della coordinazione respiro-core durante un compito funzionale semplice (es. sollevare un piccolo peso)."
+      ],
+      "focusClinico": [
+        "Il diaframma come componente del sistema di stabilizzazione del core, non solo organo respiratorio"
+      ],
+      "muscoli": [
+        "Diaframma",
+        "Trasverso dell'addome",
+        "Pavimento pelvico"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "8-10 cicli respiratori",
+        "frequenza": "2-3 volte/settimana"
+      },
+      "precauzioni": "Evitare la tendenza del paziente a trattenere il respiro durante lo sforzo (manovra di Valsalva).",
+      "progressione": "Preparatorio alla respirazione rotazionale integrata al movimento (Protocollo 68)."
+    },
+    {
+      "id": 48,
+      "numero": 48,
+      "categoria": "stabilizzazione",
+      "titolo": "Stabilizzazione in Fase Post-Acuta dopo Riacutizzazione Dolorosa",
+      "sottotitolo": "Ripresa graduale dopo un episodio di dolore",
+      "eta": "8-18 anni",
+      "livello": "base",
+      "obiettivo": "Guidare una ripresa graduale e sicura del programma di stabilizzazione dopo un episodio di riacutizzazione dolorosa, evitando il decondizionamento ma rispettando i tempi di recupero.",
+      "indicazioni": "Paziente che ha riportato un episodio di dolore significativo (Protocollo 23) ora in fase di remissione.",
+      "materiali": [
+        "Tappetino",
+        "Scheda di monitoraggio del dolore (NRS)"
+      ],
+      "esecuzione": [
+        "Rivalutazione del dolore (NRS) e identificazione dei movimenti ancora dolorosi da evitare temporaneamente.",
+        "Ripresa degli esercizi di attivazione di base in scarico (Protocollo 9), a bassa intensità.",
+        "Progressione gentile verso esercizi in catena cinetica chiusa (Protocollo 10), monitorando costantemente il dolore.",
+        "Reintroduzione graduale del programma domiciliare completo solo in assenza di riacutizzazione."
+      ],
+      "focusClinico": [
+        "Equilibrio tra ripresa dell'attività e rispetto dei tempi di guarigione tissutale"
+      ],
+      "muscoli": [
+        "Core profondo",
+        "Muscolatura posturale globale"
+      ],
+      "parametri": {
+        "serie": "2",
+        "ripetizioni": "8-10",
+        "frequenza": "Da adattare settimanalmente in base alla risposta clinica"
+      },
+      "precauzioni": "Qualunque aumento del dolore durante la ripresa richiede un rallentamento della progressione e, se persistente, una rivalutazione medica.",
+      "progressione": "Il ritorno al programma standard (Protocolli 9-12) avviene solo dopo un periodo stabile senza sintomatologia."
+    },
+    {
+      "id": 49,
+      "numero": 49,
+      "categoria": "stabilizzazione",
+      "titolo": "Programma di Mantenimento a Lungo Termine della Stabilità del Core",
+      "sottotitolo": "Fase di consolidamento oltre il trattamento attivo",
+      "eta": "10-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Strutturare un programma di mantenimento a lungo termine che preservi i risultati raggiunti in termini di stabilità del core, anche dopo la riduzione della frequenza delle sedute.",
+      "indicazioni": "Paziente che ha raggiunto gli obiettivi del percorso di stabilizzazione intensiva (Protocolli 9-12, 41-47).",
+      "materiali": [
+        "Tappetino",
+        "Materiale vario già utilizzato nel percorso (elastici, superfici instabili)"
+      ],
+      "esecuzione": [
+        "Selezione di un numero ridotto di esercizi ad alta efficacia tra quelli appresi nel percorso completo.",
+        "Strutturazione di una routine di mantenimento di frequenza sostenibile nel lungo periodo.",
+        "Integrazione della routine con l'eventuale attività sportiva del paziente (collegamento con Protocollo 16).",
+        "Pianificazione di controlli periodici di rivalutazione della tenuta del core (Protocollo 4)."
+      ],
+      "focusClinico": [
+        "Sostenibilità a lungo termine come criterio guida nella scelta degli esercizi di mantenimento"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "frequenza": "2 volte/settimana nel lungo periodo, con rivalutazione ogni 3-6 mesi"
+      },
+      "precauzioni": "Il programma di mantenimento non sostituisce il follow-up clinico periodico della scoliosi nel suo complesso.",
+      "progressione": "In caso di calo della tenuta rilevato in rivalutazione, tornare temporaneamente a una fase più intensiva (Protocolli 9-12)."
+    },
+    {
+      "id": 50,
+      "numero": 50,
+      "categoria": "controllo-motorio",
+      "titolo": "Allenamento dell'Equilibrio Statico ad Occhi Aperti e Chiusi",
+      "sottotitolo": "Base del controllo dell'equilibrio",
+      "eta": "8-18 anni",
+      "livello": "base",
+      "obiettivo": "Allenare il controllo dell'equilibrio statico in condizioni di crescente difficoltà sensoriale, base per il successivo lavoro di equilibrio dinamico.",
+      "indicazioni": "Fase iniziale del percorso di controllo motorio, come complemento al Protocollo 13.",
+      "materiali": [
+        "Superficie stabile",
+        "Tappetino propriocettivo (progressione)"
+      ],
+      "esecuzione": [
+        "Stazione bipodalica ad occhi aperti, mantenendo la correzione posturale, 30 secondi.",
+        "Stazione bipodalica ad occhi chiusi, stessa durata, valutando l'aumento dell'oscillazione.",
+        "Stazione monopodalica ad occhi aperti, poi ad occhi chiusi, con tempi adattati al livello del paziente.",
+        "Progressione su superficie propriocettiva mantenendo la stessa sequenza occhi aperti/chiusi."
+      ],
+      "focusClinico": [
+        "Incremento progressivo della difficoltà attraverso la rimozione del feedback visivo"
+      ],
+      "muscoli": [
+        "Stabilizzatori di caviglia",
+        "Core",
+        "Muscolatura posturale globale"
+      ],
+      "parametri": {
+        "serie": "3",
+        "durata": "20-30 sec",
+        "frequenza": "2-3 volte/settimana"
+      },
+      "precauzioni": "Supervisione attiva durante gli esercizi ad occhi chiusi per prevenire cadute.",
+      "progressione": "Propedeutico all'equilibrio dinamico con perturbazioni (Protocollo 15)."
+    },
+    {
+      "id": 51,
+      "numero": 51,
+      "categoria": "controllo-motorio",
+      "titolo": "Controllo Motorio nella Transizione Seduto-In Piedi",
+      "sottotitolo": "Compito funzionale quotidiano ad alta frequenza",
+      "eta": "8-18 anni",
+      "livello": "base",
+      "obiettivo": "Allenare il controllo posturale durante un compito funzionale eseguito molte volte al giorno, per favorire l'automatizzazione del pattern corretto nella vita quotidiana.",
+      "indicazioni": "Paziente che ha acquisito il pattern di autocorrezione di base (Protocollo 5).",
+      "materiali": [
+        "Sedia stabile senza braccioli"
+      ],
+      "esecuzione": [
+        "Osservazione della transizione seduto-in piedi spontanea, identificando eventuali asimmetrie di carico.",
+        "Esecuzione guidata della transizione mantenendo l'attivazione del core e l'allineamento del tronco.",
+        "Enfasi sulla simmetria del carico tra i due arti inferiori durante la fase di spinta.",
+        "Ripetizione del gesto a velocità naturale, riducendo progressivamente il controllo verbale."
+      ],
+      "focusClinico": [
+        "Automatizzazione del controllo posturale in un gesto quotidiano ad alta frequenza"
+      ],
+      "muscoli": [
+        "Quadricipite",
+        "Glutei",
+        "Core"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "8-10",
+        "frequenza": "2 volte/settimana in seduta, promemoria quotidiano"
+      },
+      "precauzioni": "Evitare compensi asimmetrici di carico, soprattutto nei pazienti con obliquità pelvica.",
+      "progressione": "Transfer verso le attività quotidiane più ampie (Protocollo 6)."
+    },
+    {
+      "id": 52,
+      "numero": 52,
+      "categoria": "controllo-motorio",
+      "titolo": "Controllo Motorio nella Salita e Discesa delle Scale",
+      "sottotitolo": "Compito funzionale con carico asimmetrico ciclico",
+      "eta": "8-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Allenare il mantenimento del pattern posturale corretto durante un compito funzionale che impone un carico asimmetrico ciclico sugli arti inferiori.",
+      "indicazioni": "Paziente con buon controllo del cammino piano (Protocollo 14).",
+      "materiali": [
+        "Scala con corrimano disponibile per sicurezza"
+      ],
+      "esecuzione": [
+        "Osservazione della salita/discesa spontanea delle scale, con attenzione a oscillazioni compensatorie del tronco.",
+        "Salita controllata con attenzione al mantenimento dell'allineamento del tronco, a velocità ridotta.",
+        "Discesa controllata, generalmente più impegnativa dal punto di vista del controllo eccentrico e posturale.",
+        "Progressione graduale di velocità, sempre con sicurezza garantita dal corrimano o dal terapeuta."
+      ],
+      "focusClinico": [
+        "Gestione del controllo posturale durante un carico asimmetrico cadenzato"
+      ],
+      "muscoli": [
+        "Quadricipite",
+        "Glutei",
+        "Stabilizzatori di caviglia",
+        "Core"
+      ],
+      "parametri": {
+        "serie": "2-3",
+        "ripetizioni": "1-2 rampe",
+        "frequenza": "1-2 volte/settimana"
+      },
+      "precauzioni": "Garantire sempre condizioni di sicurezza (corrimano, supervisione); non indicato in fase di forte instabilità dell'equilibrio.",
+      "progressione": "Collegamento con l'allenamento sportivo adattato (Protocollo 16) per gli sport che richiedono gesti simili."
+    },
+    {
+      "id": 53,
+      "numero": 53,
+      "categoria": "controllo-motorio",
+      "titolo": "Allenamento della Coordinazione Bilaterale con Esercizi Crociati",
+      "sottotitolo": "Integrazione tra i due emisomi corporei",
+      "eta": "8-16 anni",
+      "livello": "intermedio",
+      "obiettivo": "Allenare la coordinazione tra arti controlaterali, favorendo un'integrazione motoria globale che supporti il controllo posturale simmetrico.",
+      "indicazioni": "Fase intermedia del percorso di controllo motorio, dopo l'acquisizione della consapevolezza posturale di base (Protocollo 13).",
+      "materiali": [
+        "Spazio libero",
+        "Palla leggera (facoltativa)"
+      ],
+      "esecuzione": [
+        "Esercizio di marcia sul posto con tocco crociato gomito-ginocchio controlaterale.",
+        "Esercizio in piedi di tocco mano-piede controlaterale, mantenendo l'equilibrio.",
+        "Lancio e ricezione di una palla leggera con cambio di mano, mantenendo la postura corretta.",
+        "Variazione del ritmo di esecuzione per aumentare la richiesta coordinativa."
+      ],
+      "focusClinico": [
+        "Integrazione motoria bilaterale a supporto del controllo posturale simmetrico"
+      ],
+      "muscoli": [
+        "Core",
+        "Muscolatura stabilizzatrice globale"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "10-12",
+        "frequenza": "2 volte/settimana"
+      },
+      "precauzioni": "Adattare la complessità del compito coordinativo all'età e alle capacità motorie del paziente.",
+      "progressione": "Integrabile nei protocolli di attività sportiva adattata (Protocollo 16)."
+    },
+    {
+      "id": 54,
+      "numero": 54,
+      "categoria": "controllo-motorio",
+      "titolo": "Rieducazione del Controllo Motorio nella Scoliosi con Ipermobilità Articolare",
+      "sottotitolo": "Adattamento per pazienti con lassità legamentosa",
+      "eta": "8-18 anni",
+      "livello": "avanzato",
+      "obiettivo": "Adattare il lavoro di controllo motorio ai pazienti con ipermobilità articolare associata, condizione che richiede un'enfasi maggiore sul controllo attivo rispetto alla sola mobilità.",
+      "indicazioni": "Paziente con scoliosi e segni clinici di ipermobilità articolare generalizzata (es. punteggio di Beighton elevato).",
+      "materiali": [
+        "Tappetino",
+        "Superficie stabile (evitare instabilità eccessiva nelle fasi iniziali)"
+      ],
+      "esecuzione": [
+        "Enfasi sul controllo attivo di fine range articolare, evitando di sfruttare il range passivo in eccesso.",
+        "Esercizi di stabilizzazione a bassa velocità con controllo costante della qualità del movimento.",
+        "Rinforzo specifico della muscolatura stabilizzatrice periarticolare (spalla, ginocchio, caviglia) oltre al tronco.",
+        "Educazione del paziente alla percezione dei limiti di movimento sicuri."
+      ],
+      "focusClinico": [
+        "Priorità al controllo motorio attivo rispetto all'ampiezza di movimento in presenza di ipermobilità"
+      ],
+      "muscoli": [
+        "Stabilizzatori articolari periferici",
+        "Core profondo"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "10",
+        "frequenza": "2-3 volte/settimana"
+      },
+      "precauzioni": "Evitare esercizi che sfruttino il range di movimento estremo tipico dell'ipermobilità; privilegiare sempre il controllo.",
+      "progressione": "Coordinarsi con il medico per l'inquadramento completo della condizione di ipermobilità, se non già fatto."
+    },
+    {
+      "id": 55,
+      "numero": 55,
+      "categoria": "controllo-motorio",
+      "titolo": "Controllo Motorio Specifico per il Paziente in Trattamento con Corsetto",
+      "sottotitolo": "Adattamento del lavoro motorio alla presenza del brace",
+      "eta": "8-16 anni",
+      "livello": "intermedio",
+      "obiettivo": "Adattare gli esercizi di controllo motorio alle specificità biomeccaniche imposte dall'uso del corsetto ortopedico durante le ore di utilizzo.",
+      "indicazioni": "Paziente in trattamento con corsetto, con indicazione del team medico a mantenere attività motoria anche durante le ore di utilizzo.",
+      "materiali": [
+        "Corsetto ortopedico del paziente",
+        "Spazio libero"
+      ],
+      "esecuzione": [
+        "Analisi delle limitazioni di movimento imposte dal corsetto (flessione, rotazione del tronco).",
+        "Adattamento degli esercizi di equilibrio e cammino (Protocolli 14, 50) alle possibilità di movimento consentite dal brace.",
+        "Enfasi sul controllo degli arti inferiori e del bacino, meno vincolati dal dispositivo rispetto al tronco.",
+        "Verifica del comfort e dell'assenza di punti di pressione durante l'attività motoria in corsetto."
+      ],
+      "focusClinico": [
+        "Compatibilità degli esercizi con i vincoli meccanici specifici del corsetto indossato"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "10-15 min",
+        "frequenza": "2 volte/settimana, secondo tolleranza"
+      },
+      "precauzioni": "Qualunque segno di sfregamento, dolore o pressione eccessiva del corsetto durante l'attività va segnalato al tecnico ortopedico.",
+      "progressione": "Coordinarsi con il Protocollo 40 (esercizi di correzione in brace) per un programma coerente."
+    },
+    {
+      "id": 56,
+      "numero": 56,
+      "categoria": "controllo-motorio",
+      "titolo": "Allenamento della Reattività Posturale in Giochi di Squadra Adattati",
+      "sottotitolo": "Transfer ludico del controllo motorio",
+      "eta": "8-14 anni",
+      "livello": "intermedio",
+      "obiettivo": "Allenare la reattività posturale in un contesto ludico e di gruppo, favorendo la motivazione e la generalizzazione delle competenze motorie acquisite.",
+      "indicazioni": "Pazienti in età scolare, con buona base di controllo motorio individuale (Protocolli 13-15).",
+      "materiali": [
+        "Palla morbida",
+        "Coni",
+        "Spazio libero sufficiente"
+      ],
+      "esecuzione": [
+        "Giochi semplici di lancio e ricezione a coppie, con enfasi sul mantenimento della postura corretta.",
+        "Percorsi con cambi di direzione rapidi tra coni, mantenendo il controllo del tronco.",
+        "Giochi a squadre con regole semplici che richiedono reattività posturale (es. 'acchiapparella' controllata).",
+        "Momento di confronto finale su come la postura corretta sia stata mantenuta durante il gioco."
+      ],
+      "focusClinico": [
+        "Motivazione e generalizzazione del controllo motorio in un contesto piacevole e sociale"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "20-30 min",
+        "frequenza": "1 volta/settimana, in piccoli gruppi se possibile"
+      },
+      "precauzioni": "Adattare intensità e regole del gioco al livello motorio e all'età dei partecipanti; supervisione costante.",
+      "progressione": "Buon ponte verso il ritorno all'attività sportiva strutturata (Protocolli 16, 59)."
+    },
+    {
+      "id": 57,
+      "numero": 57,
+      "categoria": "controllo-motorio",
+      "titolo": "Biofeedback Posturale con Dispositivi Indossabili",
+      "sottotitolo": "Tecnologia a supporto della consapevolezza posturale",
+      "eta": "10-18 anni",
+      "livello": "avanzato",
+      "obiettivo": "Utilizzare un dispositivo indossabile con sensore di inclinazione per fornire un feedback immediato (es. vibrazione) quando il paziente perde la postura corretta, rinforzando la consapevolezza posturale al di fuori della seduta.",
+      "indicazioni": "Paziente che ha già acquisito il concetto di autocorrezione (Protocollo 5) e necessita di rinforzo nella vita quotidiana.",
+      "materiali": [
+        "Dispositivo sensore di inclinazione indossabile (se disponibile in studio)",
+        "Specchio per la calibrazione iniziale"
+      ],
+      "esecuzione": [
+        "Posizionamento e calibrazione del sensore sulla postura corretta di riferimento del paziente.",
+        "Verifica del corretto funzionamento del feedback (es. vibrazione) quando il paziente si discosta dalla postura di riferimento.",
+        "Pratica in studio di compiti semplici con il dispositivo attivo, osservando la risposta del paziente al feedback.",
+        "Pianificazione di un utilizzo domiciliare limitato nel tempo, secondo tolleranza e indicazione clinica."
+      ],
+      "focusClinico": [
+        "Il dispositivo è un supporto alla consapevolezza, non un sostituto dell'esercizio attivo strutturato"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "Variabile secondo protocollo del dispositivo",
+        "frequenza": "Secondo indicazione clinica individuale"
+      },
+      "precauzioni": "Da utilizzare solo se disponibile e validato in studio; non tutti i pazienti rispondono bene a un feedback continuo, che può generare ansia.",
+      "progressione": "Valutare periodicamente l'effetto sul comportamento posturale generale, non solo durante l'uso del dispositivo."
+    },
+    {
+      "id": 58,
+      "numero": 58,
+      "categoria": "controllo-motorio",
+      "titolo": "Controllo Motorio in Acqua (Idrokinesiterapia)",
+      "sottotitolo": "Ambiente facilitato a ridotto carico assiale",
+      "eta": "6-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Sfruttare le proprietà dell'ambiente acquatico (riduzione del carico assiale, resistenza multidirezionale) per un lavoro di controllo motorio e respiratorio complementare al programma a secco.",
+      "indicazioni": "Paziente con accesso a una piscina riabilitativa, come complemento al programma principale, non sostitutivo.",
+      "materiali": [
+        "Piscina riabilitativa",
+        "Galleggianti di supporto (facoltativi)"
+      ],
+      "esecuzione": [
+        "Esercizi di consapevolezza posturale in acqua, sfruttando il ridotto carico assiale.",
+        "Esercizi di equilibrio e controllo del tronco sfruttando la resistenza dell'acqua in diverse direzioni.",
+        "Esercizi respiratori specifici facilitati dalla pressione idrostatica sul torace.",
+        "Attività di nuoto adattata, con attenzione alla simmetria del gesto nei diversi stili."
+      ],
+      "focusClinico": [
+        "Ambiente a ridotto carico assiale utile nelle fasi di dolore o scarsa tolleranza al carico"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "30-40 min",
+        "frequenza": "1-2 volte/settimana, secondo disponibilità"
+      },
+      "precauzioni": "Richiede la supervisione di un professionista con competenze specifiche in idrokinesiterapia; attenzione alla scelta dello stile di nuoto in base al pattern di curva.",
+      "progressione": "Complementare, non sostitutivo, al programma di trattamento a secco (Protocolli 1-57)."
+    },
+    {
+      "id": 59,
+      "numero": 59,
+      "categoria": "controllo-motorio",
+      "titolo": "Programma di Controllo Motorio per il Ritorno all'Attività Sportiva Agonistica",
+      "sottotitolo": "Return to sport strutturato",
+      "eta": "12-18 anni",
+      "livello": "avanzato",
+      "obiettivo": "Strutturare un percorso graduale e controllato di ritorno alla pratica sportiva agonistica, verificando che il controllo motorio e la stabilità raggiunti siano sufficienti per le richieste specifiche dello sport.",
+      "indicazioni": "Paziente atleta agonista, in fase avanzata del percorso riabilitativo, con autorizzazione medica alla ripresa dell'attività.",
+      "materiali": [
+        "Attrezzatura specifica dello sport praticato",
+        "Scheda di progressione del return to sport"
+      ],
+      "esecuzione": [
+        "Valutazione delle richieste motorie specifiche dello sport (impatti, asimmetrie, gesti ripetitivi).",
+        "Test funzionali specifici per lo sport, confrontati con i valori attesi per età e livello.",
+        "Reintroduzione gi progressiva dell'allenamento sportivo specifico, monitorando la tenuta posturale sotto sforzo.",
+        "Decisione condivisa con il team medico-sportivo sul momento del rientro alla competizione agonistica."
+      ],
+      "focusClinico": [
+        "Progressione graduale e criteri oggettivi, non solo il tempo trascorso, come guida al ritorno allo sport"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "frequenza": "Programma strutturato su diverse settimane, secondo lo sport specifico"
+      },
+      "precauzioni": "La decisione finale di rientro in competizione resta una decisione condivisa con il medico sportivo/ortopedico di riferimento.",
+      "progressione": "Una volta rientrato, il paziente prosegue con il programma di mantenimento a lungo termine (Protocollo 49) e controlli periodici."
+    },
+    {
+      "id": 60,
+      "numero": 60,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Tecnica di Respirazione Laterale Costale (Lateral Costal Breathing)",
+      "sottotitolo": "Espansione mirata dell'emitorace",
+      "eta": "8-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Allenare l'espansione selettiva della gabbia toracica laterale, abilità di base per le tecniche respiratorie correttive più specifiche (Protocollo 19).",
+      "indicazioni": "Paziente che ha acquisito la respirazione diaframmatica di base (Protocollo 18).",
+      "materiali": [
+        "Fascia elastica o le mani del terapeuta come feedback",
+        "Specchio"
+      ],
+      "esecuzione": [
+        "Posizionamento delle mani (del paziente o del terapeuta) sulle coste laterali, bilateralmente.",
+        "Istruzione a dirigere l'inspirazione lateralmente, 'spingendo' le mani verso l'esterno.",
+        "Espirazione controllata mantenendo il tono della muscolatura addominale.",
+        "Ripetizione con enfasi maggiore sul lato concavo del paziente, se già inquadrato il pattern di curva."
+      ],
+      "focusClinico": [
+        "Espansione costale laterale come competenza intermedia tra la respirazione diaframmatica e quella rotazionale"
+      ],
+      "muscoli": [
+        "Intercostali",
+        "Diaframma"
+      ],
+      "parametri": {
+        "serie": "3",
+        "ripetizioni": "5-6 cicli",
+        "frequenza": "3 volte/settimana"
+      },
+      "precauzioni": "Evitare l'elevazione compensatoria delle spalle durante l'inspirazione.",
+      "progressione": "Propedeutico alla respirazione rotazionale specifica per il pattern di curva (Protocollo 19)."
+    },
+    {
+      "id": 61,
+      "numero": 61,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Respirazione con Resistenza Inspiratoria e Biofeedback",
+      "sottotitolo": "Allenamento della muscolatura inspiratoria",
+      "eta": "8-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Rinforzare la muscolatura inspiratoria e fornire un feedback visivo quantificabile dello sforzo respiratorio, utile nei pazienti con riduzione della capacità vitale.",
+      "indicazioni": "Paziente con riduzione della capacità vitale rilevata in valutazione (Protocollo 17), senza controindicazioni respiratorie acute.",
+      "materiali": [
+        "Spirometro incentivante",
+        "Scheda di registrazione dei volumi"
+      ],
+      "esecuzione": [
+        "Istruzione all'uso corretto dello spirometro incentivante (inspirazione lenta e profonda).",
+        "Esecuzione di serie di respiri con l'obiettivo di sollevare progressivamente l'indicatore di volume.",
+        "Registrazione del volume raggiunto per il monitoraggio dei progressi nel tempo.",
+        "Integrazione dell'esercizio con la postura corretta, per associare l'allenamento respiratorio al pattern posturale."
+      ],
+      "focusClinico": [
+        "Quantificazione oggettiva del progresso respiratorio nel tempo"
+      ],
+      "muscoli": [
+        "Diaframma",
+        "Muscolatura inspiratoria accessoria"
+      ],
+      "parametri": {
+        "serie": "2-3",
+        "ripetizioni": "10 respiri",
+        "frequenza": "Quotidiano o secondo tolleranza"
+      },
+      "precauzioni": "Interrompere in caso di capogiro o iperventilazione; evitare respiri troppo rapidi e ravvicinati.",
+      "progressione": "I dati raccolti si integrano con la valutazione respiratoria periodica (Protocollo 17)."
+    },
+    {
+      "id": 62,
+      "numero": 62,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Rieducazione Respiratoria Combinata con il Corsetto Ortopedico",
+      "sottotitolo": "Tecnica respiratoria specifica per il paziente in brace",
+      "eta": "8-16 anni",
+      "livello": "avanzato",
+      "obiettivo": "Insegnare al paziente a dirigere il respiro verso le finestre di espansione del corsetto ortopedico, trasformando il dispositivo passivo in uno stimolo attivo per la correzione respiratoria.",
+      "indicazioni": "Paziente in trattamento con corsetto ortopedico, con indicazione del team medico a un programma di esercizi respiratori in brace.",
+      "materiali": [
+        "Corsetto ortopedico del paziente",
+        "Specchio"
+      ],
+      "esecuzione": [
+        "Identificazione delle zone di espansione libera (finestre) del corsetto specifiche per quel paziente.",
+        "Istruzione a dirigere l'inspirazione attivamente verso tali zone, 'spingendo' contro lo spazio disponibile.",
+        "Espirazione controllata, mantenendo la posizione corretta all'interno del corsetto.",
+        "Ripetizione del ciclo in diverse posizioni (seduto, in piedi) durante le ore di utilizzo del dispositivo."
+      ],
+      "focusClinico": [
+        "Il corsetto come riferimento tattile attivo per la respirazione correttiva, non solo contenimento passivo"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "serie": "3-4",
+        "ripetizioni": "5 cicli",
+        "frequenza": "Più volte al giorno durante l'uso del corsetto"
+      },
+      "precauzioni": "Tecnica da impostare in stretto coordinamento con l'ortopedico/tecnico ortopedico responsabile del corsetto.",
+      "progressione": "Si integra con gli esercizi di correzione posturale in brace (Protocollo 40)."
+    },
+    {
+      "id": 63,
+      "numero": 63,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Respirazione e Rilassamento per la Gestione dell'Ansia Pre-Trattamento",
+      "sottotitolo": "Componente di supporto emotivo della rieducazione respiratoria",
+      "eta": "8-18 anni",
+      "livello": "base",
+      "obiettivo": "Utilizzare tecniche respiratorie semplici per favorire il rilassamento in pazienti che vivono con ansia momenti specifici del percorso (es. prima di un controllo radiografico o dell'applicazione del corsetto).",
+      "indicazioni": "Paziente che manifesta ansia anticipatoria rispetto a fasi specifiche del percorso diagnostico-terapeutico.",
+      "materiali": [
+        "Ambiente tranquillo",
+        "Eventuale musica rilassante"
+      ],
+      "esecuzione": [
+        "Respirazione diaframmatica lenta (Protocollo 18) con conteggio guidato (es. 4 secondi inspirazione, 6 espirazione).",
+        "Associazione della respirazione a un'immagine o pensiero rilassante scelto dal paziente.",
+        "Pratica ripetuta in un momento calmo, prima di utilizzarla nel momento realmente ansiogeno.",
+        "Applicazione della tecnica nel momento specifico identificato (es. attesa prima della radiografia)."
+      ],
+      "focusClinico": [
+        "Componente di supporto emotivo, distinta dall'obiettivo correttivo respiratorio"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "5-10 min",
+        "frequenza": "Al bisogno, nei momenti identificati come critici"
+      },
+      "precauzioni": "In presenza di ansia significativa e persistente, suggerire alla famiglia un confronto con il pediatra di riferimento.",
+      "progressione": "Tecnica complementare, non sostitutiva, rispetto al percorso clinico-diagnostico necessario."
+    },
+    {
+      "id": 64,
+      "numero": 64,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Rieducazione Respiratoria nella Scoliosi con Restrizione Respiratoria Severa",
+      "sottotitolo": "Gestione di casi con compromissione respiratoria significativa",
+      "eta": "6-18 anni",
+      "livello": "avanzato",
+      "obiettivo": "Adattare il programma respiratorio ai casi con compromissione respiratoria più significativa, tipicamente associata a curve di grado elevato o a scoliosi early-onset, in stretto coordinamento con il team pneumologico/ortopedico.",
+      "indicazioni": "Paziente con riduzione significativa della capacità vitale o altri segni di compromissione respiratoria, già inquadrato dal team medico.",
+      "materiali": [
+        "Spirometro",
+        "Materiale per respirazione assistita secondo indicazione medica"
+      ],
+      "esecuzione": [
+        "Lavoro respiratorio a bassa intensità, con sedute brevi e frequenti, evitando l'affaticamento.",
+        "Priorità alla respirazione diaframmatica di base (Protocollo 18) prima di tecniche più complesse.",
+        "Stretta collaborazione con lo pneumologo/team medico per la definizione degli obiettivi e dei limiti di sicurezza.",
+        "Monitoraggio attento di segni di affaticamento respiratorio durante e dopo la seduta."
+      ],
+      "focusClinico": [
+        "Gestione prudente e multidisciplinare in presenza di compromissione respiratoria significativa"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "5-10 min, sedute brevi",
+        "frequenza": "Secondo indicazione del team multidisciplinare"
+      },
+      "precauzioni": "Protocollo da applicare solo in stretto coordinamento con il team medico-pneumologico; non adatto a un uso isolato dal fisioterapista.",
+      "progressione": "Gli obiettivi e la progressione sono definiti e rivisti periodicamente insieme al team medico."
+    },
+    {
+      "id": 65,
+      "numero": 65,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Integrazione della Respirazione nella Deambulazione",
+      "sottotitolo": "Coordinazione respiro-passo",
+      "eta": "8-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Allenare una coordinazione efficace tra il ritmo respiratorio e il passo durante il cammino, integrando il lavoro respiratorio in un compito funzionale dinamico.",
+      "indicazioni": "Paziente che ha acquisito la respirazione diaframmatica (Protocollo 18) e un buon controllo del cammino corretto (Protocollo 14).",
+      "materiali": [
+        "Corridoio libero"
+      ],
+      "esecuzione": [
+        "Osservazione del pattern respiratorio spontaneo durante il cammino a velocità naturale.",
+        "Introduzione di un ritmo respiratorio guidato, associato al numero di passi (es. inspirazione per 2 passi, espirazione per 2 passi).",
+        "Mantenimento della postura corretta durante la coordinazione respiro-passo.",
+        "Progressione a velocità di cammino variabile, mantenendo la coordinazione acquisita."
+      ],
+      "focusClinico": [
+        "Integrazione funzionale della respirazione in un compito motorio dinamico e continuo"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "10 min",
+        "frequenza": "2 volte/settimana"
+      },
+      "precauzioni": "Non forzare un ritmo respiratorio innaturale che generi affanno; adattare il rapporto respiro-passo alle capacità individuali.",
+      "progressione": "Si integra con il programma di controllo motorio dinamico (Protocollo 14)."
+    },
+    {
+      "id": 66,
+      "numero": 66,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Supporto Respiratorio Perioperatorio in Collaborazione con il Team Ortopedico",
+      "sottotitolo": "Preparazione e recupero in caso di trattamento chirurgico",
+      "eta": "10-18 anni",
+      "livello": "avanzato",
+      "obiettivo": "Fornire un supporto respiratorio educativo e preparatorio nei casi in cui il paziente sia indirizzato verso un trattamento chirurgico, sempre in stretta collaborazione con il team chirurgico di riferimento.",
+      "indicazioni": "Paziente con indicazione chirurgica stabilita dal team ortopedico, nella fase pre- e post-operatoria secondo il protocollo ospedaliero.",
+      "materiali": [
+        "Spirometro incentivante",
+        "Materiale educativo specifico fornito dal team chirurgico"
+      ],
+      "esecuzione": [
+        "Educazione preoperatoria alla respirazione diaframmatica e all'uso dello spirometro incentivante.",
+        "Pratica degli esercizi respiratori che verranno utilizzati nell'immediato post-operatorio, secondo protocollo ospedaliero.",
+        "Nel post-operatorio, applicazione degli esercizi respiratori secondo le indicazioni specifiche del team chirurgico.",
+        "Progressione del supporto respiratorio in parallelo alla ripresa della mobilizzazione, sempre secondo indicazione medica."
+      ],
+      "focusClinico": [
+        "Ruolo di supporto, sempre subordinato e coordinato al protocollo del team chirurgico"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "frequenza": "Secondo il protocollo ospedaliero specifico del caso"
+      },
+      "precauzioni": "Questo protocollo non sostituisce in alcun modo le indicazioni del team chirurgico; ogni fase va concordata con l'équipe ospedaliera.",
+      "progressione": "Il rientro al percorso riabilitativo ambulatoriale completo avviene secondo i tempi indicati dal chirurgo."
+    },
+    {
+      "id": 67,
+      "numero": 67,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Allenamento della Resistenza Respiratoria con Attività Aerobica Adattata",
+      "sottotitolo": "Componente di fitness cardiorespiratorio",
+      "eta": "10-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Migliorare la resistenza cardiorespiratoria generale del paziente attraverso un'attività aerobica adattata, complementare al lavoro respiratorio specifico per la scoliosi.",
+      "indicazioni": "Paziente con buona tolleranza all'esercizio, senza controindicazioni cardiorespiratorie, in fase di consolidamento del percorso.",
+      "materiali": [
+        "Spazio per camminata/corsa leggera o cyclette",
+        "Cardiofrequenzimetro (facoltativo)"
+      ],
+      "esecuzione": [
+        "Scelta di un'attività aerobica a basso impatto, adattata a preferenze ed età del paziente (camminata veloce, cyclette, nuoto).",
+        "Impostazione di un'intensità moderata, monitorabile tramite percezione dello sforzo o frequenza cardiaca.",
+        "Mantenimento della postura corretta e della respirazione efficiente durante l'attività, quando possibile.",
+        "Progressione graduale della durata dell'attività nel tempo, secondo tolleranza individuale."
+      ],
+      "focusClinico": [
+        "Il fitness cardiorespiratorio generale come componente complementare, non sostitutiva, del lavoro specifico"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "15-20 min, progressivi",
+        "frequenza": "2-3 volte/settimana"
+      },
+      "precauzioni": "Verificare l'assenza di controindicazioni cardiorespiratorie con il pediatra prima di avviare un programma aerobico strutturato.",
+      "progressione": "Si integra con il programma di ritorno all'attività sportiva (Protocollo 59), se applicabile."
+    },
+    {
+      "id": 68,
+      "numero": 68,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Respirazione Diaframmatica in Posizioni Dinamiche durante l'Esercizio",
+      "sottotitolo": "Mantenimento del pattern respiratorio sotto sforzo",
+      "eta": "8-18 anni",
+      "livello": "intermedio",
+      "obiettivo": "Mantenere un pattern respiratorio diaframmatico efficiente anche durante l'esecuzione di esercizi fisici dinamici, evitando il ritorno a un pattern respiratorio disfunzionale sotto sforzo.",
+      "indicazioni": "Paziente che ha acquisito la respirazione diaframmatica in condizioni statiche (Protocollo 18).",
+      "materiali": [
+        "Materiale vario degli esercizi di stabilizzazione e controllo motorio già appresi"
+      ],
+      "esecuzione": [
+        "Osservazione del pattern respiratorio durante l'esecuzione di un esercizio dinamico già noto (es. plank, Protocollo 10).",
+        "Correzione verbale se compare un pattern respiratorio toracico alto o apnea durante lo sforzo.",
+        "Pratica specifica di coordinazione tra fase respiratoria ed fase dell'esercizio (es. espirare nella fase di maggiore sforzo).",
+        "Applicazione della stessa attenzione respiratoria agli esercizi di controllo motorio dinamico (Protocolli 50-53)."
+      ],
+      "focusClinico": [
+        "Mantenimento della qualità respiratoria anche in condizioni di sforzo fisico, non solo a riposo"
+      ],
+      "muscoli": [
+        "Diaframma",
+        "Core"
+      ],
+      "parametri": {
+        "durata": "Integrato nella seduta di esercizio",
+        "frequenza": "Ad ogni seduta di stabilizzazione/controllo motorio"
+      },
+      "precauzioni": "La tendenza a trattenere il respiro sotto sforzo (Valsalva) va sempre corretta attivamente.",
+      "progressione": "Obiettivo finale: un pattern respiratorio efficiente automatizzato in ogni condizione, statica e dinamica."
+    },
+    {
+      "id": 69,
+      "numero": 69,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Educazione del Paziente e della Famiglia alla Pratica Respiratoria Quotidiana",
+      "sottotitolo": "Trasferimento dell'autonomia nella gestione del programma",
+      "eta": "6-18 anni",
+      "livello": "base",
+      "obiettivo": "Trasferire al paziente e alla famiglia gli strumenti necessari per mantenere una pratica respiratoria quotidiana autonoma, elemento chiave per la continuità del trattamento tra le sedute.",
+      "indicazioni": "Tutti i pazienti in trattamento respiratorio attivo, come fase educativa conclusiva del percorso.",
+      "materiali": [
+        "Materiale illustrato semplice",
+        "Scheda di automonitoraggio per la famiglia"
+      ],
+      "esecuzione": [
+        "Sintesi semplificata, adatta all'età, dei principi della respirazione corretta appresi nel percorso.",
+        "Dimostrazione pratica da parte del paziente stesso, con correzione dei dettagli da parte del terapeuta.",
+        "Coinvolgimento di un familiare come supervisore della pratica quotidiana a domicilio.",
+        "Consegna di materiale scritto/illustrato semplice come promemoria per la pratica a casa."
+      ],
+      "focusClinico": [
+        "Autonomia della famiglia come fattore di continuità del trattamento respiratorio"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "durata": "15-20 min",
+        "frequenza": "Sessione educativa periodica, con richiami ad ogni controllo"
+      },
+      "precauzioni": "Verificare periodicamente che la pratica domiciliare non si sia deteriorata nel tempo, correggendo eventuali imprecisioni.",
+      "progressione": "Elemento di raccordo verso il programma di mantenimento a lungo termine (Protocollo 49/70)."
+    },
+    {
+      "id": 70,
+      "numero": 70,
+      "categoria": "rieducazione-respiratoria",
+      "titolo": "Integrazione Finale Completa: Postura, Stabilità, Controllo Motorio e Respirazione nel Programma di Mantenimento",
+      "sottotitolo": "Sintesi conclusiva del manuale",
+      "eta": "8-18 anni",
+      "livello": "avanzato",
+      "obiettivo": "Integrare in un unico programma di mantenimento a lungo termine tutti gli elementi appresi nelle cinque aree cliniche del manuale, per accompagnare il paziente oltre la fase di trattamento intensivo.",
+      "indicazioni": "Paziente che ha completato il percorso attraverso le cinque aree cliniche del manuale (valutazione, correzione, stabilizzazione, controllo motorio, respirazione).",
+      "materiali": [
+        "Materiale vario secondo la composizione specifica del programma di mantenimento del singolo paziente"
+      ],
+      "esecuzione": [
+        "Rivalutazione clinica completa (ritorno ai Protocolli 1-4) come punto di partenza del programma di mantenimento.",
+        "Selezione di un numero limitato di esercizi ad alta efficacia da ciascuna delle cinque aree, personalizzati per il paziente.",
+        "Strutturazione di una routine di mantenimento sostenibile nel lungo periodo, integrata con scuola, sport e vita quotidiana.",
+        "Pianificazione di controlli periodici di rivalutazione (ogni 3-6 mesi o secondo indicazione medica) per adattare il programma nel tempo."
+      ],
+      "focusClinico": [
+        "Personalizzazione e sostenibilità a lungo termine come obiettivi finali del percorso riabilitativo"
+      ],
+      "muscoli": [],
+      "parametri": {
+        "frequenza": "Programma individualizzato, con rivalutazione periodica"
+      },
+      "precauzioni": "Il programma di mantenimento non sostituisce mai il follow-up medico-ortopedico periodico della scoliosi.",
+      "progressione": "Questo protocollo chiude idealmente il percorso dei 70 protocolli, riportando il paziente, se necessario, a qualunque area specifica del manuale."
+    }
+  ]
+}
