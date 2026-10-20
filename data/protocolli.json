@@ -78,7 +78,17 @@
         "frequenza": "Valutazione singola"
       },
       "precauzioni": "Evitare di formulare una diagnosi basata solo sull'osservazione: è sempre necessaria la conferma con test strumentali.",
-      "progressione": "Se emergono segni positivi, procedere al Protocollo 2 (test di Adams e scoliometro)."
+      "progressione": "Se emergono segni positivi, procedere al Protocollo 2 (test di Adams e scoliometro).",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-front",
+          "label": "Osservazione posteriore"
+        },
+        {
+          "pose": "stand-mirror",
+          "label": "Filo a piombo"
+        }
+      ]
     },
     {
       "id": 2,
@@ -114,7 +124,17 @@
         "frequenza": "Ogni 4-6 mesi in fase di crescita"
       },
       "precauzioni": "Il test di Adams ha sensibilità limitata per le curve lombari basse: va sempre associato a un'osservazione posturale completa.",
-      "progressione": "ATR positivo: richiedere valutazione radiografica in ortostatismo per la misurazione dell'angolo di Cobb (Protocollo 3)."
+      "progressione": "ATR positivo: richiedere valutazione radiografica in ortostatismo per la misurazione dell'angolo di Cobb (Protocollo 3).",
+      "sequenzaVisiva": [
+        {
+          "pose": "forward-bend",
+          "label": "Test di Adams"
+        },
+        {
+          "pose": "clipboard",
+          "label": "Misurazione ATR"
+        }
+      ]
     },
     {
       "id": 3,
@@ -149,7 +169,17 @@
         "frequenza": "Ad ogni nuovo controllo radiografico (6-12 mesi)"
       },
       "precauzioni": "La prescrizione dell'esame radiografico e la diagnosi restano di competenza medica; il fisioterapista utilizza questi dati per la pianificazione del trattamento, non per la diagnosi.",
-      "progressione": "Definizione degli obiettivi terapeutici specifici nel piano di trattamento individualizzato (Protocollo 4)."
+      "progressione": "Definizione degli obiettivi terapeutici specifici nel piano di trattamento individualizzato (Protocollo 4).",
+      "sequenzaVisiva": [
+        {
+          "pose": "spine-xray",
+          "label": "Angolo di Cobb"
+        },
+        {
+          "pose": "clipboard",
+          "label": "Segno di Risser"
+        }
+      ]
     },
     {
       "id": 4,
@@ -188,7 +218,17 @@
         "frequenza": "Ogni 3 mesi"
       },
       "precauzioni": "Interrompere i test di forza in presenza di dolore acuto; adattare il linguaggio alla fase puberale del paziente.",
-      "progressione": "I dati raccolti definiscono gli obiettivi misurabili del piano terapeutico individualizzato."
+      "progressione": "I dati raccolti definiscono gli obiettivi misurabili del piano terapeutico individualizzato.",
+      "sequenzaVisiva": [
+        {
+          "pose": "plank",
+          "label": "Tenuta del core"
+        },
+        {
+          "pose": "clipboard",
+          "label": "Questionario SRS-22"
+        }
+      ]
     },
     {
       "id": 5,
@@ -230,7 +270,17 @@
         "frequenza": "3-4 volte/settimana"
       },
       "precauzioni": "Non forzare la correzione oltre il range confortevole; sospendere se compare dolore irradiato.",
-      "progressione": "Integrare l'autocorrezione in posizioni dinamiche e nelle attività quotidiane (Protocollo 6)."
+      "progressione": "Integrare l'autocorrezione in posizioni dinamiche e nelle attività quotidiane (Protocollo 6).",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-mirror",
+          "label": "Davanti allo specchio"
+        },
+        {
+          "pose": "stand-straight",
+          "label": "Correzione 3D"
+        }
+      ]
     },
     {
       "id": 6,
@@ -267,7 +317,17 @@
         "frequenza": "2 volte/settimana in seduta + richiamo quotidiano a casa"
       },
       "precauzioni": "Non affaticare eccessivamente il paziente: privilegiare sempre la qualità del controllo motorio.",
-      "progressione": "Ridurre progressivamente il feedback verbale e tattile per favorire l'autonomia del paziente."
+      "progressione": "Ridurre progressivamente il feedback verbale e tattile per favorire l'autonomia del paziente.",
+      "sequenzaVisiva": [
+        {
+          "pose": "seated",
+          "label": "Da seduto"
+        },
+        {
+          "pose": "walking",
+          "label": "Durante il cammino"
+        }
+      ]
     },
     {
       "id": 7,
@@ -306,7 +366,17 @@
         "frequenza": "Prima di ogni seduta di esercizio attivo"
       },
       "precauzioni": "Evitare manovre dolorose; non eseguire manipolazioni ad alta velocità su rachide in accrescimento.",
-      "progressione": "Propedeutico ai Protocolli 5 e 8."
+      "progressione": "Propedeutico ai Protocolli 5 e 8.",
+      "sequenzaVisiva": [
+        {
+          "pose": "side-lying",
+          "label": "Mobilizzazione laterale"
+        },
+        {
+          "pose": "prone",
+          "label": "Allungamento in prono"
+        }
+      ]
     },
     {
       "id": 8,
@@ -347,7 +417,17 @@
         "frequenza": "2-3 volte/settimana"
       },
       "precauzioni": "Progressione graduale del carico; interrompere se compare perdita del controllo posturale o dolore.",
-      "progressione": "Collegamento diretto ai protocolli di stabilizzazione del core e di controllo motorio dinamico."
+      "progressione": "Collegamento diretto ai protocolli di stabilizzazione del core e di controllo motorio dinamico.",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-straight",
+          "label": "In piedi con carico"
+        },
+        {
+          "pose": "balance-one-leg",
+          "label": "Appoggio mono-podalico"
+        }
+      ]
     },
     {
       "id": 9,
@@ -389,7 +469,17 @@
         "frequenza": "Quotidiano nelle prime settimane"
       },
       "precauzioni": "Evitare la manovra di Valsalva; interrompere se compare dolore lombare.",
-      "progressione": "Protocollo 10 (stabilizzazione in catena cinetica chiusa)."
+      "progressione": "Protocollo 10 (stabilizzazione in catena cinetica chiusa).",
+      "sequenzaVisiva": [
+        {
+          "pose": "supine",
+          "label": "Supino, ginocchia flesse"
+        },
+        {
+          "pose": "side-lying",
+          "label": "Decubito laterale"
+        }
+      ]
     },
     {
       "id": 10,
@@ -431,7 +521,17 @@
         "frequenza": "3 volte/settimana"
       },
       "precauzioni": "Interrompere l'esercizio se il paziente perde l'allineamento o compensa con iperlordosi.",
-      "progressione": "Protocollo 11 (stabilizzazione dinamica su superfici instabili)."
+      "progressione": "Protocollo 11 (stabilizzazione dinamica su superfici instabili).",
+      "sequenzaVisiva": [
+        {
+          "pose": "plank",
+          "label": "Plank"
+        },
+        {
+          "pose": "quadruped",
+          "label": "Bird-dog"
+        }
+      ]
     },
     {
       "id": 11,
@@ -472,7 +572,17 @@
         "frequenza": "2 volte/settimana"
       },
       "precauzioni": "Supervisione costante per rischio di caduta; non indicato nelle prime fasi riabilitative.",
-      "progressione": "Integrazione con i protocolli di controllo motorio (13-16)."
+      "progressione": "Integrazione con i protocolli di controllo motorio (13-16).",
+      "sequenzaVisiva": [
+        {
+          "pose": "balance-one-leg",
+          "label": "Disco di equilibrio"
+        },
+        {
+          "pose": "ball",
+          "label": "Fitball"
+        }
+      ]
     },
     {
       "id": 12,
@@ -511,7 +621,17 @@
         "frequenza": "2-3 volte/settimana"
       },
       "precauzioni": "Monitorare l'affaticamento muscolare per evitare compensi posturali durante l'esercizio.",
-      "progressione": "Consolidamento nei protocolli di stabilizzazione dinamica e nelle sedute cliniche combinate."
+      "progressione": "Consolidamento nei protocolli di stabilizzazione dinamica e nelle sedute cliniche combinate.",
+      "sequenzaVisiva": [
+        {
+          "pose": "prone",
+          "label": "Estensione in prono"
+        },
+        {
+          "pose": "band",
+          "label": "Elastico unilaterale"
+        }
+      ]
     },
     {
       "id": 13,
@@ -548,7 +668,17 @@
         "frequenza": "2 volte/settimana"
       },
       "precauzioni": "Adattare il linguaggio e la complessità del compito all'età del bambino o dell'adolescente.",
-      "progressione": "Protocollo 14 (controllo motorio dinamico durante il cammino)."
+      "progressione": "Protocollo 14 (controllo motorio dinamico durante il cammino).",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-mirror",
+          "label": "Palpazione guidata"
+        },
+        {
+          "pose": "stand-front",
+          "label": "Ad occhi chiusi"
+        }
+      ]
     },
     {
       "id": 14,
@@ -587,7 +717,17 @@
         "frequenza": "2 volte/settimana"
       },
       "precauzioni": "Evitare affaticamento eccessivo; interrompere se il pattern degenera sotto fatica.",
-      "progressione": "Protocollo 15 (equilibrio dinamico avanzato con perturbazioni)."
+      "progressione": "Protocollo 15 (equilibrio dinamico avanzato con perturbazioni).",
+      "sequenzaVisiva": [
+        {
+          "pose": "walking",
+          "label": "Cammino corretto"
+        },
+        {
+          "pose": "stand-mirror",
+          "label": "Confronto video"
+        }
+      ]
     },
     {
       "id": 15,
@@ -626,7 +766,17 @@
         "frequenza": "1-2 volte/settimana"
       },
       "precauzioni": "Perturbazioni sempre controllate e progressive, mai improvvise oltre la capacità del paziente; supervisione continua.",
-      "progressione": "Integrazione in sedute cliniche complete e in attività sportive specifiche (Protocollo 16)."
+      "progressione": "Integrazione in sedute cliniche complete e in attività sportive specifiche (Protocollo 16).",
+      "sequenzaVisiva": [
+        {
+          "pose": "balance-one-leg",
+          "label": "Perturbazione controllata"
+        },
+        {
+          "pose": "ball",
+          "label": "Lancio e ricezione"
+        }
+      ]
     },
     {
       "id": 16,
@@ -660,7 +810,17 @@
         "frequenza": "Integrato nella routine sportiva, rivalutazione ogni 2-3 mesi"
       },
       "precauzioni": "Non sconsigliare lo sport, ma adattarlo; consultare il medico per sport ad alto impatto assiale se indicato.",
-      "progressione": "Parte del piano di mantenimento a lungo termine (Protocollo 20)."
+      "progressione": "Parte del piano di mantenimento a lungo termine (Protocollo 20).",
+      "sequenzaVisiva": [
+        {
+          "pose": "walking",
+          "label": "Gesto sportivo"
+        },
+        {
+          "pose": "band",
+          "label": "Riscaldamento del core"
+        }
+      ]
     },
     {
       "id": 17,
@@ -693,7 +853,17 @@
         "frequenza": "Ogni 2-3 mesi"
       },
       "precauzioni": "Nessuna controindicazione specifica; adattare le istruzioni all'età del bambino.",
-      "progressione": "Protocollo 18 (rieducazione alla respirazione diaframmatica di base)."
+      "progressione": "Protocollo 18 (rieducazione alla respirazione diaframmatica di base).",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-front",
+          "label": "Misurazione toracica"
+        },
+        {
+          "pose": "breathing",
+          "label": "Simmetria costale"
+        }
+      ]
     },
     {
       "id": 18,
@@ -732,7 +902,17 @@
         "frequenza": "Quotidiano nelle fasi iniziali, poi 3 volte/settimana"
       },
       "precauzioni": "Evitare l'iperventilazione; interrompere in caso di capogiro.",
-      "progressione": "Protocollo 19 (respirazione rotazionale specifica)."
+      "progressione": "Protocollo 19 (respirazione rotazionale specifica).",
+      "sequenzaVisiva": [
+        {
+          "pose": "supine",
+          "label": "Supino, mano su addome"
+        },
+        {
+          "pose": "breathing",
+          "label": "Respiro diaframmatico"
+        }
+      ]
     },
     {
       "id": 19,
@@ -771,7 +951,17 @@
         "frequenza": "3 volte/settimana, integrato con gli esercizi posturali"
       },
       "precauzioni": "Tecnica che richiede addestramento specifico del terapeuta; non forzare l'espansione in presenza di dolore costale.",
-      "progressione": "Integrazione stabile nella routine quotidiana del paziente e nelle sedute cliniche combinate (Protocollo 20)."
+      "progressione": "Integrazione stabile nella routine quotidiana del paziente e nelle sedute cliniche combinate (Protocollo 20).",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-straight",
+          "label": "Postura corretta"
+        },
+        {
+          "pose": "breathing",
+          "label": "Espansione lato concavo"
+        }
+      ]
     },
     {
       "id": 20,
@@ -802,7 +992,21 @@
         "frequenza": "1-3 volte/settimana secondo prescrizione"
       },
       "precauzioni": "Rivalutare periodicamente (ogni 4-6 settimane) per adattare la composizione della seduta ai progressi del paziente.",
-      "progressione": "Rivalutazione clinica completa (ritorno ai Protocolli 1-4) ogni 6 mesi o in occasione di nuovo controllo radiografico."
+      "progressione": "Rivalutazione clinica completa (ritorno ai Protocolli 1-4) ogni 6 mesi o in occasione di nuovo controllo radiografico.",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-mirror",
+          "label": "Postura"
+        },
+        {
+          "pose": "plank",
+          "label": "Stabilità"
+        },
+        {
+          "pose": "breathing",
+          "label": "Respirazione"
+        }
+      ]
     },
     {
       "id": 21,
@@ -834,7 +1038,17 @@
         "frequenza": "Alla prima valutazione e in caso di dubbio clinico"
       },
       "precauzioni": "Una compensazione che annulla la curva suggerisce una componente funzionale: da gestire in collaborazione con il medico per eventuale compenso in scarpa.",
-      "progressione": "Se la curva persiste nonostante la compensazione, procedere con la valutazione posturale completa (Protocolli 1-4)."
+      "progressione": "Se la curva persiste nonostante la compensazione, procedere con la valutazione posturale completa (Protocolli 1-4).",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-front",
+          "label": "Misurazione arti"
+        },
+        {
+          "pose": "clipboard",
+          "label": "Blocchi di compenso"
+        }
+      ]
     },
     {
       "id": 22,
@@ -867,7 +1081,17 @@
         "frequenza": "Ogni 2-3 mesi"
       },
       "precauzioni": "La topografia di superficie non sostituisce la radiografia quando questa è clinicamente indicata dal medico.",
-      "progressione": "Integrare i dati con il Protocollo 3 (Cobb/Risser) ad ogni controllo medico programmato."
+      "progressione": "Integrare i dati con il Protocollo 3 (Cobb/Risser) ad ogni controllo medico programmato.",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-mirror",
+          "label": "Foto posteriore"
+        },
+        {
+          "pose": "forward-bend",
+          "label": "Test di Adams"
+        }
+      ]
     },
     {
       "id": 23,
@@ -899,7 +1123,17 @@
         "frequenza": "Ad ogni seduta se sintomatico, altrimenti ogni controllo"
       },
       "precauzioni": "Dolore notturno, ingravescente o associato a segni neurologici richiede sempre una rivalutazione medica immediata.",
-      "progressione": "Il punteggio guida la scelta di intensità e tipologia degli esercizi nella seduta (Protocollo 20/70)."
+      "progressione": "Il punteggio guida la scelta di intensità e tipologia degli esercizi nella seduta (Protocollo 20/70).",
+      "sequenzaVisiva": [
+        {
+          "pose": "clipboard",
+          "label": "Scala del dolore (NRS)"
+        },
+        {
+          "pose": "stand-front",
+          "label": "Mappa corporea"
+        }
+      ]
     },
     {
       "id": 24,
@@ -932,7 +1166,17 @@
         "frequenza": "Programma annuale o secondo il calendario scolastico"
       },
       "precauzioni": "Lo screening di massa ha solo funzione di individuazione del rischio: non sostituisce la diagnosi clinica individuale.",
-      "progressione": "I casi positivi procedono con la valutazione clinica completa dei Protocolli 1-4."
+      "progressione": "I casi positivi procedono con la valutazione clinica completa dei Protocolli 1-4.",
+      "sequenzaVisiva": [
+        {
+          "pose": "forward-bend",
+          "label": "Test di Adams"
+        },
+        {
+          "pose": "clipboard",
+          "label": "Scheda di screening"
+        }
+      ]
     },
     {
       "id": 25,
@@ -964,7 +1208,17 @@
         "frequenza": "Alla valutazione iniziale e ogni 3-6 mesi"
       },
       "precauzioni": "Nessuna controindicazione specifica; adattare la lunghezza del percorso all'età del paziente.",
-      "progressione": "I dati raccolti guidano la progressione nei protocolli di controllo motorio dinamico (Protocolli 14, 50-52)."
+      "progressione": "I dati raccolti guidano la progressione nei protocolli di controllo motorio dinamico (Protocolli 14, 50-52).",
+      "sequenzaVisiva": [
+        {
+          "pose": "walking",
+          "label": "Cammino spontaneo"
+        },
+        {
+          "pose": "stand-mirror",
+          "label": "Analisi video"
+        }
+      ]
     },
     {
       "id": 26,
@@ -996,7 +1250,17 @@
         "frequenza": "Ad ogni controllo periodico"
       },
       "precauzioni": "Eventuali lesioni cutanee da pressione vanno sempre segnalate tempestivamente all'ortopedico/tecnico ortopedico.",
-      "progressione": "Gli esercizi specifici in corsetto (Protocollo 40) vengono programmati in base al livello di aderenza rilevato."
+      "progressione": "Gli esercizi specifici in corsetto (Protocollo 40) vengono programmati in base al livello di aderenza rilevato.",
+      "sequenzaVisiva": [
+        {
+          "pose": "clipboard",
+          "label": "Ore di utilizzo"
+        },
+        {
+          "pose": "stand-front",
+          "label": "Ispezione del corsetto"
+        }
+      ]
     },
     {
       "id": 27,
@@ -1027,7 +1291,17 @@
         "frequenza": "Alla valutazione iniziale e a controlli significativi (es. inizio uso del corsetto)"
       },
       "precauzioni": "In presenza di segnali di disagio psicologico significativo, coinvolgere il pediatra/medico di riferimento per un supporto specialistico dedicato.",
-      "progressione": "Le informazioni raccolte orientano il tono e le modalità di comunicazione nelle sedute successive."
+      "progressione": "Le informazioni raccolte orientano il tono e le modalità di comunicazione nelle sedute successive.",
+      "sequenzaVisiva": [
+        {
+          "pose": "clipboard",
+          "label": "Questionario"
+        },
+        {
+          "pose": "seated",
+          "label": "Colloquio"
+        }
+      ]
     },
     {
       "id": 28,
@@ -1058,7 +1332,17 @@
         "frequenza": "Controlli clinici ogni 4-6 settimane durante il picco di crescita"
       },
       "precauzioni": "Qualunque variazione rapida richiede una rivalutazione radiografica medica tempestiva, non gestibile solo clinicamente.",
-      "progressione": "Al termine del picco di crescita, i controlli possono essere diradati secondo indicazione medica (Protocollo 3)."
+      "progressione": "Al termine del picco di crescita, i controlli possono essere diradati secondo indicazione medica (Protocollo 3).",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-front",
+          "label": "Velocità di crescita"
+        },
+        {
+          "pose": "clipboard",
+          "label": "Controllo seriale"
+        }
+      ]
     },
     {
       "id": 29,
@@ -1091,7 +1375,17 @@
         "frequenza": "Secondo indicazione del team medico, generalmente ravvicinata"
       },
       "precauzioni": "La gestione della scoliosi early-onset è multidisciplinare: il fisioterapista opera sempre in stretto coordinamento con l'ortopedico pediatrico.",
-      "progressione": "Gli esercizi proposti (Protocollo 39) vengono adattati in forma di gioco strutturato."
+      "progressione": "Gli esercizi proposti (Protocollo 39) vengono adattati in forma di gioco strutturato.",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-mirror",
+          "label": "Valutazione ludica"
+        },
+        {
+          "pose": "clipboard",
+          "label": "Genitore coinvolto"
+        }
+      ]
     },
     {
       "id": 30,
@@ -1123,7 +1417,17 @@
         "frequenza": "Valutazione singola, alla prima diagnosi differenziale"
       },
       "precauzioni": "In caso di dubbio, mantenere un atteggiamento prudente e procedere comunque con l'invio per valutazione radiografica medica.",
-      "progressione": "Una curva strutturata confermata avvia il percorso completo descritto nei Protocolli 1-4."
+      "progressione": "Una curva strutturata confermata avvia il percorso completo descritto nei Protocolli 1-4.",
+      "sequenzaVisiva": [
+        {
+          "pose": "forward-bend",
+          "label": "Test di Adams"
+        },
+        {
+          "pose": "supine",
+          "label": "Scarico/sospensione"
+        }
+      ]
     },
     {
       "id": 31,
@@ -1159,7 +1463,17 @@
         "frequenza": "3-4 volte/settimana"
       },
       "precauzioni": "Non applicare lo stesso pattern a pazienti con curva toracica sinistra: la direzione della correzione è speculare.",
-      "progressione": "Integrare con la respirazione rotazionale specifica (Protocollo 19) una volta acquisito il pattern."
+      "progressione": "Integrare con la respirazione rotazionale specifica (Protocollo 19) una volta acquisito il pattern.",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-mirror",
+          "label": "De-rotazione toracica"
+        },
+        {
+          "pose": "stand-straight",
+          "label": "Traslazione"
+        }
+      ]
     },
     {
       "id": 32,
@@ -1195,7 +1509,17 @@
         "frequenza": "3-4 volte/settimana"
       },
       "precauzioni": "Verificare sempre la presenza di dismetria degli arti inferiori (Protocollo 21) prima di attribuire l'obliquità alla sola componente scoliotica.",
-      "progressione": "Integrare con esercizi di stabilizzazione pelvica (Protocollo 44)."
+      "progressione": "Integrare con esercizi di stabilizzazione pelvica (Protocollo 44).",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-mirror",
+          "label": "De-rotazione lombare"
+        },
+        {
+          "pose": "stand-straight",
+          "label": "Controllo del bacino"
+        }
+      ]
     },
     {
       "id": 33,
@@ -1232,7 +1556,17 @@
         "frequenza": "3 volte/settimana"
       },
       "precauzioni": "Protocollo più complesso: richiede che il paziente abbia già padroneggiato singolarmente i pattern dei Protocolli 31 e 32.",
-      "progressione": "Progressione verso l'integrazione in carico (Protocollo 8) solo dopo buona padronanza statica."
+      "progressione": "Progressione verso l'integrazione in carico (Protocollo 8) solo dopo buona padronanza statica.",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-straight",
+          "label": "Correzione lombare"
+        },
+        {
+          "pose": "stand-mirror",
+          "label": "Correzione toracica"
+        }
+      ]
     },
     {
       "id": 34,
@@ -1268,7 +1602,17 @@
         "frequenza": "3-4 volte/settimana"
       },
       "precauzioni": "Zona di giunzione soggetta a maggiori stress meccanici: progressione del carico più graduale.",
-      "progressione": "Integrare con mobilizzazione mirata della cerniera toraco-lombare (Protocollo 7)."
+      "progressione": "Integrare con mobilizzazione mirata della cerniera toraco-lombare (Protocollo 7).",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-mirror",
+          "label": "Giunzione D10-L2"
+        },
+        {
+          "pose": "stand-straight",
+          "label": "Traslazione combinata"
+        }
+      ]
     },
     {
       "id": 35,
@@ -1304,7 +1648,17 @@
         "frequenza": "Quotidiano nelle prime settimane"
       },
       "precauzioni": "Evitare l'iperestensione lombare durante l'elongazione.",
-      "progressione": "Una volta acquisito il concetto, trasferirlo alla stazione eretta (Protocollo 5)."
+      "progressione": "Una volta acquisito il concetto, trasferirlo alla stazione eretta (Protocollo 5).",
+      "sequenzaVisiva": [
+        {
+          "pose": "supine",
+          "label": "Elongazione in supino"
+        },
+        {
+          "pose": "prone",
+          "label": "Elongazione in prono"
+        }
+      ]
     },
     {
       "id": 36,
@@ -1339,7 +1693,17 @@
         "frequenza": "2-3 volte/settimana"
       },
       "precauzioni": "Interrompere se compare dolore al polso o alla spalla durante l'appoggio.",
-      "progressione": "Propedeutico alla stabilizzazione dinamica (Protocollo 10)."
+      "progressione": "Propedeutico alla stabilizzazione dinamica (Protocollo 10).",
+      "sequenzaVisiva": [
+        {
+          "pose": "quadruped",
+          "label": "A quattro appoggi"
+        },
+        {
+          "pose": "stand-mirror",
+          "label": "Oscillazione controllata"
+        }
+      ]
     },
     {
       "id": 37,
@@ -1375,7 +1739,17 @@
         "frequenza": "2-3 volte/settimana"
       },
       "precauzioni": "Utilizzare un bastone leggero e movimenti controllati, evitando compensi lombari.",
-      "progressione": "Collegamento con gli esercizi di correzione in carico (Protocollo 8)."
+      "progressione": "Collegamento con gli esercizi di correzione in carico (Protocollo 8).",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-straight",
+          "label": "Bastone orizzontale"
+        },
+        {
+          "pose": "band",
+          "label": "Sopra il capo"
+        }
+      ]
     },
     {
       "id": 38,
@@ -1405,7 +1779,17 @@
         "frequenza": "Indicazione educativa continuativa"
       },
       "precauzioni": "Non sostituisce in alcun modo l'uso del corsetto quando prescritto dal medico; va coordinato con le indicazioni ortopediche.",
-      "progressione": "Rivalutare il comfort e l'applicabilità delle indicazioni ad ogni controllo periodico."
+      "progressione": "Rivalutare il comfort e l'applicabilità delle indicazioni ad ogni controllo periodico.",
+      "sequenzaVisiva": [
+        {
+          "pose": "side-lying",
+          "label": "Cuscino di supporto"
+        },
+        {
+          "pose": "supine",
+          "label": "Posizione di riposo"
+        }
+      ]
     },
     {
       "id": 39,
@@ -1437,7 +1821,17 @@
         "frequenza": "Quotidiano in forma ludica"
       },
       "precauzioni": "Mai forzare la collaborazione del bambino: privilegiare sempre un approccio positivo e motivante.",
-      "progressione": "Il programma evolve verso gli esercizi standard (Protocollo 5) con la crescita e l'aumento della collaborazione."
+      "progressione": "Il programma evolve verso gli esercizi standard (Protocollo 5) con la crescita e l'aumento della collaborazione.",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-mirror",
+          "label": "Gioco posturale"
+        },
+        {
+          "pose": "walking",
+          "label": "Imitazione guidata"
+        }
+      ]
     },
     {
       "id": 40,
@@ -1468,7 +1862,17 @@
         "frequenza": "Durante le ore di utilizzo del corsetto, secondo prescrizione"
       },
       "precauzioni": "Da eseguire sempre in coordinamento con l'ortopedico e il tecnico ortopedico che hanno in carico il corsetto: non modificare autonomamente il dispositivo.",
-      "progressione": "Rivalutare periodicamente l'efficacia insieme al team multidisciplinare."
+      "progressione": "Rivalutare periodicamente l'efficacia insieme al team multidisciplinare.",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-straight",
+          "label": "Espansione nel corsetto"
+        },
+        {
+          "pose": "breathing",
+          "label": "Attivazione del core"
+        }
+      ]
     },
     {
       "id": 41,
@@ -1503,7 +1907,17 @@
         "frequenza": "2-3 volte/settimana"
       },
       "precauzioni": "Ridurre l'ampiezza di movimento se compare perdita dell'allineamento o compenso lombare.",
-      "progressione": "Collegamento diretto con la stabilizzazione dinamica su superfici instabili (Protocollo 11)."
+      "progressione": "Collegamento diretto con la stabilizzazione dinamica su superfici instabili (Protocollo 11).",
+      "sequenzaVisiva": [
+        {
+          "pose": "plank",
+          "label": "Plank con arto sollevato"
+        },
+        {
+          "pose": "balance-one-leg",
+          "label": "Controllo del bacino"
+        }
+      ]
     },
     {
       "id": 42,
@@ -1539,7 +1953,17 @@
         "frequenza": "2-3 volte/settimana"
       },
       "precauzioni": "Evitare l'uso eccessivo del trapezio superiore come compenso; verificare la qualità del movimento scapolare.",
-      "progressione": "Integrazione con gli esercizi di correzione specifici per il pattern di curva toracica (Protocollo 31)."
+      "progressione": "Integrazione con gli esercizi di correzione specifici per il pattern di curva toracica (Protocollo 31).",
+      "sequenzaVisiva": [
+        {
+          "pose": "band",
+          "label": "Retrazione scapolare"
+        },
+        {
+          "pose": "stand-front",
+          "label": "Depressione della spalla"
+        }
+      ]
     },
     {
       "id": 43,
@@ -1575,7 +1999,17 @@
         "frequenza": "2-3 volte/settimana"
       },
       "precauzioni": "Attenzione a non compensare con iperlordosi lombare durante gli esercizi di estensione d'anca.",
-      "progressione": "Collegamento con la stabilizzazione in catena cinetica chiusa (Protocollo 10)."
+      "progressione": "Collegamento con la stabilizzazione in catena cinetica chiusa (Protocollo 10).",
+      "sequenzaVisiva": [
+        {
+          "pose": "bridge",
+          "label": "Ponte gluteo"
+        },
+        {
+          "pose": "quadruped",
+          "label": "Estensione d'anca"
+        }
+      ]
     },
     {
       "id": 44,
@@ -1610,7 +2044,17 @@
         "frequenza": "2-3 volte/settimana"
       },
       "precauzioni": "Movimenti lenti e controllati; la velocità eccessiva compromette la qualità del controllo segmentale.",
-      "progressione": "Propedeutico al rinforzo paravertebrale asimmetrico (Protocollo 12)."
+      "progressione": "Propedeutico al rinforzo paravertebrale asimmetrico (Protocollo 12).",
+      "sequenzaVisiva": [
+        {
+          "pose": "supine",
+          "label": "Posizione neutra"
+        },
+        {
+          "pose": "seated",
+          "label": "Controllo da seduto"
+        }
+      ]
     },
     {
       "id": 45,
@@ -1642,7 +2086,17 @@
         "frequenza": "4-5 volte/settimana a domicilio"
       },
       "precauzioni": "Includere solo esercizi già verificati come sicuri e ben eseguiti dal paziente in seduta, mai esercizi nuovi non supervisionati.",
-      "progressione": "Aggiornare il programma domiciliare ad ogni progressione significativa rilevata in studio."
+      "progressione": "Aggiornare il programma domiciliare ad ogni progressione significativa rilevata in studio.",
+      "sequenzaVisiva": [
+        {
+          "pose": "plank",
+          "label": "Routine a domicilio"
+        },
+        {
+          "pose": "supine",
+          "label": "Attivazione di base"
+        }
+      ]
     },
     {
       "id": 46,
@@ -1678,7 +2132,17 @@
         "frequenza": "2-3 volte/settimana"
       },
       "precauzioni": "Non aumentare la resistenza se compaiono compensi posturali o perdita dell'allineamento.",
-      "progressione": "Collegamento con il rinforzo paravertebrale asimmetrico mirato (Protocollo 12)."
+      "progressione": "Collegamento con il rinforzo paravertebrale asimmetrico mirato (Protocollo 12).",
+      "sequenzaVisiva": [
+        {
+          "pose": "band",
+          "label": "Trazione orizzontale"
+        },
+        {
+          "pose": "stand-front",
+          "label": "Rotazione controllata"
+        }
+      ]
     },
     {
       "id": 47,
@@ -1714,7 +2178,17 @@
         "frequenza": "2-3 volte/settimana"
       },
       "precauzioni": "Evitare la tendenza del paziente a trattenere il respiro durante lo sforzo (manovra di Valsalva).",
-      "progressione": "Preparatorio alla respirazione rotazionale integrata al movimento (Protocollo 68)."
+      "progressione": "Preparatorio alla respirazione rotazionale integrata al movimento (Protocollo 68).",
+      "sequenzaVisiva": [
+        {
+          "pose": "supine",
+          "label": "Core e diaframma"
+        },
+        {
+          "pose": "breathing",
+          "label": "Coordinazione respiro-core"
+        }
+      ]
     },
     {
       "id": 48,
@@ -1749,7 +2223,17 @@
         "frequenza": "Da adattare settimanalmente in base alla risposta clinica"
       },
       "precauzioni": "Qualunque aumento del dolore durante la ripresa richiede un rallentamento della progressione e, se persistente, una rivalutazione medica.",
-      "progressione": "Il ritorno al programma standard (Protocolli 9-12) avviene solo dopo un periodo stabile senza sintomatologia."
+      "progressione": "Il ritorno al programma standard (Protocolli 9-12) avviene solo dopo un periodo stabile senza sintomatologia.",
+      "sequenzaVisiva": [
+        {
+          "pose": "supine",
+          "label": "Ripresa graduale"
+        },
+        {
+          "pose": "clipboard",
+          "label": "Monitoraggio del dolore"
+        }
+      ]
     },
     {
       "id": 49,
@@ -1779,7 +2263,17 @@
         "frequenza": "2 volte/settimana nel lungo periodo, con rivalutazione ogni 3-6 mesi"
       },
       "precauzioni": "Il programma di mantenimento non sostituisce il follow-up clinico periodico della scoliosi nel suo complesso.",
-      "progressione": "In caso di calo della tenuta rilevato in rivalutazione, tornare temporaneamente a una fase più intensiva (Protocolli 9-12)."
+      "progressione": "In caso di calo della tenuta rilevato in rivalutazione, tornare temporaneamente a una fase più intensiva (Protocolli 9-12).",
+      "sequenzaVisiva": [
+        {
+          "pose": "plank",
+          "label": "Routine di mantenimento"
+        },
+        {
+          "pose": "walking",
+          "label": "Integrazione quotidiana"
+        }
+      ]
     },
     {
       "id": 50,
@@ -1815,7 +2309,17 @@
         "frequenza": "2-3 volte/settimana"
       },
       "precauzioni": "Supervisione attiva durante gli esercizi ad occhi chiusi per prevenire cadute.",
-      "progressione": "Propedeutico all'equilibrio dinamico con perturbazioni (Protocollo 15)."
+      "progressione": "Propedeutico all'equilibrio dinamico con perturbazioni (Protocollo 15).",
+      "sequenzaVisiva": [
+        {
+          "pose": "balance-one-leg",
+          "label": "Occhi aperti"
+        },
+        {
+          "pose": "stand-front",
+          "label": "Occhi chiusi"
+        }
+      ]
     },
     {
       "id": 51,
@@ -1850,7 +2354,17 @@
         "frequenza": "2 volte/settimana in seduta, promemoria quotidiano"
       },
       "precauzioni": "Evitare compensi asimmetrici di carico, soprattutto nei pazienti con obliquità pelvica.",
-      "progressione": "Transfer verso le attività quotidiane più ampie (Protocollo 6)."
+      "progressione": "Transfer verso le attività quotidiane più ampie (Protocollo 6).",
+      "sequenzaVisiva": [
+        {
+          "pose": "seated",
+          "label": "Da seduto"
+        },
+        {
+          "pose": "stand-front",
+          "label": "In piedi"
+        }
+      ]
     },
     {
       "id": 52,
@@ -1886,7 +2400,17 @@
         "frequenza": "1-2 volte/settimana"
       },
       "precauzioni": "Garantire sempre condizioni di sicurezza (corrimano, supervisione); non indicato in fase di forte instabilità dell'equilibrio.",
-      "progressione": "Collegamento con l'allenamento sportivo adattato (Protocollo 16) per gli sport che richiedono gesti simili."
+      "progressione": "Collegamento con l'allenamento sportivo adattato (Protocollo 16) per gli sport che richiedono gesti simili.",
+      "sequenzaVisiva": [
+        {
+          "pose": "stairs",
+          "label": "Salita e discesa scale"
+        },
+        {
+          "pose": "walking",
+          "label": "Controllo del passo"
+        }
+      ]
     },
     {
       "id": 53,
@@ -1921,7 +2445,17 @@
         "frequenza": "2 volte/settimana"
       },
       "precauzioni": "Adattare la complessità del compito coordinativo all'età e alle capacità motorie del paziente.",
-      "progressione": "Integrabile nei protocolli di attività sportiva adattata (Protocollo 16)."
+      "progressione": "Integrabile nei protocolli di attività sportiva adattata (Protocollo 16).",
+      "sequenzaVisiva": [
+        {
+          "pose": "walking",
+          "label": "Tocco crociato"
+        },
+        {
+          "pose": "band",
+          "label": "Coordinazione bilaterale"
+        }
+      ]
     },
     {
       "id": 54,
@@ -1956,7 +2490,17 @@
         "frequenza": "2-3 volte/settimana"
       },
       "precauzioni": "Evitare esercizi che sfruttino il range di movimento estremo tipico dell'ipermobilità; privilegiare sempre il controllo.",
-      "progressione": "Coordinarsi con il medico per l'inquadramento completo della condizione di ipermobilità, se non già fatto."
+      "progressione": "Coordinarsi con il medico per l'inquadramento completo della condizione di ipermobilità, se non già fatto.",
+      "sequenzaVisiva": [
+        {
+          "pose": "quadruped",
+          "label": "Controllo attivo"
+        },
+        {
+          "pose": "supine",
+          "label": "Stabilità articolare"
+        }
+      ]
     },
     {
       "id": 55,
@@ -1987,7 +2531,17 @@
         "frequenza": "2 volte/settimana, secondo tolleranza"
       },
       "precauzioni": "Qualunque segno di sfregamento, dolore o pressione eccessiva del corsetto durante l'attività va segnalato al tecnico ortopedico.",
-      "progressione": "Coordinarsi con il Protocollo 40 (esercizi di correzione in brace) per un programma coerente."
+      "progressione": "Coordinarsi con il Protocollo 40 (esercizi di correzione in brace) per un programma coerente.",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-straight",
+          "label": "Movimento in corsetto"
+        },
+        {
+          "pose": "walking",
+          "label": "Cammino in brace"
+        }
+      ]
     },
     {
       "id": 56,
@@ -2019,7 +2573,17 @@
         "frequenza": "1 volta/settimana, in piccoli gruppi se possibile"
       },
       "precauzioni": "Adattare intensità e regole del gioco al livello motorio e all'età dei partecipanti; supervisione costante.",
-      "progressione": "Buon ponte verso il ritorno all'attività sportiva strutturata (Protocolli 16, 59)."
+      "progressione": "Buon ponte verso il ritorno all'attività sportiva strutturata (Protocolli 16, 59).",
+      "sequenzaVisiva": [
+        {
+          "pose": "walking",
+          "label": "Reattività posturale"
+        },
+        {
+          "pose": "ball",
+          "label": "Gioco di squadra"
+        }
+      ]
     },
     {
       "id": 57,
@@ -2050,7 +2614,17 @@
         "frequenza": "Secondo indicazione clinica individuale"
       },
       "precauzioni": "Da utilizzare solo se disponibile e validato in studio; non tutti i pazienti rispondono bene a un feedback continuo, che può generare ansia.",
-      "progressione": "Valutare periodicamente l'effetto sul comportamento posturale generale, non solo durante l'uso del dispositivo."
+      "progressione": "Valutare periodicamente l'effetto sul comportamento posturale generale, non solo durante l'uso del dispositivo.",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-mirror",
+          "label": "Calibrazione del sensore"
+        },
+        {
+          "pose": "stand-front",
+          "label": "Feedback posturale"
+        }
+      ]
     },
     {
       "id": 58,
@@ -2081,7 +2655,17 @@
         "frequenza": "1-2 volte/settimana, secondo disponibilità"
       },
       "precauzioni": "Richiede la supervisione di un professionista con competenze specifiche in idrokinesiterapia; attenzione alla scelta dello stile di nuoto in base al pattern di curva.",
-      "progressione": "Complementare, non sostitutivo, al programma di trattamento a secco (Protocolli 1-57)."
+      "progressione": "Complementare, non sostitutivo, al programma di trattamento a secco (Protocolli 1-57).",
+      "sequenzaVisiva": [
+        {
+          "pose": "walking",
+          "label": "Esercizio in acqua"
+        },
+        {
+          "pose": "breathing",
+          "label": "Respirazione facilitata"
+        }
+      ]
     },
     {
       "id": 59,
@@ -2111,7 +2695,17 @@
         "frequenza": "Programma strutturato su diverse settimane, secondo lo sport specifico"
       },
       "precauzioni": "La decisione finale di rientro in competizione resta una decisione condivisa con il medico sportivo/ortopedico di riferimento.",
-      "progressione": "Una volta rientrato, il paziente prosegue con il programma di mantenimento a lungo termine (Protocollo 49) e controlli periodici."
+      "progressione": "Una volta rientrato, il paziente prosegue con il programma di mantenimento a lungo termine (Protocollo 49) e controlli periodici.",
+      "sequenzaVisiva": [
+        {
+          "pose": "walking",
+          "label": "Test funzionali"
+        },
+        {
+          "pose": "ball",
+          "label": "Gesto sportivo specifico"
+        }
+      ]
     },
     {
       "id": 60,
@@ -2146,7 +2740,17 @@
         "frequenza": "3 volte/settimana"
       },
       "precauzioni": "Evitare l'elevazione compensatoria delle spalle durante l'inspirazione.",
-      "progressione": "Propedeutico alla respirazione rotazionale specifica per il pattern di curva (Protocollo 19)."
+      "progressione": "Propedeutico alla respirazione rotazionale specifica per il pattern di curva (Protocollo 19).",
+      "sequenzaVisiva": [
+        {
+          "pose": "supine",
+          "label": "Mani sulle coste"
+        },
+        {
+          "pose": "breathing",
+          "label": "Espansione laterale"
+        }
+      ]
     },
     {
       "id": 61,
@@ -2181,7 +2785,17 @@
         "frequenza": "Quotidiano o secondo tolleranza"
       },
       "precauzioni": "Interrompere in caso di capogiro o iperventilazione; evitare respiri troppo rapidi e ravvicinati.",
-      "progressione": "I dati raccolti si integrano con la valutazione respiratoria periodica (Protocollo 17)."
+      "progressione": "I dati raccolti si integrano con la valutazione respiratoria periodica (Protocollo 17).",
+      "sequenzaVisiva": [
+        {
+          "pose": "seated",
+          "label": "Spirometro incentivante"
+        },
+        {
+          "pose": "breathing",
+          "label": "Inspirazione profonda"
+        }
+      ]
     },
     {
       "id": 62,
@@ -2213,7 +2827,17 @@
         "frequenza": "Più volte al giorno durante l'uso del corsetto"
       },
       "precauzioni": "Tecnica da impostare in stretto coordinamento con l'ortopedico/tecnico ortopedico responsabile del corsetto.",
-      "progressione": "Si integra con gli esercizi di correzione posturale in brace (Protocollo 40)."
+      "progressione": "Si integra con gli esercizi di correzione posturale in brace (Protocollo 40).",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-straight",
+          "label": "Finestre del corsetto"
+        },
+        {
+          "pose": "breathing",
+          "label": "Respiro diretto"
+        }
+      ]
     },
     {
       "id": 63,
@@ -2244,7 +2868,17 @@
         "frequenza": "Al bisogno, nei momenti identificati come critici"
       },
       "precauzioni": "In presenza di ansia significativa e persistente, suggerire alla famiglia un confronto con il pediatra di riferimento.",
-      "progressione": "Tecnica complementare, non sostitutiva, rispetto al percorso clinico-diagnostico necessario."
+      "progressione": "Tecnica complementare, non sostitutiva, rispetto al percorso clinico-diagnostico necessario.",
+      "sequenzaVisiva": [
+        {
+          "pose": "seated",
+          "label": "Respiro guidato"
+        },
+        {
+          "pose": "breathing",
+          "label": "Conteggio lento"
+        }
+      ]
     },
     {
       "id": 64,
@@ -2275,7 +2909,17 @@
         "frequenza": "Secondo indicazione del team multidisciplinare"
       },
       "precauzioni": "Protocollo da applicare solo in stretto coordinamento con il team medico-pneumologico; non adatto a un uso isolato dal fisioterapista.",
-      "progressione": "Gli obiettivi e la progressione sono definiti e rivisti periodicamente insieme al team medico."
+      "progressione": "Gli obiettivi e la progressione sono definiti e rivisti periodicamente insieme al team medico.",
+      "sequenzaVisiva": [
+        {
+          "pose": "supine",
+          "label": "Sedute brevi"
+        },
+        {
+          "pose": "breathing",
+          "label": "Respiro a bassa intensità"
+        }
+      ]
     },
     {
       "id": 65,
@@ -2305,7 +2949,17 @@
         "frequenza": "2 volte/settimana"
       },
       "precauzioni": "Non forzare un ritmo respiratorio innaturale che generi affanno; adattare il rapporto respiro-passo alle capacità individuali.",
-      "progressione": "Si integra con il programma di controllo motorio dinamico (Protocollo 14)."
+      "progressione": "Si integra con il programma di controllo motorio dinamico (Protocollo 14).",
+      "sequenzaVisiva": [
+        {
+          "pose": "walking",
+          "label": "Coordinazione respiro-passo"
+        },
+        {
+          "pose": "breathing",
+          "label": "Ritmo respiratorio"
+        }
+      ]
     },
     {
       "id": 66,
@@ -2335,7 +2989,17 @@
         "frequenza": "Secondo il protocollo ospedaliero specifico del caso"
       },
       "precauzioni": "Questo protocollo non sostituisce in alcun modo le indicazioni del team chirurgico; ogni fase va concordata con l'équipe ospedaliera.",
-      "progressione": "Il rientro al percorso riabilitativo ambulatoriale completo avviene secondo i tempi indicati dal chirurgo."
+      "progressione": "Il rientro al percorso riabilitativo ambulatoriale completo avviene secondo i tempi indicati dal chirurgo.",
+      "sequenzaVisiva": [
+        {
+          "pose": "supine",
+          "label": "Spirometro post-operatorio"
+        },
+        {
+          "pose": "breathing",
+          "label": "Respiro assistito"
+        }
+      ]
     },
     {
       "id": 67,
@@ -2366,7 +3030,17 @@
         "frequenza": "2-3 volte/settimana"
       },
       "precauzioni": "Verificare l'assenza di controindicazioni cardiorespiratorie con il pediatra prima di avviare un programma aerobico strutturato.",
-      "progressione": "Si integra con il programma di ritorno all'attività sportiva (Protocollo 59), se applicabile."
+      "progressione": "Si integra con il programma di ritorno all'attività sportiva (Protocollo 59), se applicabile.",
+      "sequenzaVisiva": [
+        {
+          "pose": "walking",
+          "label": "Attività aerobica"
+        },
+        {
+          "pose": "breathing",
+          "label": "Resistenza respiratoria"
+        }
+      ]
     },
     {
       "id": 68,
@@ -2399,7 +3073,17 @@
         "frequenza": "Ad ogni seduta di stabilizzazione/controllo motorio"
       },
       "precauzioni": "La tendenza a trattenere il respiro sotto sforzo (Valsalva) va sempre corretta attivamente.",
-      "progressione": "Obiettivo finale: un pattern respiratorio efficiente automatizzato in ogni condizione, statica e dinamica."
+      "progressione": "Obiettivo finale: un pattern respiratorio efficiente automatizzato in ogni condizione, statica e dinamica.",
+      "sequenzaVisiva": [
+        {
+          "pose": "plank",
+          "label": "Esercizio dinamico"
+        },
+        {
+          "pose": "breathing",
+          "label": "Respiro sotto sforzo"
+        }
+      ]
     },
     {
       "id": 69,
@@ -2430,7 +3114,17 @@
         "frequenza": "Sessione educativa periodica, con richiami ad ogni controllo"
       },
       "precauzioni": "Verificare periodicamente che la pratica domiciliare non si sia deteriorata nel tempo, correggendo eventuali imprecisioni.",
-      "progressione": "Elemento di raccordo verso il programma di mantenimento a lungo termine (Protocollo 49/70)."
+      "progressione": "Elemento di raccordo verso il programma di mantenimento a lungo termine (Protocollo 49/70).",
+      "sequenzaVisiva": [
+        {
+          "pose": "clipboard",
+          "label": "Materiale educativo"
+        },
+        {
+          "pose": "seated",
+          "label": "Pratica quotidiana"
+        }
+      ]
     },
     {
       "id": 70,
@@ -2459,7 +3153,21 @@
         "frequenza": "Programma individualizzato, con rivalutazione periodica"
       },
       "precauzioni": "Il programma di mantenimento non sostituisce mai il follow-up medico-ortopedico periodico della scoliosi.",
-      "progressione": "Questo protocollo chiude idealmente il percorso dei 70 protocolli, riportando il paziente, se necessario, a qualunque area specifica del manuale."
+      "progressione": "Questo protocollo chiude idealmente il percorso dei 70 protocolli, riportando il paziente, se necessario, a qualunque area specifica del manuale.",
+      "sequenzaVisiva": [
+        {
+          "pose": "stand-mirror",
+          "label": "Postura"
+        },
+        {
+          "pose": "plank",
+          "label": "Stabilità"
+        },
+        {
+          "pose": "breathing",
+          "label": "Respirazione"
+        }
+      ]
     }
   ]
 }

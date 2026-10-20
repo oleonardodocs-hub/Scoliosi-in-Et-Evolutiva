@@ -35,6 +35,33 @@
     "lungs": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v7m0 0c0 3-2 4-4 5s-3 3-3 5a2 2 0 004 0c0-1 .5-2 2-2m1-8c0 3 2 4 4 5s3 3 3 5a2 2 0 01-4 0c0-1-.5-2-2-2"/></svg>'
   };
 
+  /* Pittogrammi clinici: figure stilizzate in stile "scheda esercizi fisioterapica",
+     usate per mostrare in modo visivo e immediato la posizione/azione di ogni fase. */
+  const PICTO_WRAP = (inner) => `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round">${inner}</svg>`;
+  const HEAD = (cx, cy) => `<circle cx="${cx}" cy="${cy}" r="4.6" fill="currentColor" stroke="none"/>`;
+
+  const PICTO = {
+    "stand-front": PICTO_WRAP(HEAD(24,9) + `<path d="M24 13.5V30M24 16.5L15 27M24 16.5L33 27M24 30L18 44M24 30L30 44"/>`),
+    "stand-mirror": PICTO_WRAP(HEAD(18,9) + `<path d="M18 13.5V30M18 16.5L9 27M18 16.5L27 27M18 30L12 44M18 30L24 44"/><path d="M41 4V44" stroke-dasharray="3 4"/>`),
+    "stand-straight": PICTO_WRAP(HEAD(24,9) + `<path d="M24 13.5V30M24 16.5L15 27M24 16.5L33 27M24 30L18 44M24 30L30 44"/><path d="M12 20H17M14.5 17.5L17 20L14.5 22.5M36 20H31M33.5 17.5L31 20L33.5 22.5"/>`),
+    "forward-bend": PICTO_WRAP(HEAD(35,15) + `<path d="M31.5 19L20 28M31.5 19L35 32M20 28L15 44M20 28L25 44"/>`),
+    "prone": PICTO_WRAP(HEAD(9,22) + `<path d="M13.5 24H34M18 24L14 15M34 24L42 17M34 24L42 30"/>`),
+    "supine": PICTO_WRAP(HEAD(9,29) + `<path d="M13.5 29H27M27 29L33 20L27.5 18M16 29L12 20"/>`),
+    "side-lying": PICTO_WRAP(HEAD(11,23) + `<path d="M15.5 25Q25 27 32 21M32 21L40 17M32 21L36 27M17 26L13 32"/>`),
+    "quadruped": PICTO_WRAP(HEAD(11,19) + `<path d="M15.5 21L34 26M18 22V40M32 25V40"/>`),
+    "plank": PICTO_WRAP(HEAD(9,23) + `<path d="M13.5 24H36M15 24V38M36 24L41 39"/>`),
+    "bridge": PICTO_WRAP(HEAD(9,31) + `<path d="M13 31H18M18 31L24 21H32L37 31" /><path d="M11 33L16 33"/>`),
+    "seated": PICTO_WRAP(HEAD(23,9) + `<path d="M23 13.5V26M23 17L17 23M18 10V26H24M33 26V40M23 26H33"/>`),
+    "balance-one-leg": PICTO_WRAP(HEAD(24,9) + `<path d="M24 13.5V28M24 16.5L16 22M24 16.5L32 22M24 28L20 44M24 28L29 34L25 36"/>`),
+    "walking": PICTO_WRAP(HEAD(24,9) + `<path d="M24 13.5V27M24 16.5L18 25M24 16.5L31 23M24 27L32 44M24 27L17 40"/>`),
+    "stairs": PICTO_WRAP(`<path d="M4 44H14V37H24V30H34" stroke-width="2.6"/>` + HEAD(34,21) + `<path d="M34 25.5V31"/>`),
+    "breathing": PICTO_WRAP(`<path d="M24 7C15 9 10 18 12 29C13 35 18 40 24 40C30 40 35 35 36 29C38 18 33 9 24 7Z"/><path d="M8 23H3M3 23L6 20M3 23L6 26M40 23H45M45 23L42 20M45 23L42 26"/>`),
+    "band": PICTO_WRAP(HEAD(24,9) + `<path d="M24 13.5V29M24 29L19 44M24 29L29 44M24 17L11 21M24 17L37 21"/><path d="M11 21Q17 26 24 21T37 21" stroke-width="2.6"/>`),
+    "ball": PICTO_WRAP(`<circle cx="32" cy="28" r="11"/>` + HEAD(11,12) + `<path d="M11 16.5V26M11 19.5L6 24M11 26L7 38M11 26L15 33"/>`),
+    "clipboard": PICTO_WRAP(`<rect x="11" y="9" width="26" height="34" rx="3"/><path d="M19 6.5A3 3 0 0122 4h4a3 3 0 013 2.5V10H19z"/><path d="M17 20H31M17 27H31M17 34H25"/>`),
+    "spine-xray": PICTO_WRAP(`<circle cx="23" cy="8" r="3" fill="currentColor" stroke="none"/><circle cx="26" cy="15" r="3" fill="currentColor" stroke="none"/><circle cx="22" cy="22" r="3" fill="currentColor" stroke="none"/><circle cx="19" cy="29" r="3" fill="currentColor" stroke="none"/><circle cx="23" cy="36" r="3" fill="currentColor" stroke="none"/><circle cx="26" cy="43" r="3" fill="currentColor" stroke="none"/><path d="M14 15H20M30 22H16M28 29H13" stroke-width="2.2"/>`)
+  };
+
   const ACC_ICONS = {
     obiettivo: ICONS.target,
     indicazioni: ICONS.clipboard,
@@ -104,9 +131,13 @@
   function protoCardHTML(p) {
     const favs = getFavorites();
     const isFav = favs.includes(p.id);
+    const firstPose = p.sequenzaVisiva && p.sequenzaVisiva[0];
     return `
     <div class="proto-card" data-id="${p.id}" role="button">
-      <div class="numero-badge">${String(p.numero).padStart(2, "0")}</div>
+      <div class="card-badges">
+        <div class="numero-badge">${String(p.numero).padStart(2, "0")}</div>
+        ${firstPose ? `<div class="picto-badge">${PICTO[firstPose.pose] || ""}</div>` : ""}
+      </div>
       <div class="pc-body">
         <h4>${p.titolo}</h4>
         <div class="pc-sub">${p.sottotitolo || ""}</div>
@@ -256,6 +287,12 @@
     const doneSteps = new Set(progress[p.id] || []);
     const inSession = getSession().includes(p.id);
 
+    const visualSeq = (p.sequenzaVisiva || []).map(s => `
+      <div class="visu-item">
+        <div class="visu-icon">${PICTO[s.pose] || PICTO["clipboard"]}</div>
+        <div class="visu-label">${s.label}</div>
+      </div>`).join("");
+
     const statTiles = [];
     if (p.parametri) {
       const labels = { serie: "Serie", ripetizioni: "Ripetizioni", durata: "Durata", frequenza: "Frequenza" };
@@ -301,6 +338,7 @@
           <span class="badge lvl-eta">${p.eta}</span>
         </div>
       </div>
+      ${visualSeq ? `<div class="visual-sequence"><div class="visu-track">${visualSeq}</div></div>` : ""}
       ${statTiles.length ? `<div class="stat-tiles">${statTiles.join("")}</div>` : ""}
       <div class="accordion">${accItems.join("")}</div>
       ${p.precauzioni ? `<div class="warn-box">${ICONS.warn}<p><b>Precauzioni:</b> ${p.precauzioni}</p></div>` : ""}
