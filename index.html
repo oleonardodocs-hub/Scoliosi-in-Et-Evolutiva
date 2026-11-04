@@ -2,155 +2,463 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
-<title>Scoliosi in Età Evolutiva — 70 Protocolli Riabilitativi</title>
-<meta name="description" content="Manuale clinico digitale con 70 protocolli riabilitativi per fisioterapisti: valutazione, correzione tridimensionale, stabilizzazione, controllo motorio e rieducazione respiratoria per la scoliosi in età evolutiva.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Scoliosi in Età Evolutiva | I tuoi materiali</title>
+<meta name="robots" content="noindex">
 <meta name="theme-color" content="#0A2541">
-<link rel="manifest" href="manifest.json">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/icons/icon-180.png">
-<link rel="icon" href="assets/icons/icon-32.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy-900:#061A33;--navy-800:#0A2541;--navy-700:#123A63;--navy-600:#1B4F7C;
+  --orange:#1AA6BA;--orange-2:#27C6D4;--gold:#7BE3EE;--blue:#2563eb;--terra:#0F7F94;
+  --panel:#EEF5F9;--ink:#0A2541;--muted:#6A8197;--line:#DDE8F0;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit;text-align:left}
+input{font:inherit;color:inherit}
+a{color:inherit;text-decoration:none}
+svg{display:block;flex:none}
+:focus-visible{outline:3px solid var(--orange);outline-offset:2px;border-radius:8px}
+
+.app{display:grid;grid-template-columns:250px 420px 1fr;min-height:100vh}
+
+/* sidebar */
+.side{padding:32px 20px;display:flex;flex-direction:column;position:sticky;top:0;height:100vh}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;line-height:1.05}
+.logo-mark{width:40px;height:40px;border-radius:50%;background:var(--navy-800);color:var(--orange);display:grid;place-items:center;font-size:21px}
+.logo small{display:block;font-size:10px;font-weight:700;color:var(--muted);letter-spacing:.1em;text-transform:uppercase}
+.nav-t{font-size:11px;font-weight:800;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;margin:40px 12px 10px}
+.nav{display:grid;gap:4px}
+.nav button,.nav a{display:flex;align-items:center;gap:12px;padding:9px 10px;border-radius:12px;color:var(--muted);font-weight:600;font-size:13.5px;width:100%;line-height:1.3}
+.nav .ni{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;font-size:11px;font-weight:800;flex:none;background:var(--panel)}
+.nav .on{color:var(--ink);background:var(--panel)}
+.nav .on .ni{background:var(--orange);color:#fff;box-shadow:0 8px 18px rgba(184,137,46,.35)}
+.nav button:hover,.nav a:hover{color:var(--ink)}
+.side-card{margin-top:auto;background:var(--navy-800);color:#fff;border-radius:18px;padding:20px}
+.side-card b{display:block;font-size:14px;margin-bottom:4px}
+.side-card p{font-size:12.5px;color:#c3cbe6;line-height:1.5}
+
+/* middle */
+.mid{background:var(--panel);border-radius:34px;margin:14px 0;padding:34px 28px;overflow:auto;max-height:calc(100vh - 28px);position:sticky;top:14px}
+.mid h1{font-size:27px;font-weight:800;letter-spacing:-.02em;line-height:1.15}
+.mid .sub{color:var(--orange);font-weight:700;font-size:14px;margin-top:6px}
+.count{display:flex;gap:10px;margin:22px 0 26px}
+.count div{flex:1;background:#fff;border-radius:16px;padding:14px 16px}
+.count b{display:block;font-size:22px;line-height:1.1}
+.count span{font-size:12px;color:var(--muted)}
+.mods-t{font-size:17px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.mods{display:grid;gap:14px}
+.mod{border-radius:20px;padding:18px;color:#fff;display:grid;grid-template-columns:50px 1fr 62px;gap:14px;align-items:center;width:100%;transition:transform .2s,box-shadow .2s}
+.mod:hover{transform:translateY(-2px)}
+.mod.sel{box-shadow:0 0 0 3px #fff,0 0 0 6px var(--orange)}
+.mod.light{color:var(--navy-800)}
+.mod .ci{width:50px;height:50px;border-radius:14px;background:rgba(255,255,255,.16);display:grid;place-items:center}
+.mod.light .ci{background:rgba(11,21,48,.08)}
+.mod small{font-size:11px;font-weight:800;letter-spacing:.12em;opacity:.8}
+.mod h3{font-size:15px;line-height:1.3;font-weight:800;margin-top:2px}
+.mod .num{background:#fff;color:var(--navy-800);border-radius:12px;text-align:center;padding:8px 4px}
+.mod .num b{display:block;font-size:19px;line-height:1.1}
+.mod .num span{font-size:10px;color:var(--muted)}
+
+/* right */
+.right{padding:34px 36px 60px;min-width:0}
+.search{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:14px;padding:13px 16px;color:var(--muted)}
+.search input{border:0;outline:0;flex:1;background:none;color:var(--ink)}
+.back{display:none;align-items:center;gap:8px;font-weight:700;font-size:14px;color:var(--muted);margin:16px 0 0}
+.mh{display:flex;align-items:center;gap:16px;margin:30px 0 8px}
+.mh .ci{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;color:#fff}
+.mh small{font-size:11px;font-weight:800;letter-spacing:.14em;color:var(--orange);text-transform:uppercase}
+.mh h2{font-size:22px;line-height:1.25;letter-spacing:-.01em}
+.mdesc{color:var(--muted);font-size:14px;margin-bottom:20px}
+.docs{display:grid;gap:10px}
+.doc{display:grid;grid-template-columns:40px 1fr auto;gap:14px;align-items:center;border:1px solid var(--line);border-radius:16px;padding:12px 14px}
+.doc .di{width:40px;height:40px;border-radius:11px;background:var(--panel);display:grid;place-items:center;font-size:12px;font-weight:800;color:var(--navy-700)}
+.doc b{font-size:14px;display:block;line-height:1.35}
+.doc small{font-size:12px;color:var(--muted)}
+.doc .ok{color:#16a34a;font-weight:700}
+.acts{display:flex;gap:8px}
+.dl{display:inline-flex;align-items:center;gap:6px;padding:9px 13px;border-radius:10px;font-size:12px;font-weight:800}
+.dl.w{background:var(--navy-800);color:#fff}
+.dl.p{background:#E1F4F7;color:var(--terra)}
+.none{color:var(--muted);font-size:14px;padding:30px 0;text-align:center}
+.guide{display:grid;gap:12px;margin-top:26px}
+.step{border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:grid;grid-template-columns:34px 1fr;gap:14px}
+.step i{width:34px;height:34px;border-radius:10px;background:var(--orange);color:#fff;display:grid;place-items:center;font-style:normal;font-weight:800}
+.step b{display:block;margin-bottom:3px}
+.step p{font-size:14px;color:#4a5375;line-height:1.55}
+.note{background:var(--panel);border-left:4px solid var(--orange);border-radius:8px;padding:14px 16px;font-size:13px;color:#4a5375;line-height:1.55}
+
+.nav-t2{margin-top:26px}
+.star{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;color:#c0c6d8}
+.star.on{color:var(--gold)}
+.star.on svg{fill:currentColor}
+.hello{display:flex;align-items:center;gap:12px;margin-bottom:22px;width:100%}
+.avatar{width:44px;height:44px;border-radius:14px;background:var(--navy-700);color:#fff;display:grid;place-items:center;font-weight:800;flex:none}
+.hello b{display:block;font-size:15px}
+.hello small{font-size:12px;color:var(--orange);font-weight:700}
+/* agenda */
+.tabs{display:flex;gap:26px;border-bottom:1px solid var(--line);font-size:13px;color:var(--muted);margin-top:8px}
+.tabs button{padding:10px 0;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs button.on{color:var(--ink);font-weight:700;border-color:var(--ink)}
+.tabs .add{margin:0 0 6px auto;padding:9px 14px;border-bottom:0;white-space:nowrap}
+.tabs button{white-space:nowrap}
+.add{margin-left:auto;display:inline-flex;align-items:center;gap:8px;background:var(--orange);color:#fff;font-weight:800;font-size:13px;padding:10px 16px;border-radius:12px;box-shadow:0 8px 18px rgba(184,137,46,.3)}
+.grid-wrap{overflow-x:auto}
+.week{position:relative;display:grid;grid-template-columns:48px repeat(6,minmax(72px,1fr));min-width:540px}
+.week .dh{text-align:center;font-size:12px;font-weight:700;padding:12px 0}
+.week .dh small{display:block;color:var(--muted);font-weight:500}
+.week .dh.today{color:var(--orange)}
+.week .tc{font-size:10px;color:var(--muted);height:44px;padding-top:2px}
+.week .cell{border-left:1px solid var(--line);border-top:1px dashed var(--line);height:44px;cursor:pointer}
+.week .cell:hover{background:#fff7f1}
+.appt{position:absolute;border-radius:8px;padding:3px 8px;font-size:11px;font-weight:700;color:#fff;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;box-shadow:0 6px 14px rgba(15,26,58,.15);cursor:pointer}
+.hint{font-size:13px;color:var(--muted);margin:12px 0 0}
+.modal{position:fixed;inset:0;background:rgba(7,13,31,.55);display:none;place-items:center;z-index:60;padding:20px}
+.modal.on{display:grid}
+.box{background:#fff;border-radius:22px;padding:26px;width:100%;max-width:420px;display:grid;gap:14px}
+.box h3{font-size:18px}
+.box label{font-size:12px;font-weight:700;color:var(--muted);display:grid;gap:6px}
+.box input,.box select{border:1px solid var(--line);border-radius:12px;padding:11px 12px;background:#fff;font:inherit;color:var(--ink)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.colors{display:flex;gap:10px}
+.colors button{width:30px;height:30px;border-radius:50%;border:3px solid transparent}
+.colors button.on{border-color:var(--ink)}
+.box-acts{display:flex;gap:10px;justify-content:flex-end;margin-top:6px}
+.btn{padding:12px 18px;border-radius:12px;font-weight:800;font-size:14px}
+.btn.pri{background:var(--orange);color:#fff}
+.btn.sec{background:var(--panel)}
+.btn.del{color:#dc2626;margin-right:auto}
+.lz-card{border-radius:20px;padding:18px;color:#fff;display:grid;grid-template-columns:50px 1fr 62px;gap:14px;align-items:center;width:100%;background:linear-gradient(135deg,#0A2541,#1B4F7C);border:2px solid var(--orange);margin-top:14px}
+.lz-card .ci{width:50px;height:50px;border-radius:14px;background:rgba(255,255,255,.12);display:grid;place-items:center;color:var(--orange-2)}
+.lz-card small{font-size:11px;font-weight:800;letter-spacing:.12em;color:var(--orange-2)}
+.lz-card h3{font-size:15px;line-height:1.3;font-weight:800;margin-top:2px}
+.lz-card .num{background:#fff;color:var(--navy-800);border-radius:12px;text-align:center;padding:8px 4px}
+.lz-card .num b{display:block;font-size:19px;line-height:1.1}.lz-card .num span{font-size:10px;color:var(--muted)}
+.lzl{display:grid;gap:10px}
+.lzi{display:grid;grid-template-columns:54px 1fr auto;gap:14px;align-items:center;border:1px solid var(--line);border-radius:16px;padding:12px 14px;width:100%}
+.lzi .th{width:54px;height:40px;border-radius:10px;background:linear-gradient(135deg,#0A2541,#1B4F7C);display:grid;place-items:center;color:var(--orange-2)}
+.lzi b{display:block;font-size:14px}.lzi small{font-size:12px;color:var(--muted)}
+.lzi .ok{color:#16a34a;font-weight:700}
+.player{position:relative;aspect-ratio:16/9;border-radius:20px;overflow:hidden;background:radial-gradient(120% 90% at 50% 10%,#1B4F7C,#0A2541 60%,#061A33);color:#fff;margin-top:20px;box-shadow:0 24px 60px rgba(13,27,62,.35)}
+.scene{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:6% 10% 18%;opacity:0;transform:scale(1.03);transition:opacity .7s,transform 7s linear}
+.scene.on{opacity:1;transform:scale(1)}
+.scene .big{width:clamp(64px,12vw,110px);height:clamp(64px,12vw,110px);border-radius:50%;border:2px solid var(--orange);display:grid;place-items:center;color:var(--orange-2);margin:0 auto 4%;box-shadow:0 0 0 10px rgba(184,137,46,.08),0 0 0 22px rgba(184,137,46,.05);animation:pulse 3s ease-in-out infinite}
+.scene .big svg{width:45%;height:45%}
+@keyframes pulse{50%{box-shadow:0 0 0 14px rgba(184,137,46,.12),0 0 0 30px rgba(184,137,46,.04)}}
+.scene h3{font-family:Georgia,serif;font-size:clamp(17px,2.6vw,28px);letter-spacing:.02em;margin-bottom:2%}
+.scene p{font-size:clamp(12.5px,1.6vw,17px);color:#d5dbef;max-width:640px;margin:0 auto;line-height:1.55}
+.scene .tag{position:absolute;top:5%;left:5%;font-size:11px;font-weight:800;letter-spacing:.16em;color:var(--orange-2)}
+.ctrl{position:absolute;left:0;right:0;bottom:0;padding:12px 16px;background:linear-gradient(transparent,rgba(7,15,36,.9));display:flex;align-items:center;gap:12px}
+.ctrl button{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;color:#fff;background:rgba(255,255,255,.12)}
+.ctrl button.pp{background:var(--orange)}
+.bars{flex:1;display:flex;gap:4px}
+.bars i{flex:1;height:4px;border-radius:4px;background:rgba(255,255,255,.25);overflow:hidden;position:relative}
+.bars i b{position:absolute;inset:0;width:0;background:var(--orange-2)}
+.ctrl small{font-size:11px;color:#c3cbe6;white-space:nowrap}
+.cap{margin-top:16px;font-size:14px;color:#4a5375;line-height:1.6}
+.dl.v{background:var(--panel);color:var(--navy-800)}
+.viewer{position:fixed;inset:0;z-index:80;background:rgba(7,15,36,.75);display:none;padding:24px}
+.viewer.on{display:flex;flex-direction:column}
+.vbar{display:flex;align-items:center;gap:10px;background:#fff;border-radius:16px 16px 0 0;padding:12px 16px}
+.vbar b{flex:1;font-size:14px;color:var(--navy-800);overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.vbar .x{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:var(--panel)}
+.viewer iframe{flex:1;width:100%;border:0;background:#fff;border-radius:0 0 16px 16px}
+.bnav{display:none}
+.toast{position:fixed;left:50%;bottom:96px;transform:translateX(-50%) translateY(20px);background:var(--navy-800);color:#fff;padding:12px 18px;border-radius:12px;font-size:13px;font-weight:600;opacity:0;pointer-events:none;transition:.3s;z-index:70;max-width:90vw;text-align:center}
+.toast.on{opacity:1;transform:translateX(-50%)}
+@media(max-width:1200px){
+  .app{grid-template-columns:84px 380px 1fr}
+  .side{padding:28px 14px;align-items:center}
+  .logo span,.nav-t,.nav .lbl,.side-card{display:none}
+  .nav button,.nav a{justify-content:center;padding:6px}
+}
+@media(max-width:860px){
+  .app{display:block}
+  .side{display:none}
+  .mid{position:static;max-height:none;margin:0;border-radius:0 0 28px 28px;padding:calc(28px + env(safe-area-inset-top,0px)) 18px 28px}
+  .right{padding:24px 18px 50px}
+  body.open .mid{display:none}
+  body:not(.open) .right .module{display:none}
+  body.open .back{display:inline-flex}
+  body:not(.open) .mod.sel{box-shadow:none}
+  .tabs{gap:16px;font-size:12px}
+  .doc{grid-template-columns:36px 1fr}
+  .doc .di{width:36px;height:36px}
+  .acts{grid-column:1/-1;flex-wrap:wrap;gap:6px;justify-content:flex-end}
+  .doc>span{min-width:0}
+  .dl{padding:8px 10px}
+  body{padding-bottom:calc(72px + env(safe-area-inset-bottom,0px))}
+  .player{aspect-ratio:3/4}
+  .scene{padding:10% 8% 22%}
+  .bnav{display:flex;justify-content:space-around;position:fixed;left:0;right:0;bottom:0;z-index:50;background:#fff;border-top:1px solid var(--line);padding:8px 6px calc(8px + env(safe-area-inset-bottom,0px))}
+  .bnav button{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10.5px;font-weight:700;color:var(--muted);padding:4px 10px;text-align:center}
+  .bnav button.on{color:var(--orange)}
+}
+</style>
 </head>
 <body>
-<div class="app-shell" id="app-shell">
-
-  <!-- ONBOARDING -->
-  <section class="onboarding" id="view-onboarding">
-    <div class="ob-top">
-      <img class="ob-logo" src="assets/icons/icon-192.png" alt="Scoliosi in Età Evolutiva">
-      <span class="eyebrow-pill">Riservato a Fisioterapisti</span>
-      <h2>Scoliosi in <span>Età Evolutiva</span></h2>
-      <p class="lead">Il manuale clinico diventa app: 70 protocolli riabilitativi organizzati per valutazione, correzione tridimensionale, stabilizzazione, controllo motorio e rieducazione respiratoria. Pronti da consultare in seduta.</p>
-      <div class="ob-stats">
-        <div class="stat"><b id="ob-stat-total">70</b><span>Protocolli totali</span></div>
-        <div class="stat"><b>5</b><span>Aree cliniche</span></div>
-        <div class="stat"><b id="ob-stat-ready">20</b><span>Già disponibili</span></div>
-      </div>
-    </div>
-    <div class="ob-bottom">
-      <button class="btn-primary" id="btn-start">Entra nel Manuale →</button>
-      <p class="disclaimer">Contenuto clinico di riferimento per professionisti abilitati. L'applicazione dei protocolli richiede sempre il giudizio professionale del fisioterapista e la valutazione individuale del paziente.</p>
-    </div>
-  </section>
-
-  <!-- HEADER (app interno) -->
-  <header class="app-header" id="app-header" hidden>
-    <button class="icon-btn" id="btn-back" hidden aria-label="Indietro">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
-    </button>
-    <div class="brand">
-      <img src="assets/icons/icon-192.png" alt="">
-      <div class="titles">
-        <div class="eyebrow">Scoliosi in Età Evolutiva</div>
-        <h1 id="header-title">70 Protocolli Riabilitativi</h1>
-      </div>
-    </div>
-    <button class="icon-btn" id="btn-search-toggle" aria-label="Cerca">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-    </button>
-  </header>
-
-  <main id="main-content">
-
-    <!-- HOME -->
-    <section class="view" id="view-home" hidden>
-      <div class="hero-card">
-        <span class="eyebrow">Sistema clinico</span>
-        <h2>Dalla valutazione al trattamento, protocollo per protocollo.</h2>
-        <p>Consulta il protocollo giusto per ogni fase della riabilitazione, direttamente durante la seduta.</p>
-        <div class="hero-progress">
-          <div class="bar-track"><div class="bar-fill" id="home-progress-fill" style="width:28%"></div></div>
-          <div class="bar-label" id="home-progress-label">70 di 70 protocolli disponibili</div>
-        </div>
-      </div>
-
-      <div class="section">
-        <div class="section-title"><h3>Aree cliniche</h3></div>
-      </div>
-      <div class="cat-grid" id="category-grid"></div>
-
-      <div class="section">
-        <div class="section-title"><h3>Continua da dove avevi lasciato</h3></div>
-      </div>
-      <div class="proto-list" id="recent-list"></div>
-    </section>
-
-    <!-- CATEGORIES INDEX -->
-    <section class="view" id="view-categories" hidden>
-      <div class="section">
-        <div class="section-title"><h3>Tutte le aree cliniche</h3></div>
-      </div>
-      <div class="cat-grid" id="category-grid-full"></div>
-    </section>
-
-    <!-- CATEGORY / LIST -->
-    <section class="view" id="view-category" hidden>
-      <div class="chip-row" id="level-filter-row"></div>
-      <div class="proto-list" id="category-proto-list"></div>
-    </section>
-
-    <!-- SEARCH -->
-    <section class="view" id="view-search" hidden>
-      <div class="search-bar">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-        <input type="text" id="search-input" placeholder="Cerca per titolo, categoria, muscolo...">
-      </div>
-      <div class="proto-list" id="search-results"></div>
-    </section>
-
-    <!-- PROTOCOL DETAIL -->
-    <section class="view" id="view-protocol" hidden></section>
-
-    <!-- SESSION MODE -->
-    <section class="view" id="view-session" hidden>
-      <div class="section-title" style="padding:18px 18px 0;">
-        <h3>Modalità Seduta</h3>
-        <a class="see-all" id="btn-clear-session">Svuota</a>
-      </div>
-      <div class="session-head">
-        <div class="session-progress-ring-wrap">
-          <div style="flex:1">
-            <div class="bar-track"><div class="bar-fill" id="session-progress-fill" style="width:0%"></div></div>
-            <div class="bar-label" id="session-progress-label" style="margin-top:8px;">Nessun protocollo in seduta</div>
-          </div>
-        </div>
-      </div>
-      <div class="session-list" id="session-list"></div>
-    </section>
-
-    <!-- FAVORITES -->
-    <section class="view" id="view-favorites" hidden>
-      <div class="proto-list" id="favorites-list"></div>
-    </section>
-
-  </main>
-
-  <nav class="bottom-nav" id="bottom-nav">
-    <button class="nav-btn" data-route="home">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
-      Home
-    </button>
-    <button class="nav-btn" data-route="categorie">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
-      Categorie
-    </button>
-    <button class="nav-btn" data-route="sessione">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
-      Seduta
-      <span class="nav-badge" id="session-badge" hidden>0</span>
-    </button>
-    <button class="nav-btn" data-route="preferiti">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7.5-4.6-10-9.3C.3 7.9 2 4.5 5.4 4c2-.3 3.9.7 5.1 2.3C11.7 4.7 13.6 3.7 15.6 4c3.4.5 5.1 3.9 3.4 7.7C16.5 16.4 12 21 12 21z"/></svg>
-      Preferiti
-    </button>
-  </nav>
-
-  <div class="toast" id="toast"></div>
+<div class="app">
+  <aside class="side">
+    <div class="logo"><div class="logo-mark">S</div><span>Scoliosi<small>in Età Evolutiva</small></span></div>
+    <div class="nav-t">Moduli</div>
+    <nav class="nav" id="nav"></nav>
+    <div class="nav-t nav-t2">Materiali</div>
+    <nav class="nav" id="nav2"></nav>
+    <div class="side-card"><b>Accesso a vita</b><p>Scarica protocolli e schede tutte le volte che vuoi. Gli aggiornamenti appaiono qui.</p></div>
+  </aside>
+  <section class="mid" id="mid"></section>
+  <main class="right" id="right"></main>
 </div>
+<nav class="bnav" id="bnav"></nav>
+<div class="toast" id="toast" role="status"></div>
+<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-label="Anteprima del documento">
+  <div class="vbar"><b id="vTitle"></b><a class="dl w" id="vWord" download>Word</a><a class="dl p" id="vPdf" download>PDF</a><button class="x" id="vClose" aria-label="Chiudi"></button></div>
+  <iframe id="vFrame" title="Anteprima"></iframe>
+</div>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+  <div class="box">
+    <h3 id="mTitle">Nuovo appuntamento</h3>
+    <label>Paziente o nota<input id="mText" maxlength="40" placeholder="Es. Colloquio con M. R."></label>
+    <div class="row2">
+      <label>Giorno<select id="mDay"></select></label>
+      <label>Settimana<select id="mWeek"><option value="0">Questa settimana</option><option value="1">Prossima settimana</option></select></label>
+    </div>
+    <div class="row2">
+      <label>Inizio<select id="mStart"></select></label>
+      <label>Fine<select id="mEnd"></select></label>
+    </div>
+    <label>Colore<div class="colors" id="mColors"></div></label>
+    <div class="box-acts">
+      <button class="btn del" id="mDel" hidden>Elimina</button>
+      <button class="btn sec" id="mCancel">Annulla</button>
+      <button class="btn pri" id="mSave">Salva</button>
+    </div>
+  </div>
+</div>
+<script>
+var CATS=[
+ {id:1,s:"Valutazione clinica",t:"Valutazione Clinica",d:"14 protocolli: anamnesi, test posturali, screening, esami strumentali e diagnosi differenziale.",c:"#0A2541",ic:"clip",pdf:1,docs:["Protocollo 1: Anamnesi ed Esame Obiettivo Posturale Iniziale","Protocollo 2: Test di Adams e Misurazione con Scoliometro","Protocollo 3: Interpretazione dell'Angolo di Cobb e del Segno di Risser","Protocollo 4: Valutazione Funzionale: Flessibilità, Forza e Qualità di Vita","Protocollo 21: Valutazione della Lunghezza degli Arti Inferiori e dell'Obliquità Pelvica","Protocollo 22: Documentazione Fotografica Standardizzata e Topografia di Superficie","Protocollo 23: Valutazione del Dolore e della Sintomatologia Associata","Protocollo 24: Screening Posturale di Massa in Ambito Scolastico","Protocollo 25: Analisi Clinica del Cammino nel Paziente Scoliotico","Protocollo 26: Valutazione dell'Aderenza e dell'Uso del Corsetto Ortopedico","Protocollo 27: Valutazione Psicosociale e dell'Immagine Corporea nell'Adolescente","Protocollo 28: Monitoraggio della Progressione durante il Picco di Crescita Puberale","Protocollo 29: Valutazione della Scoliosi a Esordio Precoce (0-10 anni)","Protocollo 30: Diagnosi Differenziale: Scoliosi Posturale (Funzionale) vs Strutturata"]},
+ {id:2,s:"Correzione posturale 3D",t:"Correzione Posturale Tridimensionale",d:"14 protocolli di autocorrezione, mobilizzazione, elongazione e correzioni specifiche per curva.",c:"#0F6F85",ic:"chart",pdf:1,docs:["Protocollo 5: Autocorrezione Posturale Tridimensionale allo Specchio","Protocollo 6: Integrazione dell'Autocorrezione nelle Attività Quotidiane (ADL)","Protocollo 7: Mobilizzazione Articolare e Allungamento Miofasciale della Colonna","Protocollo 8: Esercizi di Correzione in Carico con Elongazione Attiva","Protocollo 31: Correzione Specifica per Curva Toracica Destra","Protocollo 32: Correzione Specifica per Curva Lombare Sinistra","Protocollo 33: Correzione Specifica per Doppia Curva Maggiore (Toracica e Lombare)","Protocollo 34: Correzione Specifica per Curva Toraco-Lombare","Protocollo 35: Elongazione Assiale Attiva in Scarico (Decubito)","Protocollo 36: Mobilizzazione e Correzione Posturale in Quadrupedia","Protocollo 37: Esercizi di Correzione con Bastone e Feedback Propriocettivo","Protocollo 38: Posizionamento Correttivo per il Riposo Notturno","Protocollo 39: Correzione Posturale nella Scoliosi Infantile ad Esordio Precoce","Protocollo 40: Integrazione della Correzione Posturale con il Corsetto Ortopedico"]},
+ {id:3,s:"Stabilizzazione",t:"Stabilizzazione",d:"14 protocolli di attivazione, rinforzo e stabilità del core in progressione.",c:"#123A63",ic:"shield",pdf:1,docs:["Protocollo 9: Attivazione e Reclutamento del Core Profondo in Scarico","Protocollo 10: Stabilizzazione del Core in Catena Cinetica Chiusa","Protocollo 11: Stabilizzazione Dinamica su Superfici Instabili","Protocollo 12: Rinforzo Specifico della Muscolatura Paravertebrale Asimmetrica","Protocollo 20: Sedute Cliniche Combinate di Postura, Stabilità e Respirazione","Protocollo 41: Progressione del Plank verso Varianti Dinamiche","Protocollo 42: Stabilizzazione del Cingolo Scapolare e Correzione dell'Asimmetria delle Spalle","Protocollo 43: Rinforzo dei Glutei e della Catena Posteriore per il Supporto Pelvico","Protocollo 44: Stabilizzazione Segmentale Lombare con Controllo della Posizione Neutra","Protocollo 45: Programma di Rinforzo Progressivo a Domicilio","Protocollo 46: Stabilizzazione con Resistenza Elastica Progressiva","Protocollo 47: Rinforzo della Muscolatura Respiratoria come Componente di Stabilità del Core","Protocollo 48: Stabilizzazione in Fase Post-Acuta dopo Riacutizzazione Dolorosa","Protocollo 49: Programma di Mantenimento a Lungo Termine della Stabilità del Core"]},
+ {id:4,s:"Controllo motorio",t:"Controllo Motorio",d:"14 protocolli di propriocezione, equilibrio dinamico e integrazione funzionale.",c:"#0B5568",ic:"award",pdf:1,docs:["Protocollo 13: Allenamento Propriocettivo e Consapevolezza del Pattern di Curva","Protocollo 14: Controllo Motorio Dinamico durante il Cammino","Protocollo 15: Equilibrio Dinamico ed Esercizi di Perturbazione Controllata","Protocollo 16: Rieducazione del Controllo Motorio in Attività Sportive Adattate","Protocollo 50: Allenamento dell'Equilibrio Statico ad Occhi Aperti e Chiusi","Protocollo 51: Controllo Motorio nella Transizione Seduto-In Piedi","Protocollo 52: Controllo Motorio nella Salita e Discesa delle Scale","Protocollo 53: Allenamento della Coordinazione Bilaterale con Esercizi Crociati","Protocollo 54: Rieducazione del Controllo Motorio nella Scoliosi con Ipermobilità Articolare","Protocollo 55: Controllo Motorio Specifico per il Paziente in Trattamento con Corsetto","Protocollo 56: Allenamento della Reattività Posturale in Giochi di Squadra Adattati","Protocollo 57: Biofeedback Posturale con Dispositivi Indossabili","Protocollo 58: Controllo Motorio in Acqua (Idrokinesiterapia)","Protocollo 59: Programma di Controllo Motorio per il Ritorno all'Attività Sportiva Agonistica"]},
+ {id:5,s:"Rieducazione respiratoria",t:"Rieducazione Respiratoria",d:"14 protocolli di valutazione e rieducazione del pattern respiratorio specifico per la curva.",c:"#1B4F7C",ic:"heart",pdf:1,docs:["Protocollo 17: Valutazione della Funzione Respiratoria e della Simmetria Toracica","Protocollo 18: Rieducazione alla Respirazione Diaframmatica di Base","Protocollo 19: Respirazione Rotazionale Specifica per l'Espansione del Lato Concavo","Protocollo 60: Tecnica di Respirazione Laterale Costale (Lateral Costal Breathing)","Protocollo 61: Respirazione con Resistenza Inspiratoria e Biofeedback","Protocollo 62: Rieducazione Respiratoria Combinata con il Corsetto Ortopedico","Protocollo 63: Respirazione e Rilassamento per la Gestione dell'Ansia Pre-Trattamento","Protocollo 64: Rieducazione Respiratoria nella Scoliosi con Restrizione Respiratoria Severa","Protocollo 65: Integrazione della Respirazione nella Deambulazione","Protocollo 66: Supporto Respiratorio Perioperatorio in Collaborazione con il Team Ortopedico","Protocollo 67: Allenamento della Resistenza Respiratoria con Attività Aerobica Adattata","Protocollo 68: Respirazione Diaframmatica in Posizioni Dinamiche durante l'Esercizio","Protocollo 69: Educazione del Paziente e della Famiglia alla Pratica Respiratoria Quotidiana","Protocollo 70: Integrazione Finale Completa: Postura, Stabilità, Controllo Motorio e Respirazione nel Programma di Mantenimento"]},
+ {id:6,s:"Bonus 1 Kit di valutazione",t:"Bonus 1: Kit Clinico di Valutazione e Monitoraggio",d:"Schede di anamnesi, postura, screening, Cobb e Risser, crescita, funzione, corsetto e relazione finale.",c:"#137A8E",ic:"list",docs:["Scheda anamnestica in età evolutiva","Scheda di valutazione posturale","Scheda di screening: test di Adams e scoliometro","Registro dell'angolo di Cobb e del segno di Risser","Scheda di monitoraggio della crescita","Scheda di valutazione funzionale","Scheda di aderenza al corsetto","Relazione di fine ciclo riabilitativo"]},
+ {id:7,s:"Bonus 2 Respirazione",t:"Bonus 2: Riabilitazione Respiratoria Applicata alla Scoliosi",d:"Valutazione respiratoria, guida alle tecniche, piano di 6 settimane, diario e guida per i genitori.",c:"#0E4B72",ic:"book",docs:["Scheda di valutazione respiratoria","Guida alla respirazione diaframmatica e laterale costale","Piano di rieducazione respiratoria in 6 settimane","Diario respiratorio domiciliare","Scheda di misurazione dell'espansione toracica","Guida per i genitori: il respiro nella vita quotidiana"]},
+ {id:8,s:"Bonus 3 Sedute pronte",t:"Bonus 3: Sedute Cliniche Pronte per Scoliosi Lieve e Moderata",d:"Sei sedute strutturate con fasi, protocolli collegati, parametri e criteri di progressione.",c:"#176B80",ic:"brief",docs:["Seduta pronta 1: scoliosi lieve, fase iniziale","Seduta pronta 2: scoliosi lieve, consolidamento","Seduta pronta 3: scoliosi lieve, mantenimento","Seduta pronta 4: scoliosi moderata, fase iniziale","Seduta pronta 5: scoliosi moderata, consolidamento","Seduta pronta 6: scoliosi moderata, mantenimento"]},
+ {id:9,s:"Schede complementari",t:"Schede e Documenti Complementari",d:"Piano terapeutico, evoluzione per seduta, relazione per il medico, guida per i genitori, planner e consenso.",c:"#0A2541",ic:"pen",docs:["Piano terapeutico individuale","Scheda di evoluzione per seduta","Relazione per il medico e l'ortopedico","Guida per i genitori: esercizi a casa","Planner di trattamento in 12 settimane","Consenso informato per paziente minorenne","Checklist di seduta","Lettera di aggiornamento alla famiglia"]}
+];
+var LEZ=[];
+function slug(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}
+var ROM=['I','II','III','IV','V','VI','VII','VIII','IX'],DOCS=[];
+CATS.forEach(function(c){c.docs.forEach(function(n,i){var nn=String(i+1).padStart(2,'0');DOCS.push({id:c.id+'-'+nn,nn:nn,cat:c,name:n,path:c.id+'/'+nn+'-'+slug(n)})})});
 
-<script src="js/app.js"></script>
+/* dati salvati solo sul dispositivo */
+var S={};try{S=JSON.parse(localStorage.getItem('sc-app')||'{}')}catch(e){}
+S.dl=S.dl||{};S.fav=S.fav||{};S.ap=S.ap||[];S.name=S.name||'';
+function save(){try{localStorage.setItem('sc-app',JSON.stringify(S))}catch(e){}}
+
+var I={
+ clip:'<rect x="6" y="4" width="12" height="17" rx="2"/><path d="M9 4V3h6v1M9 10h6M9 14h6M9 18h3"/>',
+ pen:'<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7"/><path d="M14 3v6h6v3M17.5 14.5l3 3L15 23h-3v-3z"/>',
+ book:'<path d="M4 4h10a4 4 0 0 1 4 4v13H8a4 4 0 0 1-4-4z"/><path d="M8 8h6M8 12h6"/>',
+ award:'<circle cx="12" cy="9" r="6"/><path d="M8.5 14L7 22l5-3 5 3-1.5-8"/>',
+ brief:'<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/>',
+ mail:'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>',
+ guide:'<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5v.5"/>',
+ search:'<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>',
+ back:'<path d="M19 12H5M11 18l-6-6 6-6"/>',
+ eye:'<path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+ close:'<path d="M6 6l12 12M18 6L6 18"/>',
+ down:'<path d="M12 4v11M7 10l5 5 5-5M5 20h14"/>',
+ star:'<path d="M12 3l2.8 5.8 6.2.9-4.5 4.4 1 6.3L12 17.5 6.5 20.4l1-6.3L3 9.7l6.2-.9z"/>',
+ cal:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/>',
+ grid:'<rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/>',
+ plus:'<path d="M12 5v14M5 12h14"/>',
+ chart:'<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>',
+ shield:'<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/>',
+ chat:'<path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/>',
+ list:'<path d="M9 6h12M9 12h12M9 18h12"/><path d="M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/>',
+ heart:'<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+ play:'<path d="M7 4l13 8-13 8z"/>',
+ pause:'<path d="M7 4h3v16H7zM14 4h3v16h-3z"/>',
+ prev:'<path d="M18 5L8 12l10 7zM6 5v14"/>',
+ next:'<path d="M6 5l10 7-10 7zM18 5v14"/>',
+ video:'<rect x="3" y="5" width="14" height="14" rx="2"/><path d="M17 10l4-2v8l-4-2"/>'
+};
+function ic(n,s,w){return '<svg width="'+(s||20)+'" height="'+(s||20)+'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="'+(w||2)+'" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+I[n]+'</svg>'}
+function esc(s){return String(s).replace(/[&<>"']/g,function(m){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]})}
+
+/* VIEW: 1..6 modulo, 'fav', 'agenda', 'guida' */
+var V=1,Q='';
+function nDone(){return Object.keys(S.dl).length}
+function nFav(){return Object.keys(S.fav).length}
+
+function nav(){
+  document.getElementById('nav').innerHTML=CATS.map(function(c){return '<button data-v="'+c.id+'" class="'+(V===c.id&&!Q?'on':'')+'"><span class="ni">'+ROM[c.id-1]+'</span><span class="lbl">'+esc(c.s)+'</span></button>'}).join('');
+  var t=[['fav','star','Preferiti'],['agenda','cal','Agenda'],['guida','guide','Guida rapida']];
+  document.getElementById('nav2').innerHTML=t.map(function(x){return '<button data-v="'+x[0]+'" class="'+(V===x[0]&&!Q?'on':'')+'"><span class="ni">'+ic(x[1],16)+'</span><span class="lbl">'+x[2]+'</span></button>'}).join('');
+  var b=[['home','grid','Moduli'],['fav','star','Preferiti'],['agenda','cal','Agenda'],['guida','guide','Guida']];
+  var open=document.body.classList.contains('open');
+  document.getElementById('bnav').innerHTML=b.map(function(x){var on=x[0]==='home'?(!open||typeof V==='number'):(open&&(V===x[0]||(x[0]==='lez'&&String(V).indexOf('lz')===0)));return '<button data-v="'+x[0]+'" class="'+(on?'on':'')+'">'+ic(x[1],20)+x[2]+'</button>'}).join('');
+}
+function mid(){
+  var ini=(S.name||'?').split(/\s+/).filter(Boolean).map(function(w){return w[0]}).join('').slice(0,2).toUpperCase();
+  document.getElementById('mid').innerHTML=
+  '<button class="hello" data-name title="Modifica il tuo nome"><span class="avatar">'+esc(ini)+'</span><span><b>'+(S.name?'Ciao, '+esc(S.name)+'!':'Benvenuto/a!')+'</b><small>'+(S.name?'Modifica nome':'Tocca qui per inserire il tuo nome')+'</small></span></button>'+
+  '<h1>I tuoi materiali</h1><div class="sub">Manuale clinico digitale per fisioterapisti</div>'+
+  '<div class="count"><div><b>'+DOCS.length+'</b><span>materiali</span></div><div><b>'+nDone()+'</b><span>scaricati</span></div><div><b>'+nFav()+'</b><span>preferiti</span></div></div>'+
+  '<div class="mods-t">Scegli un modulo</div><div class="mods">'+CATS.map(function(c){
+    return '<button class="mod'+(c.light?' light':'')+(V===c.id&&!Q?' sel':'')+'" style="background:'+c.c+'" data-v="'+c.id+'"><span class="ci">'+ic(c.ic,25,1.8)+'</span><span><small>MODULO '+ROM[c.id-1]+'</small><h3>'+esc(c.t)+'</h3></span><span class="num"><b>'+c.docs.length+'</b><span>materiali</span></span></button>'}).join('')+'</div>';
+}
+function row(d,showCat){
+  return '<div class="doc"><span class="di">'+d.nn+'</span><span><b>'+esc(d.name)+'</b><small>'+(showCat?'Modulo '+ROM[d.cat.id-1]+' · ':'')+(S.dl[d.id]?'<span class="ok">✓ Scaricato</span>':(d.cat.pdf?'PDF':'Word e PDF'))+'</small></span>'+
+  '<span class="acts"><button class="star'+(S.fav[d.id]?' on':'')+'" data-fav="'+d.id+'" aria-label="'+(S.fav[d.id]?'Rimuovi dai preferiti':'Aggiungi ai preferiti')+'" title="Preferito">'+ic('star',18)+'</button>'+
+  '<button class="dl v" data-view="'+d.id+'">'+ic('eye',14,2.2)+'Anteprima</button>'+(d.cat.pdf?'':'<a class="dl w" href="'+d.path+'.docx" download data-dl="'+d.id+'">'+ic('down',14,2.4)+'Word</a>')+'<a class="dl p" href="'+d.path+'.pdf" download data-dl="'+d.id+'">'+ic('down',14,2.4)+'PDF</a></span></div>';
+}
+function head(icon,color,small,title,dark){return '<div class="mh"><span class="ci" style="background:'+color+(dark?';color:#0b1530':'')+'">'+ic(icon,26,1.8)+'</span><div><small>'+small+'</small><h2>'+title+'</h2></div></div>'}
+
+/* AGENDA */
+var DAYS=['Lun','Mar','Mer','Gio','Ven','Sab'],H0=7,H1=21,ROW=44,WEEK=0,COLS=['#1AA6BA','#0A2541','#d9c49a','#1B4F7C','#8c6a2f'];
+function monday(off){var d=new Date();d.setHours(0,0,0,0);d.setDate(d.getDate()-((d.getDay()+6)%7)+off*7);return d}
+function wkKey(off){var m=monday(off);return m.getFullYear()+'-'+(m.getMonth()+1)+'-'+m.getDate()}
+function agendaHTML(){
+  var m=monday(WEEK),td=new Date();td.setHours(0,0,0,0);
+  var h=head('cal','#11204a','Materiali','Agenda delle sedute')+'<p class="mdesc">Organizza i tuoi appuntamenti della settimana. Tocca uno spazio libero per aggiungerne uno. I dati restano solo su questo dispositivo.</p>';
+  h+='<div class="tabs"><button data-wk="0" class="'+(WEEK===0?'on':'')+'">Questa settimana</button><button data-wk="1" class="'+(WEEK===1?'on':'')+'">Prossima settimana</button><button class="add" data-add>'+ic('plus',16,2.6)+'Nuovo</button></div>';
+  h+='<div class="grid-wrap"><div class="week" id="week"><div></div>';
+  DAYS.forEach(function(d,i){var x=new Date(m);x.setDate(m.getDate()+i);h+='<div class="dh'+(+x===+td?' today':'')+'">'+d+'<small>'+x.getDate()+'/'+(x.getMonth()+1)+'</small></div>'});
+  for(var t=H0;t<H1;t++){h+='<div class="tc">'+String(t).padStart(2,'0')+':00</div>';for(var i=0;i<6;i++)h+='<div class="cell" data-slot="'+i+'-'+t+'"></div>'}
+  return h+'</div></div>';
+}
+function drawAppts(){
+  var wk=document.getElementById('week');if(!wk)return;
+  wk.querySelectorAll('.appt').forEach(function(e){e.remove()});
+  var hd=wk.querySelector('.dh').offsetHeight,cw=(wk.offsetWidth-48)/6;
+  S.ap.forEach(function(a,idx){if(a.w!==wkKey(WEEK))return;
+    var el=document.createElement('div');el.className='appt';el.style.background=a.c;if(a.c==='#7BE3EE')el.style.color='#0b1530';
+    el.style.left=(48+a.d*cw+4)+'px';el.style.width=(cw-8)+'px';el.style.top=(hd+(a.s-H0)*ROW+3)+'px';el.style.height=((a.e-a.s)*ROW-6)+'px';
+    el.textContent=a.t;el.title=a.t;el.onclick=function(ev){ev.stopPropagation();openModal(idx)};wk.appendChild(el)});
+}
+var EDIT=-1,MC=COLS[0];
+function $(id){return document.getElementById(id)}
+function openModal(idx,day,hour){
+  EDIT=idx;var a=idx>=0?S.ap[idx]:{t:'',d:day||0,s:hour||9,e:(hour||9)+1,c:COLS[0]};
+  $('mTitle').textContent=idx>=0?'Modifica appuntamento':'Nuovo appuntamento';$('mText').value=a.t;
+  $('mDay').innerHTML=DAYS.map(function(d,i){return '<option value="'+i+'"'+(i==a.d?' selected':'')+'>'+d+'</option>'}).join('');
+  var hs='';for(var t=H0;t<=H1;t++)hs+='<option value="'+t+'">'+String(t).padStart(2,'0')+':00</option>';
+  $('mStart').innerHTML=hs;$('mEnd').innerHTML=hs;$('mStart').value=a.s;$('mEnd').value=a.e;$('mWeek').value=String(WEEK);
+  MC=a.c;paint();$('mDel').hidden=idx<0;$('modal').classList.add('on');$('mText').focus();
+}
+function paint(){$('mColors').innerHTML=COLS.map(function(c){return '<button type="button" data-c="'+c+'" class="'+(c===MC?'on':'')+'" style="background:'+c+'" aria-label="Colore"></button>'}).join('')}
+$('mColors').onclick=function(e){var b=e.target.closest('[data-c]');if(b){MC=b.dataset.c;paint()}};
+function closeModal(){$('modal').classList.remove('on')}
+$('mCancel').onclick=closeModal;$('modal').onclick=function(e){if(e.target.id==='modal')closeModal()};
+$('mDel').onclick=function(){S.ap.splice(EDIT,1);save();closeModal();render()};
+$('mSave').onclick=function(){var s=+$('mStart').value,e=+$('mEnd').value;if(e<=s)e=s+1;var wk=+$('mWeek').value;
+  var a={t:$('mText').value.trim()||'Appuntamento',d:+$('mDay').value,s:s,e:Math.min(e,H1),c:MC,w:wkKey(wk)};
+  if(EDIT>=0)S.ap[EDIT]=a;else S.ap.push(a);WEEK=wk;save();closeModal();render()};
+
+function right(){
+  var h='<label class="search">'+ic('search',18)+'<input id="q" placeholder="Cerca tra i '+DOCS.length+' materiali" value="'+esc(Q)+'" aria-label="Cerca"></label>';
+  h+='<div class="module"><button class="back" data-back>'+ic('back',18)+'Torna ai moduli</button>';
+  if(Q){
+    var r=DOCS.filter(function(d){return d.name.toLowerCase().indexOf(Q)>-1});
+    h+='<div class="mh"><div><small>Risultati</small><h2>'+r.length+' materiali trovati</h2></div></div><div class="docs">'+(r.length?r.map(function(d){return row(d,1)}).join(''):'<p class="none">Nessuno materiale trovato.</p>')+'</div>';
+  }else if(V==='fav'){
+    var f=DOCS.filter(function(d){return S.fav[d.id]});
+    h+=head('star','#7BE3EE','Materiali','I tuoi preferiti',1)+'<p class="mdesc">Gli materiali che usi di più, sempre a portata di mano.</p><div class="docs">'+(f.length?f.map(function(d){return row(d,1)}).join(''):'<p class="none">Non hai ancora preferiti. Tocca la stella ☆ accanto a uno materiale per salvarlo qui.</p>')+'</div>';
+  }else if(V==='lez'){
+    h+=head('video','#0A2541','Modulo VII · '+LEZ.length+' lezioni','Videolezioni')+'<p class="mdesc">Brevi lezioni guidate su come usare gli materiali nella pratica clinica.</p><div class="lzl">'+
+      LEZ.map(function(l,i){return '<button class="lzi" data-v="lz'+i+'"><span class="th">'+ic('play',18)+'</span><span><b>'+(i+1)+'. '+esc(l.t)+'</b><small>'+(S.lz&&S.lz[i]?'<span class="ok">✓ Completata</span>':l.sc.length+' scene · '+esc(l.d))+'</small></span><span style="color:var(--orange)">'+ic('play',16)+'</span></button>'}).join('')+'</div>';
+  }else if(String(V).indexOf('lz')===0){
+    var li=+String(V).slice(2),L=LEZ[li];
+    h+=head('video','#0A2541','Lezione '+(li+1)+' di '+LEZ.length,esc(L.t))+
+      '<div class="player" id="player">'+L.sc.map(function(c,k){return '<div class="scene" data-k="'+k+'"><span class="tag">LEZIONE '+(li+1)+'</span><div><div class="big">'+ic(c[0],40,1.6)+'</div><h3>'+esc(c[1])+'</h3><p>'+esc(c[2])+'</p></div></div>'}).join('')+
+      '<div class="ctrl"><button data-pl="prev" aria-label="Scena precedente">'+ic('prev',14)+'</button><button class="pp" data-pl="pp" aria-label="Riproduci o pausa" id="ppb">'+ic('pause',14)+'</button><button data-pl="next" aria-label="Scena successiva">'+ic('next',14)+'</button><div class="bars">'+L.sc.map(function(){return '<i><b></b></i>'}).join('')+'</div><small id="plc"></small></div></div>'+
+      '<p class="cap">'+esc(L.d)+'</p><div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap">'+(li>0?'<button class="btn sec" data-v="lz'+(li-1)+'">Lezione precedente</button>':'')+(li<LEZ.length-1?'<button class="btn pri" data-v="lz'+(li+1)+'">Lezione successiva</button>':'')+'<button class="btn sec" data-v="lez">Tutte le lezioni</button></div>';
+  }else if(V==='agenda'){
+    h+=agendaHTML();
+  }else if(V==='guida'){
+    var st=[['Scegli il modulo','I moduli I a V contengono i 70 protocolli divisi per area clinica. I moduli VI a IX contengono i bonus e le schede da compilare.'],['Apri l\'anteprima','Tocca Anteprima per leggere il protocollo con figure, legende e indicazioni di esecuzione, senza uscire dall\'app.'],['Scarica e stampa','I protocolli sono in PDF. Bonus e schede sono in Word (modificabile) e in PDF (da stampare).'],['Salva i preferiti','Tocca la stella accanto ai protocolli che usi di più: li trovi nella sezione Preferiti.'],['Personalizza le schede','Nei documenti Word inserisci i dati del tuo studio e il numero di iscrizione all\'Albo, poi salva una copia come tuo modello.'],['Organizza l\'agenda','Segna le sedute della settimana nell\'Agenda. I dati restano solo sul tuo dispositivo.']];
+    h+=head('guide','#1AA6BA','Guida','Guida rapida')+'<div class="guide">'+st.map(function(s,i){return '<div class="step"><i>'+(i+1)+'</i><div><b>'+s[0]+'</b><p>'+s[1]+'</p></div></div>'}).join('')+
+    '<div class="note"><b>Nota:</b> i protocolli sono di supporto e non sostituiscono il giudizio clinico del fisioterapista. La loro applicazione richiede sempre la valutazione individuale del paziente.</div></div>';
+  }else{
+    var c=CATS[V-1];
+    h+=head(c.ic,c.c,'Modulo '+ROM[c.id-1]+' · '+c.docs.length+' materiali',esc(c.t),c.light)+'<p class="mdesc">'+esc(c.d)+'</p><div class="docs">'+DOCS.filter(function(d){return d.cat.id===c.id}).map(function(d){return row(d,0)}).join('')+'</div>';
+  }
+  $('right').innerHTML=h+'</div>';
+  drawAppts();
+  startPlayer();
+  var q=$('q');q.oninput=function(){var p=q.selectionStart;Q=q.value.trim().toLowerCase();if(Q)document.body.classList.add('open');render();var n=$('q');n.focus();n.setSelectionRange(p,p)};
+}
+/* PLAYER delle videolezioni (scene animate con testo) */
+var PL={li:-1,k:0,play:true,el:0,last:0,raf:0},DUR=8000;
+function startPlayer(){
+  cancelAnimationFrame(PL.raf);
+  if(String(V).indexOf('lz')!==0||!$('player')){PL.li=-1;return}
+  var li=+String(V).slice(2);
+  if(PL.li!==li){PL={li:li,k:0,play:true,el:0,last:0,raf:0}}
+  showScene();PL.last=performance.now();PL.raf=requestAnimationFrame(tickPlayer);
+}
+function showScene(){
+  var p=$('player');if(!p)return;var n=LEZ[PL.li].sc.length;
+  p.querySelectorAll('.scene').forEach(function(sc,i){sc.classList.toggle('on',i===PL.k)});
+  p.querySelectorAll('.bars i b').forEach(function(b,i){b.style.width=i<PL.k?'100%':(i>PL.k?'0':(PL.el/DUR*100)+'%')});
+  $('plc').textContent='Scena '+(PL.k+1)+' di '+n;
+  $('ppb').innerHTML=ic(PL.play?'pause':'play',14);
+}
+function tickPlayer(now){
+  if(!$('player'))return;
+  if(PL.play){PL.el+=now-PL.last;
+    if(PL.el>=DUR){var n=LEZ[PL.li].sc.length;
+      if(PL.k<n-1){PL.k++;PL.el=0}else{PL.el=DUR;PL.play=false;S.lz=S.lz||{};if(!S.lz[PL.li]){S.lz[PL.li]=1;save();toast('Lezione completata')}}}}
+  PL.last=now;
+  var b=$('player').querySelectorAll('.bars i b')[PL.k];if(b)b.style.width=Math.min(100,PL.el/DUR*100)+'%';
+  if(!PL.play||PL.el===0)showScene();
+  PL.raf=requestAnimationFrame(tickPlayer);
+}
+function render(){nav();mid();right()}
+var MSG_MISSING='Questo materiale è in aggiornamento. Riprova tra poco.';var TT;function toast(m){var x=$('toast');x.textContent=m;x.classList.add('on');clearTimeout(TT);TT=setTimeout(function(){x.classList.remove('on')},2600)}
+
+document.addEventListener('click',function(e){
+  var t;
+  if(t=e.target.closest('[data-v]')){var v=t.dataset.v;Q='';
+    if(v==='home'){document.body.classList.remove('open')}else{V=isNaN(+v)?v:+v;document.body.classList.add('open')}
+    render();window.scrollTo(0,0);return}
+  if(t=e.target.closest('[data-back]')){Q='';document.body.classList.remove('open');render();window.scrollTo(0,0);return}
+  if(t=e.target.closest('[data-pl]')){var a=t.dataset.pl,n=LEZ[PL.li].sc.length;
+    if(a==='pp'){if(!PL.play&&PL.k===n-1&&PL.el>=DUR){PL.k=0;PL.el=0}PL.play=!PL.play}
+    if(a==='next'&&PL.k<n-1){PL.k++;PL.el=0}
+    if(a==='prev'){if(PL.el>1500||PL.k===0)PL.el=0;else{PL.k--;PL.el=0}}
+    showScene();return}
+  if(t=e.target.closest('[data-fav]')){var k=t.dataset.fav;if(S.fav[k])delete S.fav[k];else S.fav[k]=1;save();render();return}
+  if(t=e.target.closest('[data-view]')){var dv=DOCS.filter(function(x){return x.id===t.dataset.view})[0],pdf=dv.path+'.pdf';
+    fetch(pdf,{method:'HEAD',cache:'no-store'}).then(function(r){if(!r.ok)throw 0;
+      if(window.innerWidth<860||/iPhone|iPad|Android/i.test(navigator.userAgent)){window.open(pdf,'_blank');return}
+      $('vTitle').textContent=dv.name;$('vPdf').href=pdf;$('vWord').href=dv.path+'.docx';$('vWord').style.display=dv.cat.pdf?'none':'';$('vPdf').dataset.dl=dv.id;$('vWord').dataset.dl=dv.id;
+      $('vFrame').src=pdf+'#view=FitH';$('viewer').classList.add('on');$('vClose').innerHTML=ic('close',16);$('vClose').focus();
+    }).catch(function(){toast(MSG_MISSING)});return}
+  if(e.target.closest('#vClose')||e.target.id==='viewer'){$('viewer').classList.remove('on');$('vFrame').src='about:blank';return}
+  if(t=e.target.closest('[data-dl]')){e.preventDefault();var href=t.getAttribute('href'),id=t.dataset.dl;
+    fetch(href,{method:'HEAD',cache:'no-store'}).then(function(r){
+      if(!r.ok)throw 0;var a=document.createElement('a');a.href=href;a.download=href.split('/').pop();document.body.appendChild(a);a.click();a.remove();
+      S.dl[id]=1;save();toast('Download avviato');setTimeout(render,400);
+    }).catch(function(){toast('Questo materiale è in aggiornamento. Riprova tra poco.')});return}
+  if(t=e.target.closest('[data-add]')){openModal(-1);return}
+  if(t=e.target.closest('[data-wk]')){WEEK=+t.dataset.wk;render();return}
+  if(t=e.target.closest('[data-slot]')){var p=t.dataset.slot.split('-');openModal(-1,+p[0],+p[1]);return}
+  if(t=e.target.closest('[data-name]')){var n=prompt('Come vuoi essere chiamato/a? (es. Dott.ssa Rossi)',S.name);if(n!==null){S.name=n.trim().slice(0,30);save();render()}}
+});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeModal();$('viewer').classList.remove('on');$('vFrame').src='about:blank'}});
+window.addEventListener('resize',drawAppts);
+render();
+if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){})})}
+</script>
 </body>
 </html>
